@@ -1,5 +1,5 @@
 ---
-title: "Open Government Data, provided by Canton Zurich"
+title: "Open Government Data, provided by Landeshauptstadt München"
 date: "2023-09-21"
 output: html_document
 ---
@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](XYZ35@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/35@lhm)
 
 Auto generated R starter code for data set 35@lhm.
 
