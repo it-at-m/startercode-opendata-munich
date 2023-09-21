@@ -1,4 +1,4 @@
-# Starter code for all datasets of Data Shop Canton Zurich
+# Starter code for all datasets from Data Shop of the city of Munich 
 
 💡 Have you ever **wished to be able to open any dataset in a data portal with one click and get a fully configured Python Jupyter Notebook or R Markdown file? Like – with all metadata, descriptions, data links, and some starter code?** 
 
