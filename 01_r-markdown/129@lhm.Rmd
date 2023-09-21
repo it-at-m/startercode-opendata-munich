@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-09-21"
+output: html_document
+---
+
+## Dataset: Monatszahlen Bevölkerung
+
+abcdefg
+
+[Direct data shop link for dataset](XYZ129@lhm)
+
+Auto generated R starter code for data set 129@lhm.
+
+## Metadata
+
+- **Issued** `2017-02-20T10:16:39`
+- **Modified** `2023-07-20T05:51:14`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Bevölkerung', 'Monatszahlen']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-bevoelkerung`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1291
+# Title                    : Monatszahlen Bevölkerung
+# Description              : abcdefg
+# Issued                   : 2017-02-20T11:17:01
+# Modified                 : 2023-07-20T05:51:02
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/ac572882-24c6-4c98-873a-b61c638e058d/resource/2252dc7c-265b-4f21-aa0e-b602c30cb85f/download/monatszahlen2307_bevoelkerung_10_07_23_nosum.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | stat.dir@muenchen.de

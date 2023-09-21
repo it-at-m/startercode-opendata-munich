@@ -1,0 +1,90 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-09-21"
+output: html_document
+---
+
+## Dataset: WLAN-Standorte LH München
+
+abcdefg
+
+[Direct data shop link for dataset](XYZ60@lhm)
+
+Auto generated R starter code for data set 60@lhm.
+
+## Metadata
+
+- **Issued** `2020-10-06T05:51:51`
+- **Modified** `2023-07-31T14:06:59`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['WLAN']`
+- **Publisher** `['it-referat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/wlan-standorte-lhm-muenchen`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 601
+# Title                    : WLAN Standorte LHM Gebäude
+# Description              : abcdefg
+# Issued                   : 2020-10-06T07:53:20
+# Modified                 : 2022-08-04T09:53:20
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/bec8b9e3-0e55-438b-91bd-5f6a781f3efc/resource/58691a67-9ba6-40f0-b25e-9d969af66895/download/opendata_oeffwlan_2022-08-03.csv')
+
+# Distribution 1
+# Ktzhdistid               : 602
+# Title                    : WLAN Öffentliche Plätze München
+# Description              : abcdefg
+# Issued                   : 2021-03-05T08:49:15
+# Modified                 : 2023-07-31T14:06:59
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/bec8b9e3-0e55-438b-91bd-5f6a781f3efc/resource/df31fe96-0d7d-4d00-b93d-caf9e0e4686b/download/lhm_standorte_07_2023_29_06_23.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+data.opengov@muenchen.de | Data Shop | 

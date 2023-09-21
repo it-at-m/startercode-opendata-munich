@@ -1,0 +1,90 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-09-21"
+output: html_document
+---
+
+## Dataset: Daten der Raddauerzählstellen München März 2019
+
+abcdefg
+
+[Direct data shop link for dataset](XYZ177@lhm)
+
+Auto generated R starter code for data set 177@lhm.
+
+## Metadata
+
+- **Issued** `2019-05-08T06:50:45`
+- **Modified** `2021-09-28T06:14:37`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2019']`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-maerz-2019`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1771
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München März 2019
+# Description              : abcdefg
+# Issued                   : 2019-05-08T08:51:39
+# Modified                 : 2019-05-08T06:51:39
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/72d7cf3d-8218-4895-b928-699c0a200885/resource/f77c81aa-dccc-43d4-9fb6-d53c4aa0487c/download/rad20190315min.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1772
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München März 2019
+# Description              : abcdefg
+# Issued                   : 2019-05-08T08:52:24
+# Modified                 : 2019-05-08T06:52:24
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/72d7cf3d-8218-4895-b928-699c0a200885/resource/f1b65131-95ca-43dd-bbb0-56d300ee6331/download/rad201903tage.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 
