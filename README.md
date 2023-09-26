@@ -1,4 +1,4 @@
-# Starter code for all datasets of Data Shop Canton Zurich
+# Starter code for all datasets of the city of Munich
 
 💡 Have you ever **wished to be able to open any dataset in a data portal with one click and get a fully configured Python Jupyter Notebook or R Markdown file? Like – with all metadata, descriptions, data links, and some starter code?** 
 
@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2023-09-26 07:36:53**<sub>
+<sub>Latest update: **2023-09-26 07:39:27**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
