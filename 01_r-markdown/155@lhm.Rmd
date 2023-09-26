@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/155@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schulen-und-schuelerzahlen-in-muenchen)
 
 Auto generated R starter code for data set 155@lhm.
 

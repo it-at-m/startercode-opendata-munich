@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/174@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/m-wlan-hotspots)
 
 Auto generated R starter code for data set 174@lhm.
 

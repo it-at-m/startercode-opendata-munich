@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/146@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/p-r-anlagen-belegungsprognosen)
 
 Auto generated R starter code for data set 146@lhm.
 

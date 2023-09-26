@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/68@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-familiensprache-nichtdeutsch-83r65mct)
 
 Auto generated R starter code for data set 68@lhm.
 

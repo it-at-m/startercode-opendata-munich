@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/181@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-september-2017)
 
 Auto generated R starter code for data set 181@lhm.
 

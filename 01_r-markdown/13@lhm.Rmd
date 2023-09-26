@@ -4,24 +4,24 @@ date: "2023-09-26"
 output: html_document
 ---
 
-## Dataset: Lage der Höhenfestpunkte innerhalb der Landeshauptstadt München
+## Dataset: Blindenleitsystem Altstadt – Fußgängerzone
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/13@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/baut_blindenleitsystem_altstadt)
 
 Auto generated R starter code for data set 13@lhm.
 
 ## Metadata
 
-- **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-21T01:00:12`
+- **Issued** `2023-08-10T09:14:14`
+- **Modified** `2023-09-26T01:00:11`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Höhenfestpunkt', 'planningCadastre']`
-- **Publisher** `['geodatenservice-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/vagrund_hoeh_symbol_opendata`
+- **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Verkehrswesen']`
+- **Publisher** `['baureferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/baut_blindenleitsystem_altstadt`
 
 
 # Load packages
@@ -41,14 +41,14 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 132
+# Ktzhdistid               : 133
 # Title                    : WFS (CSV)
 # Description              : abcdefg
-# Issued                   : 2023-09-21T01:00:17
-# Modified                 : 2023-09-21T01:00:17
+# Issued                   : 2023-09-26T01:00:14
+# Modified                 : 2023-09-26T01:00:14
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vagrund_hoeh_symbol_opendata&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/baut_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=baut_wfs:baut_blindenleitsystem_altstadt&amp;outputFormat=csv')
 
 
 
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-GeodatenService München | Data Shop | geoportal@muenchen.de
+BAU-TZ2 | Data Shop | geodaten.tz2.bau@muenchen.de

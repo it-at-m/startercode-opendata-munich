@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/106@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-deutsche-83r65mct)
 
 Auto generated R starter code for data set 106@lhm.
 

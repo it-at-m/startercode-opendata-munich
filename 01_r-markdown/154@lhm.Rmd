@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/154@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/geburten-in-der-muenchen-klinik-ggmbh)
 
 Auto generated R starter code for data set 154@lhm.
 

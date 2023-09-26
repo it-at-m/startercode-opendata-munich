@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/157@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/belegung-gewerbehoefe)
 
 Auto generated R starter code for data set 157@lhm.
 

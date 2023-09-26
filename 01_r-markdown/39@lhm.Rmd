@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/39@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-altersgruppen)
 
 Auto generated R starter code for data set 39@lhm.
 

@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/234@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/points-of-interest-an-der-sudlichen-isar)
 
 Auto generated R starter code for data set 234@lhm.
 

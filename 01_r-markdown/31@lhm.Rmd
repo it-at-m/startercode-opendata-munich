@@ -4,24 +4,24 @@ date: "2023-09-26"
 output: html_document
 ---
 
-## Dataset: Stadtviertel der Landeshauptstadt München
+## Dataset: Bezirksteile der Landeshauptstadt München
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/31@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata)
 
 Auto generated R starter code for data set 31@lhm.
 
 ## Metadata
 
 - **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-21T01:00:11`
+- **Modified** `2023-09-26T01:00:10`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Digitaler Zwilling München', 'Planungsunterlagen', 'opendata']`
 - **Publisher** `['geodatenservice-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/vablock_viertel_opendata`
+- **Landingpage** `https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata`
 
 
 # Load packages
@@ -44,11 +44,11 @@ library(skimr)
 # Ktzhdistid               : 312
 # Title                    : WFS (CSV)
 # Description              : abcdefg
-# Issued                   : 2023-09-21T01:00:14
-# Modified                 : 2023-09-21T01:00:14
+# Issued                   : 2023-09-26T01:00:13
+# Modified                 : 2023-09-26T01:00:13
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vablock_viertel_opendata&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vablock_bezirksteil_opendata&amp;outputFormat=csv')
 
 
 

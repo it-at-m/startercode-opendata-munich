@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/57@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/landtagswahl-2023-wahlraeume-in-muenchen)
 
 Auto generated R starter code for data set 57@lhm.
 

@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/73@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-adresse-83r65mct)
 
 Auto generated R starter code for data set 73@lhm.
 

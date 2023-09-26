@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/66@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-und-kraftraeder-83r65mct)
 
 Auto generated R starter code for data set 66@lhm.
 

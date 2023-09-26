@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/151@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellenliste-mvv)
 
 Auto generated R starter code for data set 151@lhm.
 

@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/35@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung)
 
 Auto generated R starter code for data set 35@lhm.
 

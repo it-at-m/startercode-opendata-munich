@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/54@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslose-83r65mct)
 
 Auto generated R starter code for data set 54@lhm.
 

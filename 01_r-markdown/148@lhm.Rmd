@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/148@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm)
 
 Auto generated R starter code for data set 148@lhm.
 

@@ -8,7 +8,7 @@ output: html_document
 
 abcdefg
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/143@lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/fernzugriffe)
 
 Auto generated R starter code for data set 143@lhm.
 
