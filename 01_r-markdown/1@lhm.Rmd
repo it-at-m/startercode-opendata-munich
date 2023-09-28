@@ -4,24 +4,24 @@ date: "2023-09-28"
 output: html_document
 ---
 
-## Dataset: Wertstoffhöfe der Landeshauptstadt München
+## Dataset: Stadtbezirke der Landeshauptstadt München
 
-abcdefg
+Flächenhafte Darstellung der Verwaltungsgrenzen von den 25 Stadtbezirken der Landeshauptstadt München. Die Verwaltungsflächen können bei allen Darstellungen, Übersichten, Auswertungen und Planungen verwendet werden, die sich auf den Bereich einer administrativen Gebietseinheit (Gebietskörperschaften) beziehen.
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/awm_wertstoffhoefe_opendata)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vablock_stadtbezirke_opendata)
 
 Auto generated R starter code for data set 1@lhm.
 
 ## Metadata
 
-- **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-26T01:00:25`
+- **Issued** `2023-08-21T13:23:50`
+- **Modified** `2023-09-28T01:00:25`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Ver- und Entsorgung', 'opendata']`
+- **Keyword** `['Digitaler Zwilling München', 'Planungsunterlagen', 'opendata']`
 - **Publisher** `['geodatenservice-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/awm_wertstoffhoefe_opendata`
+- **Landingpage** `https://opendata.muenchen.de/dataset/vablock_stadtbezirke_opendata`
 
 
 # Load packages
@@ -43,12 +43,12 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 13
 # Title                    : WFS (CSV)
-# Description              : abcdefg
-# Issued                   : 2023-09-26T01:00:27
-# Modified                 : 2023-09-26T01:00:27
+# Description              : None
+# Issued                   : 2023-09-28T01:00:25
+# Modified                 : 2023-09-28T01:00:25
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=gsm_wfs:awm_wertstoffhoefe_opendata&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=gsm_wfs:vablock_stadtbezirke_opendata&outputFormat=csv')
 
 
 
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-GeodatenService München | Data Shop | geoportal@muenchen.de
+GeodatenService München | Data Shop | geodatenservice.kom@muenchen.de
