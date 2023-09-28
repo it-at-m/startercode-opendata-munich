@@ -1,0 +1,90 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-09-28"
+output: html_document
+---
+
+## Dataset: Daten der Raddauerzählstellen München Dezember 2018
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-dezember-2018)
+
+Auto generated R starter code for data set 216@lhm.
+
+## Metadata
+
+- **Issued** `2019-01-07T09:12:07`
+- **Modified** `2021-09-16T13:48:36`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2018']`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-dezember-2018`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 2161
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Dezember 2018
+# Description              : abcdefg
+# Issued                   : 2019-01-07T10:13:21
+# Modified                 : 2019-01-07T09:13:21
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/8e74a0b6-3c28-4c86-811f-f0b036546e45/resource/35456ce5-1785-4aa1-b39c-048008440b77/download/rad20181215min.csv')
+
+# Distribution 1
+# Ktzhdistid               : 2162
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Dezember 2018
+# Description              : abcdefg
+# Issued                   : 2019-01-07T10:13:53
+# Modified                 : 2019-01-07T09:13:53
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/8e74a0b6-3c28-4c86-811f-f0b036546e45/resource/0b256f86-66cd-434a-ac8f-d1e994a279d7/download/rad201812tage.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 

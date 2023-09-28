@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-09-28"
+output: html_document
+---
+
+## Dataset: Privathaushalte in den Stadtbezirken
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken)
+
+Auto generated R starter code for data set 176@lhm.
+
+## Metadata
+
+- **Issued** `2015-04-23T05:27:48`
+- **Modified** `2021-09-28T06:15:26`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Bevölkerung', 'Haushalte', 'Stadtbezirke']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1761
+# Title                    : Privathaushalte in den Stadtbezirken zum 31.12.2013
+# Description              : abcdefg
+# Issued                   : 2015-04-23T07:28:31
+# Modified                 : 2015-04-23T07:33:16
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/cb0e5a0b-2a87-4a29-9b70-69e1db4fb529/resource/ce4bc761-84c1-4a3e-80d8-dd51577fb18f/download/privathaushaltestadtbezirke2013.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | egovernment@muenchen.de

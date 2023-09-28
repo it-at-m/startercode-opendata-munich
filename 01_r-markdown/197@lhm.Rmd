@@ -1,0 +1,90 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-09-28"
+output: html_document
+---
+
+## Dataset: Daten der Raddauerzählstellen München Oktober 2020
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-oktober-2020)
+
+Auto generated R starter code for data set 197@lhm.
+
+## Metadata
+
+- **Issued** `2020-11-04T10:37:56`
+- **Modified** `2021-09-27T11:08:38`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2020']`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-oktober-2020`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 2 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1971
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Oktober 2020
+# Description              : abcdefg
+# Issued                   : 2020-11-04T11:39:22
+# Modified                 : 2020-11-04T10:39:22
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/5917c597-dc58-49ee-bb8b-5e169c888935/resource/a5751b08-8444-4f9c-af1b-58e28f15f196/download/rad20201015min.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1972
+# Title                    : Tageswerte und Wetter - Oktober 2020 - Daten der Raddauerzählstellen München
+# Description              : abcdefg
+# Issued                   : 2020-11-04T11:40:06
+# Modified                 : 2020-11-04T10:40:06
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/5917c597-dc58-49ee-bb8b-5e169c888935/resource/d14809f2-e331-4fe8-bf5e-066b6ccfc177/download/rad202010tage.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 

@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-09-28"
+output: html_document
+---
+
+## Dataset: Pro-Kopf-Verschuldung LHM, Hoheitshaushalt
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/pro-kopf-verschuldung-lhm-hoheitshaushalt)
+
+Auto generated R starter code for data set 140@lhm.
+
+## Metadata
+
+- **Issued** `2022-11-15T07:54:30`
+- **Modified** `2023-02-08T10:17:03`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Finanzen', 'Haushalt', 'Stadtratsauftrag']`
+- **Publisher** `['stadtkaemmerei']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/pro-kopf-verschuldung-lhm-hoheitshaushalt`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1401
+# Title                    : Pro Kopf Verschuldung
+# Description              : abcdefg
+# Issued                   : 2022-11-15T07:54:59
+# Modified                 : 2022-11-15T07:54:59
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/2c15a2b2-e9d6-422c-8418-6f0e33fc854b/resource/7fb99cdc-8c43-401c-8a8a-c0839838550e/download/04_ska_pro-kopf-verschuldung_daten.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+ | Data Shop | 

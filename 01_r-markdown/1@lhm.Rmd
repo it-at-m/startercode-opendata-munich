@@ -4,9 +4,9 @@ date: "2023-09-28"
 output: html_document
 ---
 
-## Dataset: Müllsammelbehälter an der Isar
+## Dataset: Wertstoffhöfe der Landeshauptstadt München
 
-Dieser Datensatz beinhaltet Informationen zu Müllsammelbehältern bzw. Abfallbehältern in den Isarauen. Der Datensatz stammt aus dem Einrichtungs- und Dienstleistungsfinder auf muenchen.de.
+abcdefg
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/awm_wertstoffhoefe_opendata)
 
@@ -14,14 +14,14 @@ Auto generated R starter code for data set 1@lhm.
 
 ## Metadata
 
-- **Issued** `2016-06-14T12:44:13`
-- **Modified** `2017-02-16T12:53:00`
+- **Issued** `2023-02-27T15:30:38`
+- **Modified** `2023-09-26T01:00:25`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Abfall', 'Isar', 'Müll']`
-- **Publisher** `['baureferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/muellsammelbehaelter-an-der-isar`
+- **Keyword** `['Digitaler Zwilling München', 'Ver- und Entsorgung', 'opendata']`
+- **Publisher** `['geodatenservice-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/awm_wertstoffhoefe_opendata`
 
 
 # Load packages
@@ -41,14 +41,14 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1
-# Title                    : Müllsammelbehälter an der Isar
-# Description              : ## Beschreibung * pos	 * bezeichnung	 * unterhalt	 * code	 * latitude (Geographische Breite) * longitude (Geographische Länge) * photo_url
-# Issued                   : 2016-06-14T14:45:28
-# Modified                 : 2016-07-18T06:51:21
+# Ktzhdistid               : 13
+# Title                    : WFS (CSV)
+# Description              : abcdefg
+# Issued                   : 2023-09-26T01:00:27
+# Modified                 : 2023-09-26T01:00:27
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/0eb348c1-72ad-4384-b573-03b7c6a826c3/resource/5ad81dfc-e30d-41c0-9189-342a43893fc5/download/muellsammelbehaelter-an-der-isar-2016-07-15.csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=gsm_wfs:awm_wertstoffhoefe_opendata&amp;outputFormat=csv')
 
 
 
@@ -77,4 +77,4 @@ tail(df)
 
 # Questions about the data?
 
-eoGovernment Projekt Landeshauptstadt München | Data Shop | j-spartenanfrage.bau@muenchen.de
+GeodatenService München | Data Shop | geoportal@muenchen.de
