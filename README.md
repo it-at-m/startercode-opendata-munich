@@ -16,8 +16,9 @@ Feedback is always very welcome – simply open an issue.
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html?keywords=ogd#/datasets/1461@fachstelle-ogd-kanton-zuerich).
 
-<sub>Latest update: **2023-10-02 09:13:30**<sub>
+<sub>Latest update: **2023-10-02 09:17:17**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
 | 1 | [Stadtbezirke der Landeshauptstadt München](https://opendata.muenchen.de/dataset/vablock_stadtbezirke_opendata) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/TxominBasterraChang/Results/blob/main/02_python/1@lhm.ipynb) | [Python GitHub](https://github.com/TxominBasterraChang/Results/blob/main/02_python/1@lhm.ipynb) | [R GitHub](https://github.com/TxominBasterraChang/Results/blob/main/01_r-markdown/1@lhm.Rmd) |
+| 2 | [Bezirksteile der Landeshauptstadt München](https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/TxominBasterraChang/Results/blob/main/02_python/2@lhm.ipynb) | [Python GitHub](https://github.com/TxominBasterraChang/Results/blob/main/02_python/2@lhm.ipynb) | [R GitHub](https://github.com/TxominBasterraChang/Results/blob/main/01_r-markdown/2@lhm.Rmd) |
