@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Geburten in der München Klinik gGmbH
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/geburten-in-der-muenchen-klinik-ggmbh)
 
 Auto generated R starter code for data set 154@lhm.

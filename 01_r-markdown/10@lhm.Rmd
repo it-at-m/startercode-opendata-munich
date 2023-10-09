@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Umweltzone - Verkehrszeichen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_miv_umweltzone_vz_point)
 
 Auto generated R starter code for data set 10@lhm.

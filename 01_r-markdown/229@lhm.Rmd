@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Ergebnishaushalt der Landeshauptstadt München 2018
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen-2018)
 
 Auto generated R starter code for data set 229@lhm.

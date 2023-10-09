@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Flächen - Flächennutzung
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung)
 
 Auto generated R starter code for data set 70@lhm.

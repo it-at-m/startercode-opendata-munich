@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Fernzugriffsberechtigungen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/fernzugriffe)
 
 Auto generated R starter code for data set 143@lhm.

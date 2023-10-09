@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Privathaushalte in den Stadtbezirken
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken)
 
 Auto generated R starter code for data set 176@lhm.

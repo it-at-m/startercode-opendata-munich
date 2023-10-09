@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte erwerbsfähig
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig)
 
 Auto generated R starter code for data set 47@lhm.

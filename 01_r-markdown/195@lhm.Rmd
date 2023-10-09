@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Dezember 2020
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-dezember-2020)
 
 Auto generated R starter code for data set 195@lhm.

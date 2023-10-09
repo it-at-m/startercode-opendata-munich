@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen Freizeit
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-freizeit)
 
 Auto generated R starter code for data set 125@lhm.

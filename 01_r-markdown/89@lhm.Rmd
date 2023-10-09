@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Haushalte mit Kindern
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-mit-kindern-83r65mct)
 
 Auto generated R starter code for data set 89@lhm.

@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Kindertagesbetreuungseinrichtungen in München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/kindertagesbetreuungseinrichtungen-in-muenchen)
 
 Auto generated R starter code for data set 132@lhm.

@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen KFZ-Bestand
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand)
 
 Auto generated R starter code for data set 124@lhm.

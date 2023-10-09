@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Wohndauer Adresse
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-adresse-83r65mct)
 
 Auto generated R starter code for data set 73@lhm.

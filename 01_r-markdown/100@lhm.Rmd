@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-83r65mct)
 
 Auto generated R starter code for data set 100@lhm.

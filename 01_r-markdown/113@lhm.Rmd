@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Oktoberfest
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/oktoberfest)
 
 Auto generated R starter code for data set 113@lhm.

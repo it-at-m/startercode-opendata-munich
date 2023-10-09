@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Gesundheit - Apotheken-Dichte
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-apotheken-dichte)
 
 Auto generated R starter code for data set 46@lhm.

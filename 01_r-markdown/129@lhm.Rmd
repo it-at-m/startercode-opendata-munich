@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen Bevölkerung
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-bevoelkerung)
 
 Auto generated R starter code for data set 129@lhm.

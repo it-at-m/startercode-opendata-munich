@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Mütter erstgebärend
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend)
 
 Auto generated R starter code for data set 98@lhm.

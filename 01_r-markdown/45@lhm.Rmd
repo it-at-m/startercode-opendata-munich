@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Gesundheit - Zahnärzt*Zahnärztin-Dichte
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-zahnaerztedichte-83r65mct)
 
 Auto generated R starter code for data set 45@lhm.

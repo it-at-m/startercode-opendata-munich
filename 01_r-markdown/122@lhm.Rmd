@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen Kinos
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kinos)
 
 Auto generated R starter code for data set 122@lhm.

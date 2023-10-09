@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München März 2021
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-maerz-2021)
 
 Auto generated R starter code for data set 189@lhm.

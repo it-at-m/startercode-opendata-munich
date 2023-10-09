@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Mütter ab 35 Jahre
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct)
 
 Auto generated R starter code for data set 81@lhm.

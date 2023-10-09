@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen Soziale Leistungen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-soziale-leistungen)
 
 Auto generated R starter code for data set 118@lhm.

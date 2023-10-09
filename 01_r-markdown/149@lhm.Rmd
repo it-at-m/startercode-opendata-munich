@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Ordentliche Erträge und Aufwendungen der Produkte der LHM
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ordentliche-ertraege-und-aufwendungen-produkte-der-lhm)
 
 Auto generated R starter code for data set 149@lhm.

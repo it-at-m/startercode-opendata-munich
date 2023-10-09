@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Baufertigstellungen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-baufertigstellungen)
 
 Auto generated R starter code for data set 63@lhm.

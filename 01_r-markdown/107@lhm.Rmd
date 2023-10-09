@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer 65 Jahre und älter
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-65-jahre-und-aelter-83r65mct)
 
 Auto generated R starter code for data set 107@lhm.

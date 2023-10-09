@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Mobilitätspunkte
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/mobilitaetspunkte)
 
 Auto generated R starter code for data set 20@lhm.

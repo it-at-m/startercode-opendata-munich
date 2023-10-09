@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Monatszahlen Tourismus
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-tourismus)
 
 Auto generated R starter code for data set 116@lhm.

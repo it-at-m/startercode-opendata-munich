@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Lastenradparken
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_ruhver_lastenradparken_line)
 
 Auto generated R starter code for data set 18@lhm.

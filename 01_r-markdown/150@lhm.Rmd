@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bilanzsumme-eigenkapital-und-eigenkapital-quote-lhm)
 
 Auto generated R starter code for data set 150@lhm.

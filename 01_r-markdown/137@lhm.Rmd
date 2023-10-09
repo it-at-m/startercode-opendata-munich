@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Hallensportprogramm
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/hallensportprogramm)
 
 Auto generated R starter code for data set 137@lhm.

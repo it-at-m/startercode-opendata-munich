@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Baugenehmigungen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-baugenehmigungen)
 
 Auto generated R starter code for data set 64@lhm.
