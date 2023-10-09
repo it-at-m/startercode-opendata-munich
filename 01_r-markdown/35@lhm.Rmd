@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Die Bevölkerung seit 1900
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 351
 # Title                    : Die Bevölkerung seit 1900 
-# Description              : abcdefg
 # Issued                   : 2015-02-20T11:39:02
 # Modified                 : 2023-09-11T13:40:02
 # Rights                   : dl-by-de/2.0

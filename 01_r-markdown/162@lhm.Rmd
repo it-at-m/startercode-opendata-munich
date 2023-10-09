@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Radverkehrsanlagen im Straßenunterhalt der Landeshauptstadt München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/radverkehrsanlagen-im-strassenunterhalt-der-landeshauptstadt-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1622
 # Title                    : Radwege CSV-Datei
-# Description              : abcdefg
 # Issued                   : 2022-06-14T05:32:48
 # Modified                 : 2022-06-14T05:45:41
 # Rights                   : dl-by-de/2.0

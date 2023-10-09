@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: M-WLAN Hotspots
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/m-wlan-hotspots)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1741
 # Title                    : M-WLAN Hotspots
-# Description              : abcdefg
 # Issued                   : 2015-02-20T11:33:40
 # Modified                 : 2016-07-12T08:42:45
 # Rights                   : dl-by-de/2.0

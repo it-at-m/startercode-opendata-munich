@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Stadtplan der städtischen Trinkbrunnen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_trinkwasserbrunnen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 33
 # Title                    : WFS (CSV)
-# Description              : abcdefg
 # Issued                   : 2023-09-26T01:00:25
 # Modified                 : 2023-09-26T01:00:25
 # Rights                   : dl-by-de/2.0

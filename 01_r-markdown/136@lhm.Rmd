@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Munich IT Dashboard
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/munich-it-dashboard)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1361
 # Title                    : Software bei der LHM
-# Description              : abcdefg
 # Issued                   : 2023-03-09T07:07:26
 # Modified                 : 2023-03-09T07:07:26
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Bundestagswahlen 2017 - Ergebnisse München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bundestagswahlen-2017-ergebnisse-munchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1711
 # Title                    : Bundestagswahl 2017 Erststimmen nach Wahlbezirken
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:06:29
 # Modified                 : 2018-03-03T08:06:29
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 # Distribution 1
 # Ktzhdistid               : 1712
 # Title                    : Bundestagswahl 2017 Erststimmen nach Wahlkreisen
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:06:49
 # Modified                 : 2018-03-03T08:06:49
 # Rights                   : dl-by-de/2.0
@@ -63,7 +61,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 # Distribution 2
 # Ktzhdistid               : 1713
 # Title                    :  Bundestagswahl 2017 Erststimmen nach Stadtbezirken
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:07:05
 # Modified                 : 2018-03-03T08:07:05
 # Rights                   : dl-by-de/2.0
@@ -73,7 +70,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 # Distribution 3
 # Ktzhdistid               : 1714
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Wahlkreisen
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:07:21
 # Modified                 : 2018-03-03T08:07:21
 # Rights                   : dl-by-de/2.0
@@ -83,7 +79,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 # Distribution 4
 # Ktzhdistid               : 1715
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Wahlbezirken
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:07:34
 # Modified                 : 2018-03-03T08:07:34
 # Rights                   : dl-by-de/2.0
@@ -93,7 +88,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 # Distribution 5
 # Ktzhdistid               : 1716
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Stadtbezirken
-# Description              : abcdefg
 # Issued                   : 2018-03-03T09:08:12
 # Modified                 : 2018-03-03T08:08:11
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Fernzugriffsberechtigungen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/fernzugriffe)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1431
 # Title                    : Fernzugriffe
-# Description              : abcdefg
 # Issued                   : 2022-12-13T13:25:36
 # Modified                 : 2022-12-13T13:25:36
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Ergebnishaushalt der Landeshauptstadt München 2018
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen-2018)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2291
 # Title                    : Erträge und Aufwendungen 2018
-# Description              : abcdefg
 # Issued                   : 2018-04-05T14:22:34
 # Modified                 : 2018-04-16T06:41:43
 # Rights                   : dl-by-de/2.0

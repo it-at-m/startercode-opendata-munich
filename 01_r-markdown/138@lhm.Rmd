@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Linienliste MVV
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/linienliste-mvv)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1381
 # Title                    : Linienliste MVV
-# Description              : abcdefg
 # Issued                   : 2022-09-16T13:15:17
 # Modified                 : 2022-09-16T13:15:17
 # Rights                   : cc-by

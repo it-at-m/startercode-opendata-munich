@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Verkehr - Motorisierungsgrad Personenkraftwagen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 651
 # Title                    : Motorisierungsgrad Personenkraftwagen
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:58
 # Modified                 : 2023-07-28T08:59:04
 # Rights                   : dl-by-de/2.0

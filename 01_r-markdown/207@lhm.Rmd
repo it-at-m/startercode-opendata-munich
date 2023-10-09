@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München November 2019
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2019)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2071
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München November 2019
-# Description              : abcdefg
 # Issued                   : 2020-01-08T08:39:50
 # Modified                 : 2020-01-08T07:39:50
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/4bca92b3-95dd-4822-a171-4
 # Distribution 1
 # Ktzhdistid               : 2072
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München November 2019
-# Description              : abcdefg
 # Issued                   : 2020-01-08T08:40:17
 # Modified                 : 2020-01-08T07:40:17
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Mobilitätsziffer
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-mobilitaetsziffer-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 821
 # Title                    : Mobilitätsziffer
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:01:56
 # Modified                 : 2023-07-28T05:47:36
 # Rights                   : dl-by-de/2.0

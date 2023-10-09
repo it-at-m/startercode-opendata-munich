@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bilanzsumme-eigenkapital-und-eigenkapital-quote-lhm)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1501
 # Title                    : Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM 
-# Description              : abcdefg
 # Issued                   : 2022-11-15T07:50:25
 # Modified                 : 2022-11-15T07:50:25
 # Rights                   : dl-by-de/2.0

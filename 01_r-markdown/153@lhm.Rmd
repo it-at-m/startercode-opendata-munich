@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Haltestellen mit Tarifzuordnung MVV
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellen-mit-tarifzuordnung-mvv)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1531
 # Title                    : Haltestellenliste MVV
-# Description              : abcdefg
 # Issued                   : 2022-12-12T13:40:18
 # Modified                 : 2022-12-12T13:40:18
 # Rights                   : cc-by

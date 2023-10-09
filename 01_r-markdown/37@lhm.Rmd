@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München 2023
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-2023)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 371
 # Title                    : 15 Minuten-Werte - Januar 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-02-06T11:50:08
 # Modified                 : 2023-02-06T11:50:08
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 1
 # Ktzhdistid               : 372
 # Title                    : Tageswerte und Wetter - Januar 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-02-06T11:50:52
 # Modified                 : 2023-02-06T11:50:52
 # Rights                   : dl-by-de/2.0
@@ -63,7 +61,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 2
 # Ktzhdistid               : 373
 # Title                    : 15 Minuten-Werte - Februar 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-03-13T10:45:38
 # Modified                 : 2023-03-13T10:45:38
 # Rights                   : dl-by-de/2.0
@@ -73,7 +70,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 3
 # Ktzhdistid               : 374
 # Title                    : Tageswerte und Wetter - Februar 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-03-13T10:46:45
 # Modified                 : 2023-03-13T10:46:45
 # Rights                   : dl-by-de/2.0
@@ -83,7 +79,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 4
 # Ktzhdistid               : 375
 # Title                    : 15 Minuten-Werte - März 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-04-11T08:06:02
 # Modified                 : 2023-04-11T08:06:02
 # Rights                   : dl-by-de/2.0
@@ -93,7 +88,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 5
 # Ktzhdistid               : 376
 # Title                    : Tageswerte und Wetter - März 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-04-11T08:06:48
 # Modified                 : 2023-04-11T08:06:48
 # Rights                   : dl-by-de/2.0
@@ -103,7 +97,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 6
 # Ktzhdistid               : 377
 # Title                    : 15 Minuten-Werte - April 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-05-05T06:29:31
 # Modified                 : 2023-05-05T06:29:31
 # Rights                   : dl-by-de/2.0
@@ -113,7 +106,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 7
 # Ktzhdistid               : 378
 # Title                    : Tageswerte und Wetter - April 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-05-05T06:30:28
 # Modified                 : 2023-05-05T06:30:28
 # Rights                   : dl-by-de/2.0
@@ -123,7 +115,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 8
 # Ktzhdistid               : 379
 # Title                    : 15 Minuten-Werte - Mai 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-06-07T07:52:39
 # Modified                 : 2023-06-07T07:52:39
 # Rights                   : dl-by-de/2.0
@@ -133,7 +124,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 9
 # Ktzhdistid               : 380
 # Title                    : Tageswerte und Wetter - Mai 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-06-07T07:53:42
 # Modified                 : 2023-06-07T07:53:42
 # Rights                   : dl-by-de/2.0
@@ -143,7 +133,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 10
 # Ktzhdistid               : 381
 # Title                    : 15 Minuten-Werte - Juni 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-07-17T08:54:06
 # Modified                 : 2023-07-17T08:54:06
 # Rights                   : dl-by-de/2.0
@@ -153,7 +142,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 11
 # Ktzhdistid               : 382
 # Title                    : Tageswerte und Wetter - Juni 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-07-17T08:55:37
 # Modified                 : 2023-07-17T08:55:37
 # Rights                   : dl-by-de/2.0
@@ -163,7 +151,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 12
 # Ktzhdistid               : 383
 # Title                    : 15 Minuten-Werte - Juli 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-08-03T16:11:06
 # Modified                 : 2023-08-03T16:11:06
 # Rights                   : dl-by-de/2.0
@@ -173,7 +160,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 13
 # Ktzhdistid               : 384
 # Title                    : Tageswerte und Wetter - Juli 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-08-03T16:12:12
 # Modified                 : 2023-08-03T16:12:12
 # Rights                   : dl-by-de/2.0
@@ -183,7 +169,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 14
 # Ktzhdistid               : 385
 # Title                    : 15 Minuten-Werte - August 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-09-07T12:17:46
 # Modified                 : 2023-09-07T12:17:46
 # Rights                   : dl-by-de/2.0
@@ -193,7 +178,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/780d7f77-e5de-47bb-8b34-9
 # Distribution 15
 # Ktzhdistid               : 386
 # Title                    : Tageswerte und Wetter - August 2023 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2023-09-07T12:18:47
 # Modified                 : 2023-09-07T12:18:47
 # Rights                   : dl-by-de/2.0

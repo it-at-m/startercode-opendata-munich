@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Zusammengefasste Geburtenrate
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-zusammengefasste-geburtenrate-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 711
 # Title                    : Zusammengefasste Geburtenrate
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:04:06
 # Modified                 : 2023-07-28T06:39:31
 # Rights                   : dl-by-de/2.0

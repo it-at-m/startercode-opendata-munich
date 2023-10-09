@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen KFZ-Erstzulassungen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-neuzulassungen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1231
 # Title                    : Monatszahlen KFZ-Erstzulassungen
-# Description              : abcdefg
 # Issued                   : 2022-11-25T09:21:42
 # Modified                 : 2023-07-20T05:59:01
 # Rights                   : dl-by-de/2.0

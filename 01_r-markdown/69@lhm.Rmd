@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Grundschüler*innen - Staatsangehörigkeit
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 691
 # Title                    : Staatsangehörigkeit
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:01:59
 # Modified                 : 2023-07-28T07:44:58
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Oktoberfest
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/oktoberfest)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1131
 # Title                    : Oktoberfest 1985 - 2022
-# Description              : abcdefg
 # Issued                   : 2014-12-16T15:16:11
 # Modified                 : 2023-07-24T06:04:48
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f
 # Distribution 1
 # Ktzhdistid               : 1132
 # Title                    : Oktoberfest Bierkonsum 1985 - 2022
-# Description              : abcdefg
 # Issued                   : 2014-12-16T15:21:21
 # Modified                 : 2023-07-24T06:05:50
 # Rights                   : dl-by-de/2.0
@@ -63,7 +61,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f
 # Distribution 2
 # Ktzhdistid               : 1133
 # Title                    : Oktoberfest Bierpreise 1985 - 2022
-# Description              : abcdefg
 # Issued                   : 2014-12-16T15:25:07
 # Modified                 : 2023-07-24T06:06:19
 # Rights                   : dl-by-de/2.0
@@ -73,7 +70,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f
 # Distribution 3
 # Ktzhdistid               : 1134
 # Title                    : Oktoberfest Besucherinnen und Besucher 1985 - 2022
-# Description              : abcdefg
 # Issued                   : 2014-12-16T15:34:47
 # Modified                 : 2023-07-24T06:06:42
 # Rights                   : dl-by-de/2.0

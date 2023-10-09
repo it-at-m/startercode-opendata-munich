@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Kinder bis 13 Jahre
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-kinder-bis-13-jahre-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1051
 # Title                    : Außenwanderungsziffer Kinder unter 14 Jahre
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:28
 # Modified                 : 2023-01-04T09:02:49
 # Rights                   : dl-by-de/2.0

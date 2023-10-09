@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Eingebürgerte
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-eingebuergerte-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 971
 # Title                    : Eingebürgerte
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:53
 # Modified                 : 2023-07-27T07:03:34
 # Rights                   : dl-by-de/2.0

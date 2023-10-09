@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Bevölkerung in den Stadtbezirken
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung-stadtbezirken)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1751
 # Title                    : Bevölkerung in den Stadtbezirken am 31.12.2013
-# Description              : abcdefg
 # Issued                   : 2015-04-23T07:09:43
 # Modified                 : 2015-04-23T07:17:42
 # Rights                   : dl-by-de/2.0

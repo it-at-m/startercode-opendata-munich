@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: GEWOFAG Wohnungen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/gewofag-wohnungen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1591
 # Title                    : Wohnungen GEWOFAG
-# Description              : abcdefg
 # Issued                   : 2022-08-12T07:44:04
 # Modified                 : 2022-09-08T13:09:24
 # Rights                   : dl-by-de/2.0

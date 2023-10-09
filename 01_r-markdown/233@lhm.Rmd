@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Toilettenkabinen an der Isar
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/toilettenkabinen-an-der-isar)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2331
 # Title                    : Toilettenkabinen an der Isar
-# Description              : abcdefg
 # Issued                   : 2016-07-14T09:53:30
 # Modified                 : 2016-07-18T06:56:55
 # Rights                   : dl-by-de/2.0

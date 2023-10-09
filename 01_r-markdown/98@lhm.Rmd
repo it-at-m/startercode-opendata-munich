@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Mütter erstgebärend
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 981
 # Title                    : Durchschnittsalter Mütter erstgebärend
-# Description              : abcdefg
 # Issued                   : 2016-11-14T09:59:15
 # Modified                 : 2023-07-27T06:57:02
 # Rights                   : dl-by-de/2.0

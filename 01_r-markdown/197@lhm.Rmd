@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Oktober 2020
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-oktober-2020)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1971
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Oktober 2020
-# Description              : abcdefg
 # Issued                   : 2020-11-04T11:39:22
 # Modified                 : 2020-11-04T10:39:22
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/5917c597-dc58-49ee-bb8b-5
 # Distribution 1
 # Ktzhdistid               : 1972
 # Title                    : Tageswerte und Wetter - Oktober 2020 - Daten der Raddauerzählstellen München
-# Description              : abcdefg
 # Issued                   : 2020-11-04T11:40:06
 # Modified                 : 2020-11-04T10:40:06
 # Rights                   : dl-by-de/2.0

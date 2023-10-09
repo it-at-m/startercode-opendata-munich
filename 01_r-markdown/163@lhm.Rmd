@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München November 2021
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2021)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1631
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München November 2021
-# Description              : abcdefg
 # Issued                   : 2021-12-10T16:31:43
 # Modified                 : 2022-05-09T15:29:02
 # Rights                   : dl-by-de/2.0

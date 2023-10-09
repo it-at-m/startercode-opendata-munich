@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen KFZ-Bestand
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1241
 # Title                    : Monatszahlen KFZ-Bestand
-# Description              : abcdefg
 # Issued                   : 2017-02-20T14:20:03
 # Modified                 : 2023-07-20T05:57:55
 # Rights                   : dl-by-de/2.0

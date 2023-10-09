@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Deutsche
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-deutsche-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1061
 # Title                    : Außenwanderungsziffer Deutsche
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:04:41
 # Modified                 : 2023-07-27T06:22:49
 # Rights                   : dl-by-de/2.0

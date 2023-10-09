@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Öffentliche Toiletten der Landeshauptstadt München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/offentliche-toiletten-der-landeshauptstadt-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2321
 # Title                    : Öffentliche Toiletten der Landeshauptstadt München
-# Description              : abcdefg
 # Issued                   : 2016-03-04T13:54:54
 # Modified                 : 2016-07-12T15:52:07
 # Rights                   : dl-by-de/2.0

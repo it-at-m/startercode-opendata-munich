@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Gesundheit - Psychologische*r Psychotherapeut*in-Dichte
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-psychologische-psychotherapeuten)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 441
 # Title                    : Psychologische*r Psychotherapeut*in-Dichte
-# Description              : abcdefg
 # Issued                   : 2016-11-17T11:20:55
 # Modified                 : 2023-08-29T06:41:43
 # Rights                   : dl-by-de/2.0

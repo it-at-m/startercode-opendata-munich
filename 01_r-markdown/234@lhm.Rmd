@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Points of Interest an der südlichen Isar
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/points-of-interest-an-der-sudlichen-isar)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2341
 # Title                    : POIs an der Isar
-# Description              : abcdefg
 # Issued                   : 2016-06-30T14:31:59
 # Modified                 : 2016-08-17T08:21:43
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Schulen und Schülerzahlen in München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schulen-und-schuelerzahlen-in-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1551
 # Title                    : Schulen und Schülerzahlen Schuljahr 2020/21
-# Description              : abcdefg
 # Issued                   : 2022-12-12T16:11:46
 # Modified                 : 2022-12-12T16:11:46
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/4e7880e0-c91a-4f17-8e0f-9
 # Distribution 1
 # Ktzhdistid               : 1552
 # Title                    : Schulen und Schülerzahlen Schuljahr 2021/22
-# Description              : abcdefg
 # Issued                   : 2022-12-12T16:12:14
 # Modified                 : 2022-12-12T16:12:14
 # Rights                   : dl-by-de/2.0

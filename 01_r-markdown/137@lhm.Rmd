@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Hallensportprogramm
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/hallensportprogramm)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1371
 # Title                    : Hallensportprogramm
-# Description              : abcdefg
 # Issued                   : 2023-03-07T06:35:55
 # Modified                 : 2023-03-07T06:35:55
 # Rights                   : dl-by-de/2.0

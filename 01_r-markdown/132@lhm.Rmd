@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Kindertagesbetreuungseinrichtungen in München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/kindertagesbetreuungseinrichtungen-in-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1321
 # Title                    : Kita-Einrichtungen
-# Description              : abcdefg
 # Issued                   : 2023-06-23T06:28:00
 # Modified                 : 2023-06-23T06:28:00
 # Rights                   : dl-by-de/2.0

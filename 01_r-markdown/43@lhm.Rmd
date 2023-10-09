@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Gesundheit - Arzt*Ärztin-Dichte
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-aerztedichte-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 431
 # Title                    : Arzt*Ärztin-Dichte
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:33
 # Modified                 : 2023-08-29T06:43:02
 # Rights                   : dl-by-de/2.0

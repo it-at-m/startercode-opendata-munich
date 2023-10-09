@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Parkhäuser München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/parkhaeuser-munchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 361
 # Title                    : Parkhäuser München CSV
-# Description              : abcdefg
 # Issued                   : 2016-11-08T11:00:54
 # Modified                 : 2023-09-07T12:42:06
 # Rights                   : dl-by-de/2.0

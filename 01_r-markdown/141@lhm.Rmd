@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Vornamen von Neugeborenen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vornamen-von-neugeborenen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1411
 # Title                    : Vornamen 2013
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:15:48
 # Modified                 : 2023-01-25T09:15:48
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 1
 # Ktzhdistid               : 1412
 # Title                    : Vornamen 2014
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:16:41
 # Modified                 : 2023-01-25T09:16:41
 # Rights                   : dl-by-de/2.0
@@ -63,7 +61,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 2
 # Ktzhdistid               : 1413
 # Title                    : Vornamen 2015
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:19:24
 # Modified                 : 2023-01-25T09:19:24
 # Rights                   : dl-by-de/2.0
@@ -73,7 +70,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 3
 # Ktzhdistid               : 1414
 # Title                    : Vornamen 2016
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:21:20
 # Modified                 : 2023-01-25T09:21:20
 # Rights                   : dl-by-de/2.0
@@ -83,7 +79,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 4
 # Ktzhdistid               : 1415
 # Title                    : Vornamen 2017
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:21:49
 # Modified                 : 2023-01-25T09:21:49
 # Rights                   : dl-by-de/2.0
@@ -93,7 +88,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 5
 # Ktzhdistid               : 1416
 # Title                    : Vornamen 2018
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:22:23
 # Modified                 : 2023-01-25T09:22:23
 # Rights                   : dl-by-de/2.0
@@ -103,7 +97,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 6
 # Ktzhdistid               : 1417
 # Title                    : Vornamen 2019
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:23:25
 # Modified                 : 2023-01-25T09:23:25
 # Rights                   : dl-by-de/2.0
@@ -113,7 +106,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 7
 # Ktzhdistid               : 1418
 # Title                    : Vornamen 2020
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:24:00
 # Modified                 : 2023-01-25T09:24:00
 # Rights                   : dl-by-de/2.0
@@ -123,7 +115,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 8
 # Ktzhdistid               : 1419
 # Title                    : Vornamen 2021
-# Description              : abcdefg
 # Issued                   : 2023-01-25T09:24:38
 # Modified                 : 2023-01-25T09:24:38
 # Rights                   : dl-by-de/2.0
@@ -133,7 +124,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 # Distribution 9
 # Ktzhdistid               : 1420
 # Title                    : Vornamen 2022
-# Description              : abcdefg
 # Issued                   : 2023-01-26T16:37:07
 # Modified                 : 2023-01-26T16:37:07
 # Rights                   : dl-by-de/2.0

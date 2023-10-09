@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Privathaushalte in den Stadtbezirken
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1761
 # Title                    : Privathaushalte in den Stadtbezirken zum 31.12.2013
-# Description              : abcdefg
 # Issued                   : 2015-04-23T07:28:31
 # Modified                 : 2015-04-23T07:33:16
 # Rights                   : dl-by-de/2.0

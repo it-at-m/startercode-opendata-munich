@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer 65 Jahre und älter
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-65-jahre-und-aelter-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1071
 # Title                    : Außenwanderungsziffer 65 Jahre und älter
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:04:46
 # Modified                 : 2023-07-27T06:09:38
 # Rights                   : dl-by-de/2.0

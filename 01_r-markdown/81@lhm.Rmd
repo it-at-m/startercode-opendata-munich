@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Mütter ab 35 Jahre
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 811
 # Title                    : Mütter ab 35 Jahre
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:03:47
 # Modified                 : 2023-07-28T06:09:44
 # Rights                   : dl-by-de/2.0

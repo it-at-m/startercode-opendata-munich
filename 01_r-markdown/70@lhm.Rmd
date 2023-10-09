@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Flächen - Flächennutzung
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 701
 # Title                    : Flächennutzung
-# Description              : abcdefg
 # Issued                   : 2023-07-28T06:46:36
 # Modified                 : 2023-07-28T06:46:36
 # Rights                   : dl-by-de/2.0

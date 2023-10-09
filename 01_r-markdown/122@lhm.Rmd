@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen Kinos
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kinos)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1221
 # Title                    : Monatszahlen Kinos
-# Description              : abcdefg
 # Issued                   : 2017-02-21T15:57:05
 # Modified                 : 2023-07-20T05:59:47
 # Rights                   : dl-by-de/2.0

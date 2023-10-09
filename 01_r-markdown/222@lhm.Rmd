@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Juni 2018
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juni-2018)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2221
 # Title                    :  15 Minuten-Werte - Daten der Raddauerzählstellen München Juni 2018 
-# Description              : abcdefg
 # Issued                   : 2018-09-05T10:56:21
 # Modified                 : 2018-09-05T08:56:21
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/6467f3c5-d473-4a52-99ee-1
 # Distribution 1
 # Ktzhdistid               : 2222
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Juni 2018
-# Description              : abcdefg
 # Issued                   : 2018-09-05T10:58:39
 # Modified                 : 2018-09-05T08:58:39
 # Rights                   : dl-by-de/2.0

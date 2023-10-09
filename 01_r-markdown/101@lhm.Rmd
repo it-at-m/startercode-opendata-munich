@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Binnenwanderungsziffer
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-binnenwanderungsziffer-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1011
 # Title                    : Binnenwanderungsziffer
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:02:48
 # Modified                 : 2023-07-27T06:35:02
 # Rights                   : dl-by-de/2.0

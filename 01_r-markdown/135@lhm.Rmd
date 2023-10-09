@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: B + R Anlagen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/b-r-anlagen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1351
 # Title                    : B+R Anlagen Übersicht
-# Description              : abcdefg
 # Issued                   : 2022-11-15T07:23:13
 # Modified                 : 2023-04-12T12:51:46
 # Rights                   : dl-by-de/2.0

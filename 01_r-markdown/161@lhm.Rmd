@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Behindertenparkplätze
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/behindertenparkplaetze)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1611
 # Title                    : Behindertenparkplätze Juni 2022
-# Description              : abcdefg
 # Issued                   : 2022-06-27T07:32:43
 # Modified                 : 2022-06-27T07:39:26
 # Rights                   : dl-by-de/2.0

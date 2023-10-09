@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Kinderbetreuung - Einrichtungsträger
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-einrichtungstraeger-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 421
 # Title                    : Träger der Einrichtung
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:01:46
 # Modified                 : 2023-08-29T06:43:56
 # Rights                   : dl-by-de/2.0

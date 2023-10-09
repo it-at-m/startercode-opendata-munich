@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Gesundheit - Apotheken-Dichte
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-apotheken-dichte)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 461
 # Title                    : Apotheken-Dichte
-# Description              : abcdefg
 # Issued                   : 2016-11-17T11:12:49
 # Modified                 : 2023-08-29T06:39:10
 # Rights                   : dl-by-de/2.0

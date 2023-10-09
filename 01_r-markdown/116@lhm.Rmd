@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen Tourismus
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-tourismus)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1161
 # Title                    : Monatszahlen Tourismus
-# Description              : abcdefg
 # Issued                   : 2017-02-20T14:15:07
 # Modified                 : 2023-07-20T06:04:37
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte erwerbsfähig
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 471
 # Title                    : (Regel-)Leistungsberechtigte - erwerbsfähig
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:04:01
 # Modified                 : 2023-08-29T06:30:08
 # Rights                   : dl-by-de/2.0

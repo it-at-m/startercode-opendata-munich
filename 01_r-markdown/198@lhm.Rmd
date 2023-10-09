@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München September 2020
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-september-2020)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1981
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München September 2020
-# Description              : abcdefg
 # Issued                   : 2020-10-13T12:00:13
 # Modified                 : 2020-10-13T10:00:13
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/13e1fa56-4b8e-47fe-a9fa-2
 # Distribution 1
 # Ktzhdistid               : 1982
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München September 2020
-# Description              : abcdefg
 # Issued                   : 2020-10-13T12:44:50
 # Modified                 : 2020-10-13T10:44:50
 # Rights                   : dl-by-de/2.0

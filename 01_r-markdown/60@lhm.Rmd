@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: WLAN-Standorte LH München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/wlan-standorte-lhm-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 601
 # Title                    : WLAN Standorte LHM Gebäude
-# Description              : abcdefg
 # Issued                   : 2020-10-06T07:53:20
 # Modified                 : 2022-08-04T09:53:20
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/bec8b9e3-0e55-438b-91bd-5
 # Distribution 1
 # Ktzhdistid               : 602
 # Title                    : WLAN Öffentliche Plätze München
-# Description              : abcdefg
 # Issued                   : 2021-03-05T08:49:15
 # Modified                 : 2023-07-31T14:06:59
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Schuldenstand Hoheitshaushalt LHM
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1481
 # Title                    : Schuldenstand Hoheitshaushalt LHM
-# Description              : abcdefg
 # Issued                   : 2022-11-15T07:52:38
 # Modified                 : 2022-11-15T07:52:38
 # Rights                   : dl-by-de/2.0

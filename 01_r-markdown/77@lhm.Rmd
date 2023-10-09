@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Religionszugehörigkeit
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-religionszugehoerigkeit)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 771
 # Title                    : Religionszugehörigkeit
-# Description              : abcdefg
 # Issued                   : 2016-11-17T08:43:52
 # Modified                 : 2023-07-28T06:24:12
 # Rights                   : dl-by-de/2.0

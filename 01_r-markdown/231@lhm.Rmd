@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Bundestagswahlen 2013
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bundestagswahlen-2013)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2311
 # Title                    : Bundestagswahl 2013 Erststimmen nach Wahlbezirken (STAT. Amt)
-# Description              : abcdefg
 # Issued                   : 2014-12-18T07:57:31
 # Modified                 : 2014-12-18T07:57:31
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8dc20a65-a7d3-4786-82fa-4
 # Distribution 1
 # Ktzhdistid               : 2312
 # Title                    : Bundestagswahl 2013 Zweitstimmen nach Wahlbezirken
-# Description              : abcdefg
 # Issued                   : 2014-12-18T15:10:00
 # Modified                 : 2014-12-18T15:10:00
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Haushalte mit Kindern
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-mit-kindern-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 891
 # Title                    : Haushalte mit Kindern
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:03:00
 # Modified                 : 2023-07-28T05:26:29
 # Rights                   : dl-by-de/2.0

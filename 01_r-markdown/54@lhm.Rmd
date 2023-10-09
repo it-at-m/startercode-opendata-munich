@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Arbeitsmarkt - Arbeitslose
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslose-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 541
 # Title                    : Arbeitslose
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:22
 # Modified                 : 2023-08-29T05:17:25
 # Rights                   : dl-by-de/2.0

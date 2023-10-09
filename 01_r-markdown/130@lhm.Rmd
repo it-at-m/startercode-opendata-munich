@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen Arbeitsmarkt
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-arbeitsmarkt)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1301
 # Title                    : Monatszahlen Arbeitsmarkt
-# Description              : abcdefg
 # Issued                   : 2017-02-20T11:26:19
 # Modified                 : 2023-07-20T05:45:29
 # Rights                   : dl-by-de/2.0

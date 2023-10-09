@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Öffentliche Spielplätze München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/oeffentliche-spielplaetze-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1391
 # Title                    : Öffentliche Spielplätze in München
-# Description              : abcdefg
 # Issued                   : 2016-06-14T10:49:47
 # Modified                 : 2023-02-15T09:57:28
 # Rights                   : dl-by-de/2.0

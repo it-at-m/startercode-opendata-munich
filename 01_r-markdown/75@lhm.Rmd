@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Rohe Sterberate
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-rohe-sterberate-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 751
 # Title                    : Rohe Sterberate
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:02:35
 # Modified                 : 2023-07-28T06:29:37
 # Rights                   : dl-by-de/2.0

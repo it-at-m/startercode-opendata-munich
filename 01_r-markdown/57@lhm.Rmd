@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Landtagswahl 2023 - Wahlräume in München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/landtagswahl-2023-wahlraeume-in-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 571
 # Title                    : Wahlräume Landtagswahl 2023
-# Description              : abcdefg
 # Issued                   : 2023-08-08T13:31:54
 # Modified                 : 2023-08-08T13:36:35
 # Rights                   : dl-by-de/2.0

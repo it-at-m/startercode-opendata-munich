@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Monatszahlen Museen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-museen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1211
 # Title                    : Monatszahlen Museen
-# Description              : abcdefg
 # Issued                   : 2017-02-20T16:12:28
 # Modified                 : 2023-07-20T06:00:41
 # Rights                   : dl-by-de/2.0

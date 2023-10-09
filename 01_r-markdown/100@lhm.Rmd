@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1001
 # Title                    : Altersdurchschnitt
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:02:19
 # Modified                 : 2023-07-27T06:46:58
 # Rights                   : dl-by-de/2.0

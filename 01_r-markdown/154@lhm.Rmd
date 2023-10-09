@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Geburten in der München Klinik gGmbH
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/geburten-in-der-muenchen-klinik-ggmbh)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1541
 # Title                    : Geburten in der München Klinik gGmbh
-# Description              : abcdefg
 # Issued                   : 2022-12-12T14:51:19
 # Modified                 : 2022-12-12T14:51:19
 # Rights                   : dl-by-de/2.0

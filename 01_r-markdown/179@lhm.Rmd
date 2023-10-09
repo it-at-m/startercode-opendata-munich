@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Dezember 2017
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-dezember-2017)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1791
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Dezember 2017
-# Description              : abcdefg
 # Issued                   : 2018-09-20T10:33:16
 # Modified                 : 2018-09-20T08:33:16
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/77f13894-918e-481b-af7c-c
 # Distribution 1
 # Ktzhdistid               : 1792
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Dezember 2017
-# Description              : abcdefg
 # Issued                   : 2018-09-20T10:33:44
 # Modified                 : 2018-10-02T06:20:03
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Ergebnishaushalt der Landeshauptstadt München 2015
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2301
 # Title                    : Erträge und Aufwendungen 2015
-# Description              : abcdefg
 # Issued                   : 2015-05-26T08:07:49
 # Modified                 : 2015-09-29T08:57:28
 # Rights                   : dl-by-de/2.0

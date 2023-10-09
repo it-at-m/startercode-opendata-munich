@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Belegung Gewerbehöfe
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/belegung-gewerbehoefe)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1571
 # Title                    : Belegung Gewerbehöfe
-# Description              : abcdefg
 # Issued                   : 2022-12-12T16:36:24
 # Modified                 : 2022-12-12T16:36:24
 # Rights                   : dl-by-de/2.0

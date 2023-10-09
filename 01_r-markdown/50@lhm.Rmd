@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Arbeitsmarkt - Sozialversicherungspflichtig Beschäftigte
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 501
 # Title                    : Sozialversicherungspflichtig Beschäftigte
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:02:39
 # Modified                 : 2023-08-29T05:39:36
 # Rights                   : dl-by-de/2.0

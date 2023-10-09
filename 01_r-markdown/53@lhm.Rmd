@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Arbeitsmarkt - Erwerbsfähige
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-erwerbsfaehige-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 531
 # Title                    : Erwerbsfähige
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:03:11
 # Modified                 : 2023-08-29T05:28:06
 # Rights                   : dl-by-de/2.0

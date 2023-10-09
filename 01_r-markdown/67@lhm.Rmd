@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Verkehr - Erstzulassungsanteil Personenkraftwagen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 671
 # Title                    : Erstzulassungsanteil Personenkraftwagen
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:03:08
 # Modified                 : 2023-07-28T08:51:07
 # Rights                   : dl-by-de/2.0

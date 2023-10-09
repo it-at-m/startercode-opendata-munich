@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Frauen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-frauen-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 941
 # Title                    : Frauenanteil
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:02:27
 # Modified                 : 2023-07-27T07:35:21
 # Rights                   : dl-by-de/2.0

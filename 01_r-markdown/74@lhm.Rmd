@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Überalterungsquotient
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-ueberalterungsquotient-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 741
 # Title                    : Überalterungsquotient
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:04:51
 # Modified                 : 2023-07-28T06:31:55
 # Rights                   : dl-by-de/2.0

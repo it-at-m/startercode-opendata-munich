@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Bevölkerung Stadtbezirksteile München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung-stadtbezirksteile-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1721
 # Title                    : Hauptwohnsitzbevölkerung Stadtbezirksteile
-# Description              : abcdefg
 # Issued                   : 2018-03-27T09:48:22
 # Modified                 : 2018-03-27T07:48:22
 # Rights                   : dl-by-de/2.0

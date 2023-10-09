@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Januar 2018
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-januar-2018)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2261
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Januar 2018
-# Description              : abcdefg
 # Issued                   : 2018-09-10T12:42:15
 # Modified                 : 2018-09-10T10:42:15
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/261318dd-afd7-4bcf-b7fd-c
 # Distribution 1
 # Ktzhdistid               : 2262
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Januar  2018
-# Description              : abcdefg
 # Issued                   : 2018-09-10T12:42:41
 # Modified                 : 2018-09-10T10:42:41
 # Rights                   : dl-by-de/2.0

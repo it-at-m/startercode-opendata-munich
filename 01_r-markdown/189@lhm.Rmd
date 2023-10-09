@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München März 2021
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-maerz-2021)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1891
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München März 2021
-# Description              : abcdefg
 # Issued                   : 2021-04-23T17:25:12
 # Modified                 : 2021-04-23T15:25:12
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/b5a2c6f9-f42b-46f9-9bed-4
 # Distribution 1
 # Ktzhdistid               : 1892
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München März 2021
-# Description              : abcdefg
 # Issued                   : 2021-04-23T17:25:46
 # Modified                 : 2021-04-23T15:25:46
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Wohndauer München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-muenchen-83r65mct)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 721
 # Title                    : Wohndauer München
-# Description              : abcdefg
 # Issued                   : 2015-01-26T14:05:12
 # Modified                 : 2023-07-28T06:37:27
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Haushalte Alleinerziehend
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-alleinerziehend)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 901
 # Title                    : Haushalte Alleinerziehend
-# Description              : abcdefg
 # Issued                   : 2016-11-10T16:18:40
 # Modified                 : 2023-07-27T08:00:29
 # Rights                   : dl-by-de/2.0

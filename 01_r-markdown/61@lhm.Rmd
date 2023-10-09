@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Grundschüler*innen - Grundschüler*innen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-grundschueler-innen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 611
 # Title                    : Grundschüler*innen
-# Description              : abcdefg
 # Issued                   : 2023-07-28T08:34:30
 # Modified                 : 2023-07-28T08:34:30
 # Rights                   : dl-by-de/2.0

@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Müllsammelbehälter an der Isar
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/muellsammelbehaelter-an-der-isar)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 2351
 # Title                    : Müllsammelbehälter an der Isar
-# Description              : abcdefg
 # Issued                   : 2016-06-14T14:45:28
 # Modified                 : 2016-07-18T06:51:21
 # Rights                   : dl-by-de/2.0

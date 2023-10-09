@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Liste aller verfügbaren Onlinedienste der Landeshauptstadt München
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/liste-aller-verfuegbaren-onlinedienste-der-landeshauptstadt-muenchen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 621
 # Title                    : Liste aller verfügbaren Onlinedienste 
-# Description              : abcdefg
 # Issued                   : 2023-01-27T10:44:55
 # Modified                 : 2023-07-28T09:41:39
 # Rights                   : dl-by-de/2.0

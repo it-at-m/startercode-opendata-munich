@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München September 2017
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-september-2017)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1811
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München September 2017
-# Description              : abcdefg
 # Issued                   : 2018-09-20T08:18:56
 # Modified                 : 2018-09-20T06:18:56
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/01e93140-0509-42ae-8b7d-2
 # Distribution 1
 # Ktzhdistid               : 1812
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München September 2017
-# Description              : abcdefg
 # Issued                   : 2018-09-20T08:19:34
 # Modified                 : 2018-09-20T06:19:34
 # Rights                   : dl-by-de/2.0

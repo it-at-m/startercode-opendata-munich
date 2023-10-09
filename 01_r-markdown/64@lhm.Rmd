@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Baugenehmigungen
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-baugenehmigungen)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 641
 # Title                    : Baugenehmigungen
-# Description              : abcdefg
 # Issued                   : 2019-01-30T08:14:58
 # Modified                 : 2023-07-28T09:06:00
 # Rights                   : dl-by-de/2.0

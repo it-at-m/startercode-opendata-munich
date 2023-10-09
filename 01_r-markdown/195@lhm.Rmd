@@ -6,7 +6,7 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Dezember 2020
 
-abcdefg
+{{ DATASET_DESCRIPTION }}
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-dezember-2020)
 
@@ -43,7 +43,6 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1951
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Dezember 2020
-# Description              : abcdefg
 # Issued                   : 2021-01-12T18:19:10
 # Modified                 : 2021-01-12T17:19:10
 # Rights                   : dl-by-de/2.0
@@ -53,7 +52,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/0b275843-eccf-4d59-bbce-2
 # Distribution 1
 # Ktzhdistid               : 1952
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Dezember 2020
-# Description              : abcdefg
 # Issued                   : 2021-01-12T18:22:16
 # Modified                 : 2021-01-12T17:22:16
 # Rights                   : dl-by-de/2.0
