@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-10-09"
+output: html_document
+---
+
+## Dataset: Indikatorenatlas: Kinderbetreuung - Betreuungsangebot
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct)
+
+Auto generated R starter code for data set 41@lhm.
+
+## Metadata
+
+- **Issued** `2015-01-26T13:01:43`
+- **Modified** `2023-08-29T06:44:17`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Indikatorenatlas', 'Kinderbetreuung']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 411
+# Title                    : Betreuungsangebot
+# Description              : abcdefg
+# Issued                   : 2015-01-26T14:01:43
+# Modified                 : 2023-08-29T06:44:17
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/4c144e5f-6968-44e9-896c-04f7d488111f/resource/007510f2-a282-4edb-b5a3-7608e52f74a9/download/indikat_kinderbetreuung_betreuungsangebot_280823.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | 

@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-10-09"
+output: html_document
+---
+
+## Dataset: Blindenleitsystem Altstadt – Fußgängerzone
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/baut_blindenleitsystem_altstadt)
+
+Auto generated R starter code for data set 13@lhm.
+
+## Metadata
+
+- **Issued** `2023-08-10T09:14:14`
+- **Modified** `2023-09-26T01:00:11`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Verkehrswesen']`
+- **Publisher** `['baureferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/baut_blindenleitsystem_altstadt`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 133
+# Title                    : WFS (CSV)
+# Description              : abcdefg
+# Issued                   : 2023-09-26T01:00:14
+# Modified                 : 2023-09-26T01:00:14
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('http://geoportal.muenchen.de/geoserver/baut_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=baut_wfs:baut_blindenleitsystem_altstadt&amp;outputFormat=csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+BAU-TZ2 | Data Shop | geodaten.tz2.bau@muenchen.de

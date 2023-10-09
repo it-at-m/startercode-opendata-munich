@@ -1,0 +1,80 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-10-09"
+output: html_document
+---
+
+## Dataset: Indikatorenatlas: Grundschüler*innen - Staatsangehörigkeit
+
+abcdefg
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct)
+
+Auto generated R starter code for data set 69@lhm.
+
+## Metadata
+
+- **Issued** `2015-01-26T13:01:59`
+- **Modified** `2023-07-28T08:36:05`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Indikatorenatlas', 'Schule']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 691
+# Title                    : Staatsangehörigkeit
+# Description              : abcdefg
+# Issued                   : 2015-01-26T14:01:59
+# Modified                 : 2023-07-28T07:44:58
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/46216c4a-93cf-4bf4-aa50-ceaab3bcc6d3/resource/450a8be2-76b4-45f2-9c9f-1517db8beea5/download/indikat_grundschueler_innen_staatsangehoerigkeit_240723.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | 
