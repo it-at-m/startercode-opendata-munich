@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Ergebnishaushalt der Landeshauptstadt München 2015
+## Dataset: Bürgerterminals in München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/buergerterminals-muenchen)
 
 Auto generated R starter code for data set 230@lhm.
 
 ## Metadata
 
-- **Issued** `2015-05-26T06:07:08`
-- **Modified** `2018-04-25T10:28:37`
+- **Issued** `2020-12-16T08:50:30`
+- **Modified** `2020-12-16T15:36:50`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Haushalt']`
-- **Publisher** `['stadtkaemmerei']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen`
+- **Keyword** `['Online-Services', 'Onlinedienste', 'eID', 'nPA']`
+- **Publisher** `['it-referat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/buergerterminals-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 2301
-# Title                    : Erträge und Aufwendungen 2015
-# Issued                   : 2015-05-26T08:07:49
-# Modified                 : 2015-09-29T08:57:28
+# Title                    : Bürgerterminals
+# Issued                   : 2020-12-16T09:51:11
+# Modified                 : 2020-12-16T08:59:12
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/19c72eb4-e366-4500-8c82-55317528ab2a/resource/ebf70422-9f3e-40ca-bf52-c4cbe4c4225c/download/150929baumertragaufwandbearb.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4d068be7-6f96-4bd8-adda-9e57da03968c/resource/39f8a4c9-31ad-45b9-b03d-cf96798ef09c/download/burgerterminalsv6.0.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Stadtkämmerei Landeshauptstadt München | Data Shop | egovernment@muenchen.de
+eoGov Projekt | Data Shop | 

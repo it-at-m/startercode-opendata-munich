@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen KFZ-Erstzulassungen
+## Dataset: Monatszahlen Museen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-neuzulassungen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-museen)
 
 Auto generated R starter code for data set 123@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T13:28:50`
-- **Modified** `2023-07-20T05:59:20`
+- **Issued** `2017-02-20T15:12:12`
+- **Modified** `2023-07-20T06:00:50`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kfz-neuzulassungen`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-museen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1231
-# Title                    : Monatszahlen KFZ-Erstzulassungen
-# Issued                   : 2022-11-25T09:21:42
-# Modified                 : 2023-07-20T05:59:01
+# Title                    : Monatszahlen Museen
+# Issued                   : 2017-02-20T16:12:28
+# Modified                 : 2023-07-20T06:00:41
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/077ced32-8d10-44ba-81b5-719925980f90/resource/838406bb-dc0d-4a28-b276-ee80123a3dfa/download/monatszahlen2307_kfz-erstzulassungen_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/bfb4a286-bea5-4bfe-82ce-b9bd354284a5/resource/6c6a809e-91ee-4f3e-9268-a8b7bc38311c/download/monatszahlen2307_museen_10_07_23_nosum.csv')
 
 
 

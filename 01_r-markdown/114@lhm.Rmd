@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Wirtschaft
+## Dataset: Indikatorenatlas: Bevölkerung - Allgemeine Geburtenrate
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-wirtschaft)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-allgemeine-geburtenrate-83r65mct)
 
 Auto generated R starter code for data set 114@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T10:44:19`
-- **Modified** `2023-07-20T06:06:52`
+- **Issued** `2015-01-26T13:06:03`
+- **Modified** `2023-07-27T05:51:10`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Monatszahlen']`
+- **Keyword** `['Bevölkerung', 'Geburten', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-wirtschaft`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-allgemeine-geburtenrate-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1141
-# Title                    : Monatszahlen Wirtschaft
-# Issued                   : 2017-02-20T11:44:32
-# Modified                 : 2023-07-20T06:05:59
+# Title                    : Allgemeine Geburtenrate
+# Issued                   : 2015-01-26T14:06:03
+# Modified                 : 2023-07-27T05:45:27
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/daeaf20a-9e7c-4e68-8a97-175242d43c7f/resource/cdf75551-993c-4410-8621-2709400629eb/download/monatszahlen2307_wirtschaft_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/19069abf-d64c-4d66-bd09-16c00d692796/resource/7d3e34f6-1cd1-4c72-b1e7-42da80d50d63/download/indikat_bevoelkerung_allgemeine_geburtenrate_240723.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | stat.dir@muenchen.de
+Statistisches Amt | Data Shop | 

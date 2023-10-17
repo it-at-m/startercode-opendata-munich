@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Witterung
+## Dataset: Monatszahlen Soziale Leistungen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-witterung)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-soziale-leistungen)
 
 Auto generated R starter code for data set 120@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-21T14:59:41`
-- **Modified** `2023-07-20T06:01:30`
+- **Issued** `2017-02-20T10:39:38`
+- **Modified** `2023-07-20T06:02:59`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-witterung`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-soziale-leistungen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1201
-# Title                    : Monatszahlen Witterung
-# Issued                   : 2017-02-21T15:59:53
-# Modified                 : 2023-07-20T06:01:19
+# Title                    : Monatszahlen Soziale Leistungen
+# Issued                   : 2017-02-20T11:39:58
+# Modified                 : 2023-07-20T06:02:49
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/d7e42935-8884-40d3-9284-096d9cafecdd/resource/64c8c183-7fd0-4b29-9958-4169d22ee883/download/monatszahlen2307_witterung_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/145a8fcf-5fdf-4fb2-98c3-436b6adbd847/resource/bee7fdb6-7333-4c21-a3a7-d2fb96f61dfe/download/monatszahlen2307_soziale-leistungen_10_07_23_nosum.csv')
 
 
 

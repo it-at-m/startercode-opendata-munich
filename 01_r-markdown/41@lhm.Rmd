@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Kinderbetreuung - Betreuungsangebot
+## Dataset: Indikatorenatlas: Kinderbetreuung - Altersgruppen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-altersgruppen)
 
 Auto generated R starter code for data set 41@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:01:43`
-- **Modified** `2023-08-29T06:44:17`
+- **Issued** `2016-11-17T10:38:30`
+- **Modified** `2023-08-29T06:45:06`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Indikatorenatlas', 'Kinderbetreuung']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-altersgruppen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 411
-# Title                    : Betreuungsangebot
-# Issued                   : 2015-01-26T14:01:43
-# Modified                 : 2023-08-29T06:44:17
+# Title                    : Altersgruppen
+# Issued                   : 2016-11-17T11:39:39
+# Modified                 : 2023-08-29T06:45:06
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4c144e5f-6968-44e9-896c-04f7d488111f/resource/007510f2-a282-4edb-b5a3-7608e52f74a9/download/indikat_kinderbetreuung_betreuungsangebot_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a59648f3-dded-45fc-9c59-6e2df1e419f4/resource/9b007818-e34d-4349-aa1f-7c85fc121e24/download/indikat_kinderbetreuung_altersgruppen_280823.csv')
 
 
 

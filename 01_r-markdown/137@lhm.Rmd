@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Hallensportprogramm
+## Dataset: B + R Anlagen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/hallensportprogramm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/b-r-anlagen)
 
 Auto generated R starter code for data set 137@lhm.
 
 ## Metadata
 
-- **Issued** `2023-03-07T06:33:58`
-- **Modified** `2023-03-10T07:32:14`
+- **Issued** `2022-11-15T07:22:12`
+- **Modified** `2023-04-12T12:51:46`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Sport', 'Stadtratsauftrag']`
-- **Publisher** `['referat-fur-bildung-und-sport']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/hallensportprogramm`
+- **Keyword** `['Fahrrad', 'Stadtratsauftrag']`
+- **Publisher** `['p-r-park-ride-gmbh-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/b-r-anlagen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1371
-# Title                    : Hallensportprogramm
-# Issued                   : 2023-03-07T06:35:55
-# Modified                 : 2023-03-07T06:35:55
+# Title                    : B+R Anlagen Übersicht
+# Issued                   : 2022-11-15T07:23:13
+# Modified                 : 2023-04-12T12:51:46
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/2e8a06d3-3b9d-4a4f-a19d-bc9bb74db160/resource/c242c94b-4d18-4259-90a5-7e474179de47/download/opendata_hallenprogramm_2022_2023.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/3746194a-164b-46c4-8fc7-367a83833a9d/resource/aba62755-1a22-4fa8-a371-3629b6b39e39/download/br-anlagen-uebersicht-stand-03-2023-mit-koordinaten.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-freizeitsport@muenchen.de | Data Shop | 
+ | Data Shop | 

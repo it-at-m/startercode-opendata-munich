@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Altenquotient
+## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Gesamt
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-altenquotient-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-gesamt-83r65mct)
 
 Auto generated R starter code for data set 110@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:10`
-- **Modified** `2023-07-27T05:58:41`
+- **Issued** `2015-01-26T13:03:15`
+- **Modified** `2023-07-27T06:03:41`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Alter', 'Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-altenquotient-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-gesamt-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1101
-# Title                    : Altenquotient
-# Issued                   : 2015-01-26T14:02:11
-# Modified                 : 2023-07-27T05:54:39
+# Title                    : Außenwanderungsziffer Gesamt
+# Issued                   : 2015-01-26T14:03:16
+# Modified                 : 2023-07-27T06:03:19
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4d161816-0583-4713-8048-9ada492ecfae/resource/0a471ad2-0e4e-4a6b-815d-b461253a9ee2/download/indikat_bevoelkerung_altenquotient_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/11a5b37f-9e59-41eb-a857-1ae0ebc743ac/resource/951b196b-9965-4a84-a9fc-93feffcdc6dd/download/indikat_bevoelkerung_aussenwanderungsziffer_240723.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten der Raddauerzählstellen München Februar 2021
+## Dataset: Daten der Raddauerzählstellen München Juli 2021
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2021)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juli-2021)
 
 Auto generated R starter code for data set 193@lhm.
 
 ## Metadata
 
-- **Issued** `2021-03-05T15:14:48`
-- **Modified** `2021-09-27T12:01:22`
+- **Issued** `2021-08-27T06:34:21`
+- **Modified** `2021-09-27T12:09:31`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2021']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2021`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juli-2021`
 
 
 # Load packages
@@ -40,21 +40,21 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1931
-# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Februar 2021
-# Issued                   : 2021-03-05T16:16:43
-# Modified                 : 2021-03-05T15:16:43
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Juli 2021
+# Issued                   : 2021-08-27T06:35:29
+# Modified                 : 2021-08-27T06:35:29
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/13bfd8d0-a4bb-4e90-b4b3-75248f46ab4c/resource/8e509be2-ddfc-41f0-ba3f-f4c2228d041e/download/rad20210215min.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/f181e547-f8dc-4a71-a8f9-0e67460f6b49/resource/62bea560-e1d2-40df-826d-87dbfd36870d/download/rad_2021_07_15min.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1932
-# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Februar 2021
-# Issued                   : 2021-03-05T16:17:38
-# Modified                 : 2021-03-08T08:38:28
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Juli 2021
+# Issued                   : 2021-08-27T06:36:16
+# Modified                 : 2021-08-27T06:36:15
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/13bfd8d0-a4bb-4e90-b4b3-75248f46ab4c/resource/52ce7abb-4410-47a4-8b1c-812e7387bccc/download/rad202102tage.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/f181e547-f8dc-4a71-a8f9-0e67460f6b49/resource/24595cd7-056f-4a52-831b-2878c9937912/download/rad_2021_07_tage.csv')
 
 
 

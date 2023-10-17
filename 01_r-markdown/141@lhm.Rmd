@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Vornamen von Neugeborenen
+## Dataset: Öffentliche Spielplätze München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vornamen-von-neugeborenen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/oeffentliche-spielplaetze-muenchen)
 
 Auto generated R starter code for data set 141@lhm.
 
 ## Metadata
 
-- **Issued** `2022-08-04T11:00:00`
-- **Modified** `2023-01-27T08:26:48`
+- **Issued** `2016-06-14T08:47:57`
+- **Modified** `2023-02-15T10:04:51`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['München', 'Vornamen']`
-- **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/vornamen-von-neugeborenen`
+- **Keyword** `['Isar', 'Spielen', 'Stadtratsauftrag']`
+- **Publisher** `['baureferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/oeffentliche-spielplaetze-muenchen`
 
 
 # Load packages
@@ -33,100 +33,19 @@ library(skimr)
 
 # Load data
 
--   The dataset has 10 distribution(s) in CSV format.
+-   The dataset has 1 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
 # Distribution 0
 # Ktzhdistid               : 1411
-# Title                    : Vornamen 2013
-# Issued                   : 2023-01-25T09:15:48
-# Modified                 : 2023-01-25T09:15:48
+# Title                    : Öffentliche Spielplätze in München
+# Issued                   : 2016-06-14T10:49:47
+# Modified                 : 2023-02-15T09:57:28
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/17c4915d-6b8b-470f-a6b6-31f61b10a285/download/vornamen_2013.csv')
-
-# Distribution 1
-# Ktzhdistid               : 1412
-# Title                    : Vornamen 2014
-# Issued                   : 2023-01-25T09:16:41
-# Modified                 : 2023-01-25T09:16:41
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/5d581ba3-4c7e-4057-8be1-04d56bb0d8d6/download/vornamen_2014.csv')
-
-# Distribution 2
-# Ktzhdistid               : 1413
-# Title                    : Vornamen 2015
-# Issued                   : 2023-01-25T09:19:24
-# Modified                 : 2023-01-25T09:19:24
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/c11e8fef-94c8-4e16-a769-70dc6b98b69b/download/vornamen_2015.csv')
-
-# Distribution 3
-# Ktzhdistid               : 1414
-# Title                    : Vornamen 2016
-# Issued                   : 2023-01-25T09:21:20
-# Modified                 : 2023-01-25T09:21:20
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/6655ec3c-251a-4a5e-9a57-d60c4ad59ca3/download/vornamen2016.csv')
-
-# Distribution 4
-# Ktzhdistid               : 1415
-# Title                    : Vornamen 2017
-# Issued                   : 2023-01-25T09:21:49
-# Modified                 : 2023-01-25T09:21:49
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/2c70d289-8b1a-4071-9739-866c5e532b77/download/vornamen2017.csv')
-
-# Distribution 5
-# Ktzhdistid               : 1416
-# Title                    : Vornamen 2018
-# Issued                   : 2023-01-25T09:22:23
-# Modified                 : 2023-01-25T09:22:23
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/23fdd53e-485a-46bd-abb6-d7a51b2ebb18/download/vornamen_2018.csv')
-
-# Distribution 6
-# Ktzhdistid               : 1417
-# Title                    : Vornamen 2019
-# Issued                   : 2023-01-25T09:23:25
-# Modified                 : 2023-01-25T09:23:25
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/523d5860-25eb-4bea-96e3-193d1dacfb8f/download/vornamen2019.csv')
-
-# Distribution 7
-# Ktzhdistid               : 1418
-# Title                    : Vornamen 2020
-# Issued                   : 2023-01-25T09:24:00
-# Modified                 : 2023-01-25T09:24:00
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/48a4c5fd-f5f2-4c0c-bcb3-222fd9ebda67/download/vornamen_2020.csv')
-
-# Distribution 8
-# Ktzhdistid               : 1419
-# Title                    : Vornamen 2021
-# Issued                   : 2023-01-25T09:24:38
-# Modified                 : 2023-01-25T09:24:38
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/dc6170db-f7f4-4bdc-b790-13df55f0cf64/download/vornamen_2021.csv')
-
-# Distribution 9
-# Ktzhdistid               : 1420
-# Title                    : Vornamen 2022
-# Issued                   : 2023-01-26T16:37:07
-# Modified                 : 2023-01-26T16:37:07
-# Rights                   : dl-by-de/2.0
-
-df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/5f11d3a0-4779-4f64-b113-b59326e6d839/download/open_data_portal_2022.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/0760ce3a-fef8-43e4-888f-8cc92fdf56de/resource/845ce3bd-ea80-4623-b51d-a30680175c22/download/spielplaetze_2b_2.csv')
 
 
 
@@ -155,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | 
+eoGovernment Projekt Landeshauptstadt München | Data Shop | j-spartenanfrage.bau@muenchen.de

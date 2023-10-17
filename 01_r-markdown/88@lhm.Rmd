@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Haushalte Staatsangehörigkeit
+## Dataset: Indikatorenatlas: Bevölkerung - Innerräumliche Umzugsziffer
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-staatsangehoerigkeit-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-innerraeumliche-umzugsziffer-83r65mct)
 
 Auto generated R starter code for data set 88@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:42`
-- **Modified** `2023-07-28T05:30:44`
+- **Issued** `2015-01-26T13:03:24`
+- **Modified** `2023-07-28T05:35:17`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-staatsangehoerigkeit-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-innerraeumliche-umzugsziffer-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 881
-# Title                    : Haushalte Staatsangehörigkeit
-# Issued                   : 2015-01-26T14:03:42
-# Modified                 : 2023-07-28T05:29:53
+# Title                    : Innerräumliche Umzugsziffer
+# Issued                   : 2015-01-26T14:03:24
+# Modified                 : 2023-07-28T05:35:17
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/bae1ebcc-ee1f-4ab6-a418-6491983efa58/resource/dbbe1d43-350b-4a75-a598-f09fa6366d35/download/indikat_bevoelkerung_haushalte_staatsangehoerigkeit_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/aaadce44-d57e-4434-955f-5b25d76287ce/resource/b37dffa3-9663-43c9-ba68-bf1e04198aeb/download/indikat_bevoelkerung_innerraeumliche_umzugsziffer_240723.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten der Raddauerzählstellen München Februar 2017
+## Dataset: Daten der Raddauerzählstellen München Juli 2017
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2017)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juli-2017)
 
 Auto generated R starter code for data set 185@lhm.
 
 ## Metadata
 
-- **Issued** `2018-09-19T08:09:43`
-- **Modified** `2021-09-27T12:23:46`
+- **Issued** `2018-09-19T12:50:27`
+- **Modified** `2021-09-27T14:01:27`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2017']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2017`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juli-2017`
 
 
 # Load packages
@@ -40,21 +40,21 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1851
-# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Februar 2017
-# Issued                   : 2018-09-19T10:10:30
-# Modified                 : 2018-09-19T08:10:30
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Juli 2017
+# Issued                   : 2018-09-19T14:51:17
+# Modified                 : 2018-09-19T12:51:17
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4def19b1-7b05-4a0c-ad6d-0d1061e88038/resource/66ab7797-e225-4f20-9dfd-efa1f984fb7d/download/rad201702tage.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/58d3ec0a-240a-4863-8b8a-0f7b6989a9cf/resource/19a4a6f0-946c-4cd4-a8ba-d5cf5f48ce49/download/rad20170715min.csv')
 
 # Distribution 1
 # Ktzhdistid               : 1852
-# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Februar 2017
-# Issued                   : 2018-09-19T10:11:00
-# Modified                 : 2018-09-19T08:11:00
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Juli 2017
+# Issued                   : 2018-09-19T14:51:52
+# Modified                 : 2018-09-19T12:51:52
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4def19b1-7b05-4a0c-ad6d-0d1061e88038/resource/3c367280-32de-4598-8352-4b2d780214c6/download/rad20170215min.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/58d3ec0a-240a-4863-8b8a-0f7b6989a9cf/resource/44e7e8f6-b088-4a4c-9173-5b90240c0924/download/rad201707tage.csv')
 
 
 

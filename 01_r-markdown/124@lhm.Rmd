@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen KFZ-Bestand
+## Dataset: Monatszahlen Kinos
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kinos)
 
 Auto generated R starter code for data set 124@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T13:19:29`
-- **Modified** `2023-07-20T05:58:26`
+- **Issued** `2017-02-21T14:56:53`
+- **Modified** `2023-07-20T05:59:57`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kinos`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1241
-# Title                    : Monatszahlen KFZ-Bestand
-# Issued                   : 2017-02-20T14:20:03
-# Modified                 : 2023-07-20T05:57:55
+# Title                    : Monatszahlen Kinos
+# Issued                   : 2017-02-21T15:57:05
+# Modified                 : 2023-07-20T05:59:47
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/0171c878-0054-495d-b4f8-1947f46dc74a/resource/b21b2744-b54e-4f11-825e-619431fee648/download/monatszahlen2307_kfz-bestand_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4b251c31-fd98-4475-88bc-e0504cbc725b/resource/ca564678-4049-4a99-9e0d-b16806557476/download/monatszahlen2307_kinos_10_07_23_nosum.csv')
 
 
 

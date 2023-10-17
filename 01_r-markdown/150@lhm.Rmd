@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM
+## Dataset: Schuldenstand Hoheitshaushalt LHM
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bilanzsumme-eigenkapital-und-eigenkapital-quote-lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm)
 
 Auto generated R starter code for data set 150@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:49:44`
-- **Modified** `2022-12-12T17:06:13`
+- **Issued** `2022-11-15T07:52:02`
+- **Modified** `2022-12-12T17:06:41`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Finanzen', 'Haushalt', 'Stadtratsauftrag']`
 - **Publisher** `['stadtkaemmerei']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/bilanzsumme-eigenkapital-und-eigenkapital-quote-lhm`
+- **Landingpage** `https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1501
-# Title                    : Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM 
-# Issued                   : 2022-11-15T07:50:25
-# Modified                 : 2022-11-15T07:50:25
+# Title                    : Schuldenstand Hoheitshaushalt LHM
+# Issued                   : 2022-11-15T07:52:38
+# Modified                 : 2022-11-15T07:52:38
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/60944910-30fe-4f26-9be2-17f692579d4c/resource/09e17132-2a74-4f83-bcce-cee366fd3328/download/open_data_bilanzsumme_ek_2021_stand-25.10.2022.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/f650123e-d1a4-46d5-9d0a-43b5bbfd4502/resource/e34bcccf-6fe0-45a5-be4d-e08feb4acc6e/download/03_ska_schuldenstand.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Radverkehrsanlagen im Straßenunterhalt der Landeshauptstadt München
+## Dataset: Daten der Raddauerzählstellen München Dezember 2021
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/radverkehrsanlagen-im-strassenunterhalt-der-landeshauptstadt-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzahlstellen-munchen-dezember-2021)
 
 Auto generated R starter code for data set 162@lhm.
 
 ## Metadata
 
-- **Issued** `2022-06-14T05:28:08`
-- **Modified** `2022-06-14T05:51:00`
+- **Issued** `2022-01-24T06:08:21`
+- **Modified** `2022-07-21T08:53:44`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Fahrrad', 'Fahrradweg', 'Rad', 'Radverkehr', 'Radweg']`
-- **Publisher** `['baureferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/radverkehrsanlagen-im-strassenunterhalt-der-landeshauptstadt-muenchen`
+- **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2021']`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzahlstellen-munchen-dezember-2021`
 
 
 # Load packages
@@ -33,19 +33,28 @@ library(skimr)
 
 # Load data
 
--   The dataset has 1 distribution(s) in CSV format.
+-   The dataset has 2 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1622
-# Title                    : Radwege CSV-Datei
-# Issued                   : 2022-06-14T05:32:48
-# Modified                 : 2022-06-14T05:45:41
+# Ktzhdistid               : 1621
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Dezember 2021
+# Issued                   : 2022-01-24T06:09:19
+# Modified                 : 2022-01-24T06:09:19
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/7ad3bc6c-4c1a-4a63-9cb2-0d613f5b69fa/resource/14977232-94f3-4cdb-94fc-1e709698ba3f/download/radwege_t2.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/52f49094-6a0b-4db8-88a8-83d0764bb963/resource/43e5cbff-ee71-4999-87fc-33fc89d5a18f/download/rad_2021_12_15min.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1622
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Dezember 2021
+# Issued                   : 2022-01-24T06:11:03
+# Modified                 : 2022-01-24T06:11:03
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/52f49094-6a0b-4db8-88a8-83d0764bb963/resource/d59c8486-ce97-4516-96f6-7e816eea5eb9/download/rad_2021_12_tage.csv')
 
 
 
@@ -74,4 +83,4 @@ tail(df)
 
 # Questions about the data?
 
-Baureferat | Data Shop | 
+Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 

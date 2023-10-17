@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Mobilitätsziffer
+## Dataset: Indikatorenatlas: Bevölkerung - Natürlicher Saldo
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-mobilitaetsziffer-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-natuerlicher-saldo-83r65mct)
 
 Auto generated R starter code for data set 82@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:01:55`
-- **Modified** `2023-07-28T05:47:36`
+- **Issued** `2015-01-26T13:05:01`
+- **Modified** `2023-07-28T06:12:40`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-mobilitaetsziffer-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-natuerlicher-saldo-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 821
-# Title                    : Mobilitätsziffer
-# Issued                   : 2015-01-26T14:01:56
-# Modified                 : 2023-07-28T05:47:36
+# Title                    : Natürlicher Saldo 
+# Issued                   : 2015-01-26T14:05:01
+# Modified                 : 2023-07-28T06:12:40
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/80774e31-aa60-492b-8900-fd09179371f5/resource/cd6f8183-e559-4864-8545-8062e2f867d7/download/indikat_bevoelkerung_mobilitaetsziffer_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/5ccc1322-41c7-4b40-b504-20f558bf6722/resource/e2bd77e9-a3cd-4d4d-98ca-4457f7d18232/download/indikat_bevoelkerung_natuerlicher_saldo_240723.csv')
 
 
 

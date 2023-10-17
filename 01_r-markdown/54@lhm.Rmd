@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - Arbeitslose
+## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte - erwerbsfähig - Anteil
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslose-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig-anteil-83r65mct)
 
 Auto generated R starter code for data set 54@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:21`
-- **Modified** `2023-08-29T05:17:25`
+- **Issued** `2015-01-26T13:04:30`
+- **Modified** `2023-08-29T05:28:58`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Arbeitslosigkeit', 'Arbeitsmarkt', 'Indikatorenatlas']`
+- **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslose-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig-anteil-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 541
-# Title                    : Arbeitslose
-# Issued                   : 2015-01-26T14:05:22
-# Modified                 : 2023-08-29T05:17:25
+# Title                    : (Regel-)Leistungsberechtigte - erwerbsfähig - Anteil 
+# Issued                   : 2015-01-26T14:04:31
+# Modified                 : 2023-08-29T05:28:58
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4bed747e-a771-4f0d-a3a7-8aa9f78c95f3/resource/0f0ea161-c152-41a0-87da-35c737b66923/download/indikat_arbeitsmarkt_arbeitslose_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/3f96b979-7e2a-419d-98bd-b048f40c9606/resource/99ebf331-46af-4a72-83aa-e9bab6de02bc/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_-_erwerbsfaehig_-_anteil_280823.csv')
 
 
 

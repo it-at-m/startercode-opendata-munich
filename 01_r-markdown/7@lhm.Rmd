@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Fahrradstraßen
+## Dataset: Radentscheidmaßnahmen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_fahrradstrassen_line)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_radentscheid_line)
 
 Auto generated R starter code for data set 7@lhm.
 
 ## Metadata
 
-- **Issued** `2023-03-14T14:38:23`
-- **Modified** `2023-09-26T01:00:24`
+- **Issued** `2023-09-12T01:00:08`
+- **Modified** `2023-10-17T01:00:32`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Planungsunterlagen Kataster', 'infoMapAccessService']`
+- **Keyword** `['Digitaler Zwilling München', 'Karte', 'Radentscheid', 'infoMapAccessService']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/opendata_fahrradstrassen_line`
+- **Landingpage** `https://opendata.muenchen.de/dataset/opendata_radentscheid_line`
 
 
 # Load packages
@@ -39,13 +39,13 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 73
+# Ktzhdistid               : 75
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:25
-# Modified                 : 2023-09-26T01:00:25
+# Issued                   : 2023-10-17T01:00:32
+# Modified                 : 2023-10-17T01:00:32
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/mor_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=mor_wfs:opendata_fahrradstrassen_line&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/mor_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=mor_wfs:opendata_radentscheid_line&amp;outputFormat=csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-MOR-GB1.43 | Data Shop | gb1-43.mor@muenchen.de
+MOR-GB1.43 | Data Shop | gis.mor@muenchen.de

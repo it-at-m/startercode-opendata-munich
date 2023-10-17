@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Radschnellverbindungen
+## Dataset: Lastenradparken
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_radschnellverb_line)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_ruhver_lastenradparken_line)
 
 Auto generated R starter code for data set 16@lhm.
 
 ## Metadata
 
-- **Issued** `2023-03-14T14:38:23`
-- **Modified** `2023-09-26T01:00:11`
+- **Issued** `2023-08-02T13:23:50`
+- **Modified** `2023-10-17T01:00:18`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Planungsunterlagen Kataster', 'infoMapAccessService']`
+- **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Service']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/opendata_radschnellverb_line`
+- **Landingpage** `https://opendata.muenchen.de/dataset/opendata_ruhver_lastenradparken_line`
 
 
 # Load packages
@@ -41,11 +41,11 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 163
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:14
-# Modified                 : 2023-09-26T01:00:14
+# Issued                   : 2023-10-17T01:00:21
+# Modified                 : 2023-10-17T01:00:21
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/mor_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=mor_wfs:opendata_radschnellverb_line&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/mor_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=mor_wfs:opendata_ruhver_lastenradparken_line&amp;outputFormat=csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-MOR-GB1.43 | Data Shop | gb1-43.mor@muenchen.de
+MOR | Data Shop | gis.mor@muenchen.de

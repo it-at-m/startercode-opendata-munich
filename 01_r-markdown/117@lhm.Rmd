@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Theater
+## Dataset: Monatszahlen Verkehrsunfälle
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-theater)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-verkehrsunfaelle)
 
 Auto generated R starter code for data set 117@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-21T14:49:57`
-- **Modified** `2023-07-20T06:04:18`
+- **Issued** `2017-02-20T15:03:38`
+- **Modified** `2023-07-20T06:05:33`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-theater`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-verkehrsunfaelle`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1171
-# Title                    : Monatszahlen Theater
-# Issued                   : 2017-02-21T15:51:19
-# Modified                 : 2023-07-20T06:03:36
+# Title                    : Monatszahlen Verkehrsunfälle
+# Issued                   : 2017-02-20T16:03:59
+# Modified                 : 2023-07-20T06:05:23
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/dacf1009-8933-4cdf-8c9d-40afd54e4ef7/resource/eb734a10-3b0a-4421-ae1d-4226f9409538/download/monatszahlen2307_theater_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/5e73a82b-7cfb-40cc-9b30-45fe5a3fa24e/resource/40094bd6-f82d-4979-949b-26c8dc00b9a7/download/monatszahlen2307_verkehrsunfaelle_10_07_23_nosum.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: B + R Anlagen
+## Dataset: Daten der Raddauerzählstellen München - Jahreszahlen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/b-r-anlagen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-jahreszahlen)
 
 Auto generated R starter code for data set 135@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:22:12`
-- **Modified** `2023-04-12T12:51:46`
+- **Issued** `2023-01-26T14:19:20`
+- **Modified** `2023-06-22T09:39:00`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Fahrrad', 'Stadtratsauftrag']`
-- **Publisher** `['p-r-park-ride-gmbh-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/b-r-anlagen`
+- **Keyword** `['Fahrrad', 'Rad', 'Raddauerzählstellen']`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-jahreszahlen`
 
 
 # Load packages
@@ -33,19 +33,280 @@ library(skimr)
 
 # Load data
 
--   The dataset has 1 distribution(s) in CSV format.
+-   The dataset has 30 distribution(s) in CSV format.
 -   All available CSV distributions are listed below and can be read into a tibble.
 
 ```{r}
 
 # Distribution 0
 # Ktzhdistid               : 1351
-# Title                    : B+R Anlagen Übersicht
-# Issued                   : 2022-11-15T07:23:13
-# Modified                 : 2023-04-12T12:51:46
+# Title                    : 15 Minuten Werte 2008
+# Issued                   : 2023-02-16T10:36:03
+# Modified                 : 2023-06-22T06:09:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/3746194a-164b-46c4-8fc7-367a83833a9d/resource/aba62755-1a22-4fa8-a371-3629b6b39e39/download/br-anlagen-uebersicht-stand-03-2023-mit-koordinaten.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/66be7619-a672-4382-bf88-e3688c5abc2b/download/rad_2008_15min_06_06_23_r.csv')
+
+# Distribution 1
+# Ktzhdistid               : 1352
+# Title                    : Tageswerte Wetter 2008
+# Issued                   : 2023-02-16T10:34:48
+# Modified                 : 2023-06-21T14:24:01
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/53ef8c4b-d411-477f-9cf3-b044a4c1aaaa/download/rad_2008_tage_19_06_23_r.csv')
+
+# Distribution 2
+# Ktzhdistid               : 1353
+# Title                    : 15 Minuten Werte 2009
+# Issued                   : 2023-02-16T10:37:37
+# Modified                 : 2023-06-22T06:18:31
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/3ef8aad9-a6b0-4c97-a6b7-8c3a63226b37/download/rad_2009_15min_06_06_23_r.csv')
+
+# Distribution 3
+# Ktzhdistid               : 1354
+# Title                    : Tageswerte Wetter 2009
+# Issued                   : 2023-02-16T10:34:26
+# Modified                 : 2023-06-21T14:45:35
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/89dbef6c-c6cb-4bfc-8729-93049e91223d/download/rad_2009_tage_19_06_23_r.csv')
+
+# Distribution 4
+# Ktzhdistid               : 1355
+# Title                    : 15 Minuten Werte 2010
+# Issued                   : 2023-02-16T10:39:22
+# Modified                 : 2023-06-22T06:23:29
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/6558a5f9-2c96-4e4b-985d-8eb99b7b73b1/download/rad_2010_15min_06_06_23_r.csv')
+
+# Distribution 5
+# Ktzhdistid               : 1356
+# Title                    : Tageswerte Wetter 2010
+# Issued                   : 2023-02-16T10:34:02
+# Modified                 : 2023-06-21T14:46:34
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/cb720004-bcde-4c0e-babf-64ee995c5232/download/rad_2010_tage_19_06_23_r.csv')
+
+# Distribution 6
+# Ktzhdistid               : 1357
+# Title                    : 15 Minuten Werte 2011
+# Issued                   : 2023-02-16T10:43:11
+# Modified                 : 2023-06-22T06:28:05
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/86962013-4854-4deb-aaf9-36e3770cde24/download/rad_2012_15min_06_06_23_r.csv')
+
+# Distribution 7
+# Ktzhdistid               : 1358
+# Title                    : Tageswerte Wetter 2011
+# Issued                   : 2023-02-16T10:33:32
+# Modified                 : 2023-06-21T14:46:58
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/8c752f92-2cb3-4765-aecf-bda349592ab2/download/rad_2011_tage_19_06_23_r.csv')
+
+# Distribution 8
+# Ktzhdistid               : 1359
+# Title                    : 15 Minuten Werte 2012
+# Issued                   : 2023-02-16T10:45:39
+# Modified                 : 2023-06-22T06:31:20
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/ff5d2ebf-dde6-4f21-9c68-2aab74addeec/download/rad_2012_15min_06_06_23_r.csv')
+
+# Distribution 9
+# Ktzhdistid               : 1360
+# Title                    : Tageswerte Wetter 2012
+# Issued                   : 2023-02-16T10:32:54
+# Modified                 : 2023-06-21T14:47:20
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/7304e087-e02d-4ca1-b4da-5c46b27fa223/download/rad_2012_tage_19_06_23_r.csv')
+
+# Distribution 10
+# Ktzhdistid               : 1361
+# Title                    : 15 Minuten Werte 2013
+# Issued                   : 2023-02-10T15:55:12
+# Modified                 : 2023-06-22T06:34:29
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/9f4f798f-0ad1-4e86-8157-15c5e46eaf91/download/rad_2013_15min_06_06_23_r.csv')
+
+# Distribution 11
+# Ktzhdistid               : 1362
+# Title                    : Tageswerte Wetter 2013
+# Issued                   : 2023-02-10T16:03:27
+# Modified                 : 2023-06-21T14:47:45
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/e281aac1-c476-48da-84ce-2bf52bf20a08/download/rad_2013_tage_19_06_23_r.csv')
+
+# Distribution 12
+# Ktzhdistid               : 1363
+# Title                    : 15 Minuten Werte 2014
+# Issued                   : 2023-02-10T15:50:02
+# Modified                 : 2023-06-22T06:37:17
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/784b925b-1d5f-43d3-8353-fd5d02fc7c53/download/rad_2014_15min_06_06_23_r.csv')
+
+# Distribution 13
+# Ktzhdistid               : 1364
+# Title                    : Tageswerte Wetter 2014
+# Issued                   : 2023-02-10T15:47:45
+# Modified                 : 2023-06-21T14:48:37
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/b78e7a05-33a5-422c-98fa-27c5cf9afe81/download/rad_2014_tage_19_06_23_r.csv')
+
+# Distribution 14
+# Ktzhdistid               : 1365
+# Title                    : 15 Minuten Werte 2015
+# Issued                   : 2023-02-10T15:33:56
+# Modified                 : 2023-06-22T06:39:56
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/d6b3a72c-b180-40a0-a2ab-d97040737f20/download/rad_2015_15min_06_06_23_r.csv')
+
+# Distribution 15
+# Ktzhdistid               : 1366
+# Title                    : Tageswerte Wetter 2015
+# Issued                   : 2023-02-10T15:38:34
+# Modified                 : 2023-06-21T14:49:07
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/d5dd6fda-77ee-4ac7-9c7f-af54ccea64e4/download/rad_2015_tage_19_06_23_r.csv')
+
+# Distribution 16
+# Ktzhdistid               : 1367
+# Title                    : 15 Minuten Werte 2016
+# Issued                   : 2023-02-10T14:42:09
+# Modified                 : 2023-06-22T06:46:05
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/3913d9e6-1be8-4ee4-ab88-1266cbf161f1/download/rad_2016_15min_06_06_23_r.csv')
+
+# Distribution 17
+# Ktzhdistid               : 1368
+# Title                    : Tageswerte Wetter 2016
+# Issued                   : 2023-02-10T14:57:53
+# Modified                 : 2023-06-21T14:49:31
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/2f9e99cf-e82d-41fb-990c-67783cf23ab7/download/rad_2016_tage_19_06_23_r.csv')
+
+# Distribution 18
+# Ktzhdistid               : 1369
+# Title                    : 15 Minuten Werte 2017
+# Issued                   : 2023-01-26T14:24:16
+# Modified                 : 2023-06-22T06:51:28
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/694b9927-b4d5-4e8f-9c62-09b8ac03c39a/download/rad_2017_15min_06_06_23_r.csv')
+
+# Distribution 19
+# Ktzhdistid               : 1370
+# Title                    : Tageswerte Wetter 2017
+# Issued                   : 2023-01-26T14:26:12
+# Modified                 : 2023-06-21T14:49:53
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/d584bb5e-021b-43ea-8d32-8ba6c92b8f1e/download/rad_2017_tage_19_06_23_r.csv')
+
+# Distribution 20
+# Ktzhdistid               : 1371
+# Title                    : 15 Minuten Werte 2018
+# Issued                   : 2023-01-26T14:30:50
+# Modified                 : 2023-06-22T07:32:48
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/0a97a624-daa4-4cd8-a820-7d2fa6ffe89a/download/rad_2018_15min_06_06_23_r.csv')
+
+# Distribution 21
+# Ktzhdistid               : 1372
+# Title                    : Tageswerte Wetter 2018
+# Issued                   : 2023-01-26T14:31:46
+# Modified                 : 2023-06-21T14:50:18
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/00c5eaf9-d464-433f-8c9b-ce8a2a16db2b/download/rad_2018_tage_19_06_23_r.csv')
+
+# Distribution 22
+# Ktzhdistid               : 1373
+# Title                    : 15 Minuten Werte 2019
+# Issued                   : 2023-01-26T14:35:41
+# Modified                 : 2023-06-22T07:14:27
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/893e1f16-6504-4f4f-b8b3-f907ef406cd5/download/rad_2019_15min_06_06_23_r.csv')
+
+# Distribution 23
+# Ktzhdistid               : 1374
+# Title                    : Tageswerte Wetter 2019
+# Issued                   : 2023-01-26T14:38:34
+# Modified                 : 2023-06-21T14:50:41
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/f6d559cc-9e30-4307-b005-7b105b967ec0/download/rad_2019_tage_19_06_23_r.csv')
+
+# Distribution 24
+# Ktzhdistid               : 1375
+# Title                    : 15 Minuten Werte 2020
+# Issued                   : 2023-01-26T14:42:33
+# Modified                 : 2023-06-22T07:19:03
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/9be77b23-a444-4ba5-be9e-7f8594aa0188/download/rad_2020_15min_06_06_23_r.csv')
+
+# Distribution 25
+# Ktzhdistid               : 1376
+# Title                    : Tageswerte Wetter 2020
+# Issued                   : 2023-01-26T14:48:02
+# Modified                 : 2023-06-21T14:51:05
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/8ae44963-171e-4edf-bf16-f12503717042/download/rad_2020_tage_19_06_23_r.csv')
+
+# Distribution 26
+# Ktzhdistid               : 1377
+# Title                    : 15 Minuten Werte 2021
+# Issued                   : 2023-01-26T14:56:27
+# Modified                 : 2023-06-22T06:57:21
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/205c5c9e-9689-4c28-97cb-e575c6c772ce/download/rad_2021_15min_06_06_23_r.csv')
+
+# Distribution 27
+# Ktzhdistid               : 1378
+# Title                    : Tageswerte Wetter 2021
+# Issued                   : 2023-01-26T14:57:21
+# Modified                 : 2023-06-21T14:51:29
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/561fb0d5-2d27-41bb-bda9-a383d6d42ad1/download/rad_2021_tage_19_06_23_r.csv')
+
+# Distribution 28
+# Ktzhdistid               : 1379
+# Title                    : 15 Minuten Werte 2022
+# Issued                   : 2023-01-26T15:01:40
+# Modified                 : 2023-06-22T06:54:32
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/e65e0e26-ce1f-4e58-9260-beccac196e75/download/rad_2022_15min_06_06_23_r.csv')
+
+# Distribution 29
+# Ktzhdistid               : 1380
+# Title                    : Tageswerte Wetter 2022
+# Issued                   : 2023-01-26T15:03:12
+# Modified                 : 2023-06-21T14:51:50
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/022a11ff-4dcb-4f03-b7dd-a6c94a094587/resource/05a2178d-3138-4874-a9fd-1ede6f0cedc1/download/rad_2022_tage_19_06_23_r.csv')
 
 
 
@@ -74,4 +335,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | 
+Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 

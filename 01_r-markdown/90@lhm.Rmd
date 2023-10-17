@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Haushalte Alleinerziehend
+## Dataset: Indikatorenatlas: Bevölkerung - Haushalte Staatsangehörigkeit
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-alleinerziehend)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-staatsangehoerigkeit-83r65mct)
 
 Auto generated R starter code for data set 90@lhm.
 
 ## Metadata
 
-- **Issued** `2016-11-10T15:17:50`
-- **Modified** `2023-07-27T08:01:03`
+- **Issued** `2015-01-26T13:03:42`
+- **Modified** `2023-07-28T05:30:44`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-alleinerziehend`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-staatsangehoerigkeit-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 901
-# Title                    : Haushalte Alleinerziehend
-# Issued                   : 2016-11-10T16:18:40
-# Modified                 : 2023-07-27T08:00:29
+# Title                    : Haushalte Staatsangehörigkeit
+# Issued                   : 2015-01-26T14:03:42
+# Modified                 : 2023-07-28T05:29:53
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4d26aef1-4091-4778-849d-b05f51caf842/resource/901f0213-c090-469e-bed9-aacdecf1f57d/download/indikat_bevoelkerung_haushalte_alleinerziehend_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/bae1ebcc-ee1f-4ab6-a418-6491983efa58/resource/dbbe1d43-350b-4a75-a598-f09fa6366d35/download/indikat_bevoelkerung_haushalte_staatsangehoerigkeit_240723.csv')
 
 
 

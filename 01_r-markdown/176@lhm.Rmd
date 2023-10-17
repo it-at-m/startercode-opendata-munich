@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Privathaushalte in den Stadtbezirken
+## Dataset: M-WLAN Hotspots
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/m-wlan-hotspots)
 
 Auto generated R starter code for data set 176@lhm.
 
 ## Metadata
 
-- **Issued** `2015-04-23T05:27:48`
-- **Modified** `2021-09-28T06:15:26`
+- **Issued** `2015-02-20T10:32:02`
+- **Modified** `2021-09-28T06:18:33`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Haushalte', 'Stadtbezirke']`
-- **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/privathaushalte-in-den-stadtbezirken`
+- **Keyword** `['Hotspot', 'Mobile', 'WiFi']`
+- **Publisher** `['landeshauptstadt-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/m-wlan-hotspots`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1761
-# Title                    : Privathaushalte in den Stadtbezirken zum 31.12.2013
-# Issued                   : 2015-04-23T07:28:31
-# Modified                 : 2015-04-23T07:33:16
+# Title                    : M-WLAN Hotspots
+# Issued                   : 2015-02-20T11:33:40
+# Modified                 : 2016-07-12T08:42:45
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/cb0e5a0b-2a87-4a29-9b70-69e1db4fb529/resource/ce4bc761-84c1-4a3e-80d8-dd51577fb18f/download/privathaushaltestadtbezirke2013.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/2f256473-423d-4c3d-846c-09977aa31205/resource/4ac5b616-ebbf-4857-ae79-43369d6c4c87/download/m-wlan2015-01-21.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | egovernment@muenchen.de
+ | Data Shop | egovernment@muenchen.de

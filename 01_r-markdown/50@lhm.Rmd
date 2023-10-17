@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - Sozialversicherungspflichtig Beschäftigte
+## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte)
 
 Auto generated R starter code for data set 50@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:39`
-- **Modified** `2023-08-29T05:39:36`
+- **Issued** `2015-01-26T13:05:37`
+- **Modified** `2023-08-29T06:32:24`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 501
-# Title                    : Sozialversicherungspflichtig Beschäftigte
-# Issued                   : 2015-01-26T14:02:39
-# Modified                 : 2023-08-29T05:39:36
+# Title                    : (Regel-)Leistungsberechtigte
+# Issued                   : 2015-01-26T14:05:38
+# Modified                 : 2023-08-29T06:25:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/d2656d0a-dba8-4ea7-bdec-705f47a7c49c/resource/8ae97812-e077-4bc4-8a21-a1deb2b61adb/download/indikat_arbeitsmarkt_sozialversicherungspflichtig_beschaeftigte_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/103f72fa-f48a-4b7d-9402-e83fc291685e/resource/921072cb-3ed2-4624-aa59-5e13a3825033/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_280823.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsvolumen
+## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer 65 Jahre und älter
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsvolumen-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-65-jahre-und-aelter-83r65mct)
 
 Auto generated R starter code for data set 109@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:28`
-- **Modified** `2023-07-27T06:00:45`
+- **Issued** `2015-01-26T13:04:45`
+- **Modified** `2023-07-27T06:09:38`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
+- **Keyword** `['Alter', 'Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsvolumen-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-65-jahre-und-aelter-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1091
-# Title                    : Außenwanderungsvolumen
-# Issued                   : 2015-01-26T14:03:29
-# Modified                 : 2023-07-27T06:00:45
+# Title                    : Außenwanderungsziffer 65 Jahre und älter
+# Issued                   : 2015-01-26T14:04:46
+# Modified                 : 2023-07-27T06:09:38
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/da3ee052-7170-4dae-8cf7-a02a36994e0c/resource/103e3fc2-fd59-4c12-ba61-7ca1927660b8/download/indikat_bevoelkerung_aussenwanderungsvolumen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/9da2d950-f30d-46c3-97d2-da43419e788b/resource/9cd50ecb-6b04-4d2a-9be0-753800737068/download/indikat_bevoelkerung_aussenwanderungsziffer_65_jahre_und_aelter_240723.csv')
 
 
 

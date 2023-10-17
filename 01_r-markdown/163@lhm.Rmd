@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten der Raddauerzählstellen München November 2021
+## Dataset: Behindertenparkplätze
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2021)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/behindertenparkplaetze)
 
 Auto generated R starter code for data set 163@lhm.
 
 ## Metadata
 
-- **Issued** `2021-12-10T16:30:18`
-- **Modified** `2022-05-09T15:29:02`
+- **Issued** `2014-12-15T14:09:27`
+- **Modified** `2022-06-27T07:44:23`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2021']`
-- **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2021`
+- **Keyword** `['Parken', 'Parkplätze', 'Verkehr']`
+- **Publisher** `['landeshauptstadt-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/behindertenparkplaetze`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1631
-# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München November 2021
-# Issued                   : 2021-12-10T16:31:43
-# Modified                 : 2022-05-09T15:29:02
+# Title                    : Behindertenparkplätze Juni 2022
+# Issued                   : 2022-06-27T07:32:43
+# Modified                 : 2022-06-27T07:39:26
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/8015869b-f288-445d-a12f-1fb1e9fd3005/resource/61fced4f-dd74-46f3-9d0d-bd48fd82e341/download/rad_2021_11_15min.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/80a2d76a-ebc9-40b5-b54c-b5c8af9df65f/resource/c1166a5a-5764-47e1-92bb-2d63dab785eb/download/220624_behindertenparkplaetze_muenchen.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Mobilitätsreferat - Verkehrs- und Verhaltensdaten | Data Shop | 
+ | Data Shop | egovernment@muenchen.de

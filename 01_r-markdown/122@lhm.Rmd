@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Kinos
+## Dataset: Monatszahlen Witterung
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kinos)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-witterung)
 
 Auto generated R starter code for data set 122@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-21T14:56:53`
-- **Modified** `2023-07-20T05:59:57`
+- **Issued** `2017-02-21T14:59:41`
+- **Modified** `2023-07-20T06:01:30`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kinos`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-witterung`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1221
-# Title                    : Monatszahlen Kinos
-# Issued                   : 2017-02-21T15:57:05
-# Modified                 : 2023-07-20T05:59:47
+# Title                    : Monatszahlen Witterung
+# Issued                   : 2017-02-21T15:59:53
+# Modified                 : 2023-07-20T06:01:19
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4b251c31-fd98-4475-88bc-e0504cbc725b/resource/ca564678-4049-4a99-9e0d-b16806557476/download/monatszahlen2307_kinos_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/d7e42935-8884-40d3-9284-096d9cafecdd/resource/64c8c183-7fd0-4b29-9958-4169d22ee883/download/monatszahlen2307_witterung_10_07_23_nosum.csv')
 
 
 

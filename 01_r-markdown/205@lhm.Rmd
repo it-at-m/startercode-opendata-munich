@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten der Raddauerzählstellen München Februar 2020
+## Dataset: Daten der Raddauerzählstellen München März 2020
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2020)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-maerz-2020)
 
 Auto generated R starter code for data set 205@lhm.
 
 ## Metadata
 
-- **Issued** `2020-05-04T06:38:54`
-- **Modified** `2021-09-27T05:55:23`
+- **Issued** `2020-05-04T07:13:52`
+- **Modified** `2021-09-27T05:57:36`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2020']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-februar-2020`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-maerz-2020`
 
 
 # Load packages
@@ -40,21 +40,21 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 2051
-# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Februar 2020
-# Issued                   : 2020-05-04T08:40:04
-# Modified                 : 2020-05-04T06:40:04
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München März 2020
+# Issued                   : 2020-05-04T09:14:46
+# Modified                 : 2020-05-04T07:14:46
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/67f5be21-77df-41c4-ba8e-e6e097290489/resource/a20da4e9-0164-4c62-879d-6082db76458b/download/rad20200215min.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/ab168721-7eb6-4715-a12b-46800a2879c2/resource/aece96df-4fad-49fc-bd21-2d64f8ea50e9/download/rad20200315min.csv')
 
 # Distribution 1
 # Ktzhdistid               : 2052
-# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Februar 2020
-# Issued                   : 2020-05-04T08:40:50
-# Modified                 : 2020-05-04T06:40:50
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München März 2020
+# Issued                   : 2020-05-04T09:15:22
+# Modified                 : 2020-05-04T07:15:22
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/67f5be21-77df-41c4-ba8e-e6e097290489/resource/7c9318f2-9712-45bd-874f-43e4bfebb6ad/download/rad202002tage.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/ab168721-7eb6-4715-a12b-46800a2879c2/resource/20e83eaf-00ac-46d1-a7bb-84c936393c74/download/rad202003tage.csv')
 
 
 

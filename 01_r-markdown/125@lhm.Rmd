@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Freizeit
+## Dataset: Monatszahlen KFZ-Erstzulassungen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-freizeit)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-neuzulassungen)
 
 Auto generated R starter code for data set 125@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T15:10:00`
-- **Modified** `2023-07-20T05:56:49`
+- **Issued** `2017-02-20T13:28:50`
+- **Modified** `2023-07-20T05:59:20`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-freizeit`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kfz-neuzulassungen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1251
-# Title                    : Monatszahlen Freizeit
-# Issued                   : 2017-02-20T16:10:21
-# Modified                 : 2023-07-20T05:56:37
+# Title                    : Monatszahlen KFZ-Erstzulassungen
+# Issued                   : 2022-11-25T09:21:42
+# Modified                 : 2023-07-20T05:59:01
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/b03799b7-55ff-43d6-9931-79d4f445038d/resource/a5e6f0f9-8428-44a2-8f03-57d88c9ce6bc/download/monatszahlen2307_freizeit_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/077ced32-8d10-44ba-81b5-719925980f90/resource/838406bb-dc0d-4a28-b276-ee80123a3dfa/download/monatszahlen2307_kfz-erstzulassungen_10_07_23_nosum.csv')
 
 
 

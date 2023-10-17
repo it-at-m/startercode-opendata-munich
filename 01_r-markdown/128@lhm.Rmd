@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Einbürgerungen
+## Dataset: Monatszahlen Flugverkehr
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-einbuergerungen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-flugverkehr)
 
 Auto generated R starter code for data set 128@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T10:20:10`
-- **Modified** `2023-07-20T05:52:33`
+- **Issued** `2017-02-20T15:05:42`
+- **Modified** `2023-07-20T05:56:01`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-einbuergerungen`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-flugverkehr`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1281
-# Title                    : Monatszahlen Einbürgerungen
-# Issued                   : 2017-02-20T11:20:25
-# Modified                 : 2023-07-20T05:51:39
+# Title                    : Monatszahlen Flugverkehr
+# Issued                   : 2017-02-20T16:06:02
+# Modified                 : 2023-07-20T05:55:48
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/5420c698-0bc4-4711-b1db-0c0b40f5cd2f/resource/412fe83d-30c0-41c3-8b5b-482fb890406f/download/monatszahlen2307_einbuergerungen_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/9a648dad-0b55-42c7-8ba6-24b7c6bcc599/resource/ad408efa-528e-409b-bfe2-e1f547992cde/download/monatszahlen2307_flugverkehr_10_07_23_nosum.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | stat.amt@muenchen.de
+Statistisches Amt | Data Shop | stat.dir@muenchen.de

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Ordentliche Erträge und Aufwendungen der Produkte der LHM
+## Dataset: P+R Anlagen München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ordentliche-ertraege-und-aufwendungen-produkte-der-lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/p-r-anlagen-muenchen)
 
 Auto generated R starter code for data set 149@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:46:06`
-- **Modified** `2022-12-12T17:06:27`
+- **Issued** `2022-11-15T07:15:00`
+- **Modified** `2022-12-12T17:12:56`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Stadtratsauftrag']`
-- **Publisher** `['stadtkaemmerei']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/ordentliche-ertraege-und-aufwendungen-produkte-der-lhm`
+- **Keyword** `['Parken', 'Stadtratsauftrag']`
+- **Publisher** `['p-r-park-ride-gmbh-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/p-r-anlagen-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1491
-# Title                    : Ordentliche Erträge und Aufwendungen LHM-Produkte
-# Issued                   : 2022-11-15T07:47:50
-# Modified                 : 2022-11-15T07:47:50
+# Title                    : Übersicht P+R Anlagen
+# Issued                   : 2022-11-15T07:16:18
+# Modified                 : 2022-11-15T07:16:18
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/a3c1e1f2-9fa5-4efb-ad64-b269c746e742/resource/fc16d07d-89c7-4b74-989d-41427ab089be/download/02_ska_produktuebersicht_oe_oa_bay_p_2022r_opendata.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a8896f06-15e0-4f29-a509-55384799fff3/resource/aff2ba04-5eb6-4dfe-bc98-4ec3ec3dfdff/download/ubersicht-pr-anlagen2.csv')
 
 
 

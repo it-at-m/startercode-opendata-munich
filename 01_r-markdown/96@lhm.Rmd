@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Gestorbene
+## Dataset: Indikatorenatlas: Bevölkerung - Frauen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-gestorbene-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-frauen-83r65mct)
 
 Auto generated R starter code for data set 96@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:33`
-- **Modified** `2023-07-27T07:29:34`
+- **Issued** `2015-01-26T13:02:27`
+- **Modified** `2023-07-27T07:35:21`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-gestorbene-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-frauen-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 961
-# Title                    : Durchschnittsalter Gestorbene
-# Issued                   : 2015-01-26T14:03:33
-# Modified                 : 2023-07-27T06:51:10
+# Title                    : Frauenanteil
+# Issued                   : 2015-01-26T14:02:27
+# Modified                 : 2023-07-27T07:35:21
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/07d78c37-d8f3-4280-b906-a77cb3d25ad8/resource/080eb612-459d-4ef1-baae-61f24bd9a63b/download/indikat_bevoelkerung_durchschnittsalter_gestorbene_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/c0ef5f11-fa60-4f5f-95cb-90ae18c8f9a6/resource/f67b2cf6-a617-4ccb-8d56-65fe14a6426b/download/indikat_bevoelkerung_frauen_240723.csv')
 
 
 

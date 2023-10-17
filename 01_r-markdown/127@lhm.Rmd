@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Feuerwehr München
+## Dataset: Monatszahlen Freizeit
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-feuerwehr)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-freizeit)
 
 Auto generated R starter code for data set 127@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T15:08:02`
-- **Modified** `2023-07-20T05:55:19`
+- **Issued** `2017-02-20T15:10:00`
+- **Modified** `2023-07-20T05:56:49`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-feuerwehr`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-freizeit`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1271
-# Title                    : Monatszahlen Feuerwehr
-# Issued                   : 2017-02-20T16:08:24
-# Modified                 : 2023-07-20T05:52:59
+# Title                    : Monatszahlen Freizeit
+# Issued                   : 2017-02-20T16:10:21
+# Modified                 : 2023-07-20T05:56:37
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/c3d0b3f8-6871-49c4-a545-624742eaded9/resource/24a8beff-a835-4390-9111-19f189b1d501/download/monatszahlen2307_feuerwehr-muenchen_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/b03799b7-55ff-43d6-9931-79d4f445038d/resource/a5e6f0f9-8428-44a2-8f03-57d88c9ce6bc/download/monatszahlen2307_freizeit_10_07_23_nosum.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Grundschüler*innen - Familiensprache - nichtdeutsch
+## Dataset: Indikatorenatlas: Verkehr - Motorisierungsgrad Personenkraftwagen und Krafträder
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-familiensprache-nichtdeutsch-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-und-kraftraeder-83r65mct)
 
 Auto generated R starter code for data set 68@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:07`
-- **Modified** `2023-07-28T08:36:18`
+- **Issued** `2015-01-26T13:04:16`
+- **Modified** `2023-07-28T08:55:55`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas', 'Schule']`
+- **Keyword** `['Indikatorenatlas', 'PKW', 'Verkehr']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-familiensprache-nichtdeutsch-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-und-kraftraeder-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 681
-# Title                    : Familiensprache - nichtdeutsch
-# Issued                   : 2015-01-26T14:02:07
-# Modified                 : 2023-07-28T07:10:36
+# Title                    : Motorisierungsgrad Personenkraftwagen und Krafträder
+# Issued                   : 2015-01-26T14:04:16
+# Modified                 : 2023-07-28T08:55:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/48cb5c83-02c6-4892-aa7f-cf689f0a5ce3/resource/e44d25b5-028b-4b75-9300-f290a0272258/download/indikat_grundschueler_innen_familiensprache_nichtdeutsch_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/1b758800-dc58-4da3-94ef-ae6c819759f7/resource/27e387c8-63e9-4b62-bdc8-704cb71ca64d/download/indikat_verkehr_motorisierungsgrad_personenkraftwagen_und_kraftraeder_240723.csv')
 
 
 

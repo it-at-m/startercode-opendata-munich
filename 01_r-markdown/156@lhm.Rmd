@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten Tierpark Hellabrunn
+## Dataset: Geburten in der München Klinik gGmbH
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-tierpark-hellabrunn)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/geburten-in-der-muenchen-klinik-ggmbh)
 
 Auto generated R starter code for data set 156@lhm.
 
 ## Metadata
 
-- **Issued** `2022-12-12T16:28:35`
-- **Modified** `2022-12-12T17:00:53`
+- **Issued** `2022-12-12T14:49:13`
+- **Modified** `2022-12-12T17:01:45`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Stadtratsauftrag', 'Tierpark', 'Zoo']`
-- **Publisher** `['muenchener-tierpark-hellabrunn-ag']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-tierpark-hellabrunn`
+- **Keyword** `['Krankenhaus', 'Stadtratsauftrag']`
+- **Publisher** `['muenchen-klinik-ggmbh']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/geburten-in-der-muenchen-klinik-ggmbh`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1561
-# Title                    : Daten Tierpark Hellabrunn
-# Issued                   : 2022-12-12T16:30:00
-# Modified                 : 2022-12-12T16:30:00
+# Title                    : Geburten in der München Klinik gGmbh
+# Issued                   : 2022-12-12T14:51:19
+# Modified                 : 2022-12-12T14:51:19
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/4fe2935a-88e8-4752-b5b4-2d282cb911f7/resource/82c679fe-97f3-4e97-8fd2-d5839f0b8856/download/datensatze-tierpark-fur-open-data-portal.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a872618b-d29d-43f8-ae79-cb27ca8b9f23/resource/0a8a0026-c95a-40dc-bfb6-83c2011a2439/download/open-data-munchen-klinik_geburten_bearbeitet.csv')
 
 
 

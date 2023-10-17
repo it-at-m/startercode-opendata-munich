@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Linienliste MVV
+## Dataset: Munich IT Dashboard
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/linienliste-mvv)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/munich-it-dashboard)
 
 Auto generated R starter code for data set 138@lhm.
 
 ## Metadata
 
-- **Issued** `2022-09-16T13:14:33`
-- **Modified** `2023-02-22T06:42:33`
+- **Issued** `2023-03-09T07:05:44`
+- **Modified** `2023-03-10T09:06:04`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['MVV', 'Stadtratsauftrag']`
-- **Publisher** `['muenchner-verkehrs-und-tarifverbund-gmbh-mvv']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/linienliste-mvv`
+- **Keyword** `[]`
+- **Publisher** `['it-referat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/munich-it-dashboard`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1381
-# Title                    : Linienliste MVV
-# Issued                   : 2022-09-16T13:15:17
-# Modified                 : 2022-09-16T13:15:17
-# Rights                   : cc-by
+# Title                    : Software bei der LHM
+# Issued                   : 2023-03-09T07:07:26
+# Modified                 : 2023-03-09T07:07:26
+# Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/mvvlines_openData.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/faedfa85-a3f9-45dc-ac62-d90f2b5923c5/resource/5bf4ea36-f65c-4808-bc3a-4a7a8d48dc92/download/2023-03_veroeffentlichung-als-opendata-4.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | 
+beschluesse.rit@muuenchen.de | Data Shop | 

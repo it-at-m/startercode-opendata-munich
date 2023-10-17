@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Migrationshintergrund - Kinder
+## Dataset: Indikatorenatlas: Bevölkerung - Mütter ab 35 Jahre
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-kinder-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct)
 
 Auto generated R starter code for data set 83@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:51`
-- **Modified** `2023-07-28T05:44:18`
+- **Issued** `2015-01-26T13:03:47`
+- **Modified** `2023-07-28T06:09:44`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Kinder', 'Migrationshintergrund']`
+- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas', 'Mütter']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-kinder-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 831
-# Title                    : Migrationshintergrund - Kinder
-# Issued                   : 2015-01-26T14:02:52
-# Modified                 : 2023-07-28T05:43:30
+# Title                    : Mütter ab 35 Jahre
+# Issued                   : 2015-01-26T14:03:47
+# Modified                 : 2023-07-28T06:09:44
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/dd3347aa-73cc-444e-bafa-6530272a7146/resource/ea396629-1814-4465-b711-3658c213dc4a/download/indikat_bevoelkerung_migrationshintergrund_kinder_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/80b29cc3-f7a2-458c-bda7-6ad4f5a6b44a/resource/0258db03-f0ad-4da8-9403-f2f8a9780b88/download/indikat_bevoelkerung_muetter_ab_35_jahre_240723.csv')
 
 
 

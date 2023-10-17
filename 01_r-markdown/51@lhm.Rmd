@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte - nicht erwerbsfähig - Anteil
+## Dataset: Indikatorenatlas: Arbeitsmarkt - Sozialversicherungspflichtig Beschäftigte - Anteil
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-nicht-erwerbsfaehig-anteil-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-anteil-83r65mct)
 
 Auto generated R starter code for data set 51@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:43`
-- **Modified** `2023-08-29T05:35:46`
+- **Issued** `2015-01-26T13:03:20`
+- **Modified** `2023-08-29T05:40:30`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-nicht-erwerbsfaehig-anteil-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-anteil-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 511
-# Title                    : (Regel-)Leistungsberechtigte - nicht erwerbsfähig - Anteil
-# Issued                   : 2015-01-26T14:05:43
-# Modified                 : 2023-08-29T05:35:46
+# Title                    : Sozialversicherungspflichtig Beschäftigte - Anteil
+# Issued                   : 2015-01-26T14:03:20
+# Modified                 : 2023-08-29T05:40:30
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/db1b4889-9b7f-498d-b96f-3883b87a5a83/resource/ea8d933b-8ae8-434c-95c2-9f9722b267e4/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_-_nicht_erwerbsfaehig_-_anteil_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/d7c53755-150d-4904-966b-e13c462485ce/resource/3a7ba604-9f53-476b-8711-f8aab7a6c159/download/indikat_arbeitsmarkt_sozialversicherungspflichtig_beschaeftigte_-_anteil_280823.csv')
 
 
 

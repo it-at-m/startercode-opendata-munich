@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Gesundheit - Zahnärzt*Zahnärztin-Dichte
+## Dataset: Indikatorenatlas: Gesundheit - Arzt*Ärztin-Dichte
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-zahnaerztedichte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-aerztedichte-83r65mct)
 
 Auto generated R starter code for data set 45@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:03`
-- **Modified** `2023-08-29T06:40:12`
+- **Issued** `2015-01-26T13:05:32`
+- **Modified** `2023-08-29T06:43:02`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Gesundheit', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-zahnaerztedichte-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-aerztedichte-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 451
-# Title                    : Zahnärzt*Zahnärztin-Dichte
-# Issued                   : 2015-01-26T14:03:04
-# Modified                 : 2023-08-29T06:40:12
+# Title                    : Arzt*Ärztin-Dichte
+# Issued                   : 2015-01-26T14:05:33
+# Modified                 : 2023-08-29T06:43:02
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/a9a165ce-61e7-4af5-93cf-11b999845f1f/resource/c3e8a012-c888-475a-8250-c650e318cbb9/download/indikat_gesundheit_zahnarzt_zahnaerztin-dichte_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/b6c5bd72-76f0-4bb9-83b5-b56933818465/resource/734c005e-233b-4a2c-9ecc-3b789782ec2b/download/indikat_gesundheit_arzt_aerztin-dichte_280823.csv')
 
 
 

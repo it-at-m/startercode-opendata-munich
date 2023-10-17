@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Baufertigstellungen
+## Dataset: Indikatorenatlas: Grundschüler*innen - Grundschüler*innen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-baufertigstellungen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-grundschueler-innen)
 
 Auto generated R starter code for data set 63@lhm.
 
 ## Metadata
 
-- **Issued** `2019-01-30T07:06:52`
-- **Modified** `2023-07-28T09:07:55`
+- **Issued** `2023-07-28T08:34:08`
+- **Modified** `2023-07-28T11:40:57`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bauen', 'Indikatorenatlas']`
+- **Keyword** `['Indikatorenatlas', 'Schule']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-baufertigstellungen`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-grundschueler-innen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 631
-# Title                    : Baufertigstellungen
-# Issued                   : 2019-01-30T08:07:42
-# Modified                 : 2023-07-28T09:07:55
+# Title                    : Grundschüler*innen
+# Issued                   : 2023-07-28T08:34:30
+# Modified                 : 2023-07-28T08:34:30
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/30c110e6-e16b-484f-ad94-2a8bea11db32/resource/47ea6e55-974e-483d-bf44-3f0593bd7ef7/download/indikat_bauen_baufertigstellungen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/2a89ad4b-dfe9-499e-b106-29bc5ac0cad9/resource/ca81526f-c7f5-493c-8f72-65dd422d84bf/download/indikat_grundschueler_innen_grundschueler_innen_240723.csv')
 
 
 

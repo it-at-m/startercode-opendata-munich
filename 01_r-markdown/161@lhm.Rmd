@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Behindertenparkplätze
+## Dataset: GEWOFAG Wohnungen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/behindertenparkplaetze)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/gewofag-wohnungen)
 
 Auto generated R starter code for data set 161@lhm.
 
 ## Metadata
 
-- **Issued** `2014-12-15T14:09:27`
-- **Modified** `2022-06-27T07:44:23`
+- **Issued** `2022-08-12T07:35:27`
+- **Modified** `2022-09-08T13:16:40`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Parken', 'Parkplätze', 'Verkehr']`
+- **Keyword** `['SRA', 'Wohnen', 'Wohnungen']`
 - **Publisher** `['landeshauptstadt-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/behindertenparkplaetze`
+- **Landingpage** `https://opendata.muenchen.de/dataset/gewofag-wohnungen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1611
-# Title                    : Behindertenparkplätze Juni 2022
-# Issued                   : 2022-06-27T07:32:43
-# Modified                 : 2022-06-27T07:39:26
+# Title                    : Wohnungen GEWOFAG
+# Issued                   : 2022-08-12T07:44:04
+# Modified                 : 2022-09-08T13:09:24
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/80a2d76a-ebc9-40b5-b54c-b5c8af9df65f/resource/c1166a5a-5764-47e1-92bb-2d63dab785eb/download/220624_behindertenparkplaetze_muenchen.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/7796e955-81f4-4541-93d6-52f5ca1c4810/resource/cdaff819-a83c-490c-848c-7324f6dcc1ad/download/open_data_meldung_gewofag_2022_umsortiert.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | egovernment@muenchen.de
+GEWOFAG | Data Shop | 

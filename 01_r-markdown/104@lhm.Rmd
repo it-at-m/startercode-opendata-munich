@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Nichtdeutsche
+## Dataset: Indikatorenatlas: Bevölkerung - Bevölkerungsdichte
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-nichtdeutsche-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-bevoelkerungsdichte-83r65mct)
 
 Auto generated R starter code for data set 104@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:04:26`
-- **Modified** `2023-07-27T06:26:56`
+- **Issued** `2015-01-26T13:03:51`
+- **Modified** `2023-07-27T06:33:03`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-nichtdeutsche-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-bevoelkerungsdichte-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1041
-# Title                    : Außenwanderungsziffer Nichtdeutsche
-# Issued                   : 2015-01-26T14:04:26
-# Modified                 : 2023-07-27T06:26:56
+# Title                    : Bevölkerungsdichte
+# Issued                   : 2015-01-26T14:03:52
+# Modified                 : 2023-07-27T06:32:30
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/1ad68e21-96bb-458d-b3a7-55b900053de6/resource/9c204703-5f15-4d52-80bc-dec2183b0c4b/download/indikat_bevoelkerung_aussenwanderungsziffer_nichtdeutsch_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/0be6dc92-9ca5-4ae9-8a08-ba4039f2a225/resource/3f4aea4c-a79a-4f5b-ab01-a6ad540449f0/download/indikat_bevoelkerung_bevoelkerungsdichte_240723.csv')
 
 
 

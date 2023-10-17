@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: P+R Anlagen München
+## Dataset: Fernzugriffsberechtigungen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/p-r-anlagen-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/fernzugriffe)
 
-Auto generated R starter code for data set 147@lhm.
+Auto generated R starter code for data set 145@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:15:00`
-- **Modified** `2022-12-12T17:12:56`
+- **Issued** `2022-12-13T13:24:50`
+- **Modified** `2022-12-19T10:22:35`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Parken', 'Stadtratsauftrag']`
-- **Publisher** `['p-r-park-ride-gmbh-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/p-r-anlagen-muenchen`
+- **Keyword** `['Stadtratsauftrag']`
+- **Publisher** `['it-referat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/fernzugriffe`
 
 
 # Load packages
@@ -39,13 +39,13 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1471
-# Title                    : Übersicht P+R Anlagen
-# Issued                   : 2022-11-15T07:16:18
-# Modified                 : 2022-11-15T07:16:18
+# Ktzhdistid               : 1451
+# Title                    : Fernzugriffe
+# Issued                   : 2022-12-13T13:25:36
+# Modified                 : 2022-12-13T13:25:36
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/a8896f06-15e0-4f29-a509-55384799fff3/resource/aff2ba04-5eb6-4dfe-bc98-4ec3ec3dfdff/download/ubersicht-pr-anlagen2.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/45e46e90-ff50-47bf-8f13-b334b5262c06/resource/6c9f6138-2a33-4801-9010-ea84b56721b7/download/datensatze-ready.csv')
 
 
 

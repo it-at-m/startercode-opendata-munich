@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Grundschüler*innen - Grundschüler*innen
+## Dataset: Besucher und Veranstaltungen Gasteig HP8 München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-grundschueler-innen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/besucher-und-veranstaltungen-gasteig-hp8-muenchen)
 
 Auto generated R starter code for data set 61@lhm.
 
 ## Metadata
 
-- **Issued** `2023-07-28T08:34:08`
-- **Modified** `2023-07-28T11:40:57`
+- **Issued** `2023-04-05T09:59:11`
+- **Modified** `2023-08-02T14:43:10`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas', 'Schule']`
-- **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-grundschueler-innen`
+- **Keyword** `['Besucherzahlen', 'Gasteig', 'HP8', 'Kultur', 'Stadtratsauftrag', 'Veranstaltungen']`
+- **Publisher** `['landeshauptstadt-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/besucher-und-veranstaltungen-gasteig-hp8-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 611
-# Title                    : Grundschüler*innen
-# Issued                   : 2023-07-28T08:34:30
-# Modified                 : 2023-07-28T08:34:30
+# Title                    : Besucher und Veranstaltungszahlen Gasteig  HP8 München
+# Issued                   : 2023-04-05T10:00:33
+# Modified                 : 2023-04-05T10:00:33
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/2a89ad4b-dfe9-499e-b106-29bc5ac0cad9/resource/ca81526f-c7f5-493c-8f72-65dd422d84bf/download/indikat_grundschueler_innen_grundschueler_innen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/745f95eb-0a97-4741-bffc-c8d23a190299/resource/cd89279a-7a70-4786-bcb1-3fc7b14f6752/download/datensaetze-gasteig.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | 
+ | Data Shop | 

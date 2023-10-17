@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Wohndauer Adresse
+## Dataset: Indikatorenatlas: Bevölkerung - Zusammengefasste Geburtenrate
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-adresse-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-zusammengefasste-geburtenrate-83r65mct)
 
 Auto generated R starter code for data set 73@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:04:56`
-- **Modified** `2023-07-28T06:35:24`
+- **Issued** `2015-01-26T13:04:06`
+- **Modified** `2023-07-28T06:39:31`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Geburten', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-adresse-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-zusammengefasste-geburtenrate-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 731
-# Title                    : Wohndauer Adresse
-# Issued                   : 2015-01-26T14:04:56
-# Modified                 : 2023-07-28T06:34:57
+# Title                    : Zusammengefasste Geburtenrate
+# Issued                   : 2015-01-26T14:04:06
+# Modified                 : 2023-07-28T06:39:31
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/dfa9e71d-7762-4edf-9ca5-189855affd3c/resource/0ae188ae-de93-4b6a-9ce5-fa8066ddc143/download/indikat_bevoelkerung_wohndauer_adresse_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/8742de0e-4854-4a6d-8e8f-97b00450e08a/resource/94a2515e-65cb-47be-b337-bdb0d01e853a/download/indikat_bevoelkerung_zusammengefasste_geburtenrate_240723.csv')
 
 
 

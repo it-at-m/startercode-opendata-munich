@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Öffentliche Toiletten der Landeshauptstadt München
+## Dataset: Ergebnishaushalt der Landeshauptstadt München 2015
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/offentliche-toiletten-der-landeshauptstadt-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen)
 
 Auto generated R starter code for data set 232@lhm.
 
 ## Metadata
 
-- **Issued** `2016-03-04T12:54:10`
-- **Modified** `2017-02-16T12:53:07`
+- **Issued** `2015-05-26T06:07:08`
+- **Modified** `2018-04-25T10:28:37`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `[]`
-- **Publisher** `['landeshauptstadt-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/offentliche-toiletten-der-landeshauptstadt-muenchen`
+- **Keyword** `['Haushalt']`
+- **Publisher** `['stadtkaemmerei']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 2321
-# Title                    : Öffentliche Toiletten der Landeshauptstadt München
-# Issued                   : 2016-03-04T13:54:54
-# Modified                 : 2016-07-12T15:52:07
+# Title                    : Erträge und Aufwendungen 2015
+# Issued                   : 2015-05-26T08:07:49
+# Modified                 : 2015-09-29T08:57:28
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/6d8552a7-328c-48a2-ab37-5f9caa2bfbdb/resource/cc327030-a5e4-4a27-8a99-aaa8a5ab6200/download/oeffentlichetoilettenmuenchen2016-06-28.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/19c72eb4-e366-4500-8c82-55317528ab2a/resource/ebf70422-9f3e-40ca-bf52-c4cbe4c4225c/download/150929baumertragaufwandbearb.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | eogovernment@muenchen.de
+Stadtkämmerei Landeshauptstadt München | Data Shop | egovernment@muenchen.de

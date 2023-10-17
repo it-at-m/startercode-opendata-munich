@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Religionszugehörigkeit
+## Dataset: Indikatorenatlas: Bevölkerung - Rohe Sterberate
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-religionszugehoerigkeit)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-rohe-sterberate-83r65mct)
 
 Auto generated R starter code for data set 77@lhm.
 
 ## Metadata
 
-- **Issued** `2016-11-17T07:42:22`
-- **Modified** `2023-07-28T06:24:12`
+- **Issued** `2015-01-26T13:02:35`
+- **Modified** `2023-07-28T06:29:37`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-religionszugehoerigkeit`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-rohe-sterberate-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 771
-# Title                    : Religionszugehörigkeit
-# Issued                   : 2016-11-17T08:43:52
-# Modified                 : 2023-07-28T06:24:12
+# Title                    : Rohe Sterberate
+# Issued                   : 2015-01-26T14:02:35
+# Modified                 : 2023-07-28T06:29:37
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/55d39494-79c4-47af-b5cf-163f0712e5f9/resource/42dd45fc-2300-4b7c-bb67-05da5386e174/download/indikat_bevoelkerung_religionszugehoerigkeit_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a3a18ecb-b0f9-42f2-b92b-d4d5a9ce24a2/resource/fcbee553-afeb-4751-946e-25bfc8854c7d/download/indikat_bevoelkerung_rohe_sterberate_240723.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Natürlicher Saldo
+## Dataset: Indikatorenatlas: Bevölkerung - Optionskinder
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-natuerlicher-saldo-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-optionskinder-83r65mct)
 
 Auto generated R starter code for data set 80@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:01`
-- **Modified** `2023-07-28T06:12:40`
+- **Issued** `2015-01-26T13:02:22`
+- **Modified** `2023-07-28T06:22:14`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-natuerlicher-saldo-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-optionskinder-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 801
-# Title                    : Natürlicher Saldo 
-# Issued                   : 2015-01-26T14:05:01
-# Modified                 : 2023-07-28T06:12:40
+# Title                    : Optionskinder
+# Issued                   : 2015-01-26T14:02:23
+# Modified                 : 2023-07-28T06:21:45
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/5ccc1322-41c7-4b40-b504-20f558bf6722/resource/e2bd77e9-a3cd-4d4d-98ca-4457f7d18232/download/indikat_bevoelkerung_natuerlicher_saldo_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/86a29c4a-d15f-4e9d-8b64-99768886ba80/resource/b5d2a7e5-4841-462a-b244-ef5d3976d73e/download/indikat_bevoelkerung_optionskinder_240723.csv')
 
 
 

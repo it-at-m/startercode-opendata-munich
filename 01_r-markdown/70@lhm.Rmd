@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Flächen - Flächennutzung
+## Dataset: Indikatorenatlas: Grundschüler*innen - Familiensprache - nichtdeutsch
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-familiensprache-nichtdeutsch-83r65mct)
 
 Auto generated R starter code for data set 70@lhm.
 
 ## Metadata
 
-- **Issued** `2023-07-28T06:46:10`
-- **Modified** `2023-07-28T06:48:07`
+- **Issued** `2015-01-26T13:02:07`
+- **Modified** `2023-07-28T08:36:18`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas']`
+- **Keyword** `['Indikatorenatlas', 'Schule']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-familiensprache-nichtdeutsch-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 701
-# Title                    : Flächennutzung
-# Issued                   : 2023-07-28T06:46:36
-# Modified                 : 2023-07-28T06:46:36
+# Title                    : Familiensprache - nichtdeutsch
+# Issued                   : 2015-01-26T14:02:07
+# Modified                 : 2023-07-28T07:10:36
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/2cb8b66f-cc3c-41fa-b15a-5ace4bd997a2/resource/fe73098e-7d65-4b25-9b76-b9c8e99e332d/download/indikat_flaechen_flaechennutzung_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/48cb5c83-02c6-4892-aa7f-cf689f0a5ce3/resource/e44d25b5-028b-4b75-9300-f290a0272258/download/indikat_grundschueler_innen_familiensprache_nichtdeutsch_240723.csv')
 
 
 

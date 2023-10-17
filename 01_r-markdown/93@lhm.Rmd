@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Frauen Hochbetagte
+## Dataset: Indikatorenatlas: Bevölkerung - Gesamtwanderungsziffer
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-frauen-hochbetagte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-gesamtwanderungsziffer-83r65mct)
 
 Auto generated R starter code for data set 93@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:56`
-- **Modified** `2023-07-27T07:39:54`
+- **Issued** `2015-01-26T13:04:21`
+- **Modified** `2023-07-27T07:54:14`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-frauen-hochbetagte-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-gesamtwanderungsziffer-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 931
-# Title                    : Frauen Hochbetagte
-# Issued                   : 2015-01-26T14:03:57
-# Modified                 : 2023-07-27T07:39:54
+# Title                    : Gesamtwanderungsziffer
+# Issued                   : 2015-01-26T14:04:21
+# Modified                 : 2023-07-27T07:54:14
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/d02e1fdc-2c53-49ea-8dd0-077f4ed5a58b/resource/480bdf7a-2d82-475e-a3ae-31c2655285d7/download/indikat_bevoelkerung_frauen_hochbetagte_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/e3791569-a78a-4652-82d5-ac2c8ed83971/resource/eefdb344-2a29-4e57-a7bc-5f47b3502a08/download/indikat_bevoelkerung_gesamtwanderungsziffer_240723.csv')
 
 
 

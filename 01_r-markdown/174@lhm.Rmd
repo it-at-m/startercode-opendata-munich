@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: M-WLAN Hotspots
+## Dataset: Bevölkerung Stadtbezirksteile München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/m-wlan-hotspots)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung-stadtbezirksteile-muenchen)
 
 Auto generated R starter code for data set 174@lhm.
 
 ## Metadata
 
-- **Issued** `2015-02-20T10:32:02`
-- **Modified** `2021-09-28T06:18:33`
+- **Issued** `2018-03-27T07:48:02`
+- **Modified** `2021-10-27T14:59:57`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Hotspot', 'Mobile', 'WiFi']`
-- **Publisher** `['landeshauptstadt-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/m-wlan-hotspots`
+- **Keyword** `['Bevölkerung']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/bevoelkerung-stadtbezirksteile-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1741
-# Title                    : M-WLAN Hotspots
-# Issued                   : 2015-02-20T11:33:40
-# Modified                 : 2016-07-12T08:42:45
+# Title                    : Hauptwohnsitzbevölkerung Stadtbezirksteile
+# Issued                   : 2018-03-27T09:48:22
+# Modified                 : 2018-03-27T07:48:22
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/2f256473-423d-4c3d-846c-09977aa31205/resource/4ac5b616-ebbf-4857-ae79-43369d6c4c87/download/m-wlan2015-01-21.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/15aa8720-cd0c-45db-ba37-d90924a9dc5c/resource/ffcdc8ec-1fc4-4186-9fbf-9114448e80a7/download/bevoelkerunghws201712stadtbezirksteile.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | egovernment@muenchen.de
+Statistisches Amt | Data Shop | 

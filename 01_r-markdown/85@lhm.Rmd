@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Jugendquotient
+## Dataset: Indikatorenatlas: Bevölkerung - Migrationshintergrund - Kinder
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-jugendquotient-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-kinder-83r65mct)
 
 Auto generated R starter code for data set 85@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:03`
-- **Modified** `2023-07-28T05:37:24`
+- **Issued** `2015-01-26T13:02:51`
+- **Modified** `2023-07-28T05:44:18`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Jugend']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Kinder', 'Migrationshintergrund']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-jugendquotient-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-kinder-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 851
-# Title                    : Jugendquotient
-# Issued                   : 2015-01-26T14:02:03
-# Modified                 : 2023-07-28T05:37:23
+# Title                    : Migrationshintergrund - Kinder
+# Issued                   : 2015-01-26T14:02:52
+# Modified                 : 2023-07-28T05:43:30
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/754aefa4-2e36-4e0c-b768-fa9b7d003f45/resource/81f2cede-f395-4327-aeb5-24edcdbb2bee/download/indikat_bevoelkerung_jugendquotient_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/dd3347aa-73cc-444e-bafa-6530272a7146/resource/ea396629-1814-4465-b711-3658c213dc4a/download/indikat_bevoelkerung_migrationshintergrund_kinder_240723.csv')
 
 
 

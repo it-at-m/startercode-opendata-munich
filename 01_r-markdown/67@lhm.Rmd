@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Verkehr - Erstzulassungsanteil Personenkraftwagen
+## Dataset: Indikatorenatlas: Verkehr - Motorisierungsgrad Personenkraftwagen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-83r65mct)
 
 Auto generated R starter code for data set 67@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:07`
-- **Modified** `2023-07-28T08:51:07`
+- **Issued** `2015-01-26T13:05:58`
+- **Modified** `2023-07-28T08:59:04`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Indikatorenatlas', 'PKW', 'Verkehr']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 671
-# Title                    : Erstzulassungsanteil Personenkraftwagen
-# Issued                   : 2015-01-26T14:03:08
-# Modified                 : 2023-07-28T08:51:07
+# Title                    : Motorisierungsgrad Personenkraftwagen
+# Issued                   : 2015-01-26T14:05:58
+# Modified                 : 2023-07-28T08:59:04
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/a0355288-1460-4969-bf5a-40f5a7b33051/resource/4e6bbebd-c5b9-43ee-ac6b-272f1f448105/download/indikat_verkehr_erstzulassungsanteil_personenkraftwagen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/040c8a8c-6934-48e6-8413-70b07f99a970/resource/627ff66d-010b-4e37-9509-d68646ba7a6f/download/indikat_verkehr_motorisierungsgrad_personenkraftwagen_240723.csv')
 
 
 

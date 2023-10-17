@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Daten der Raddauerzählstellen München September 2019
+## Dataset: Daten der Raddauerzählstellen München November 2019
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-september-2019)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2019)
 
 Auto generated R starter code for data set 209@lhm.
 
 ## Metadata
 
-- **Issued** `2019-10-15T09:56:00`
-- **Modified** `2021-09-17T12:17:39`
+- **Issued** `2020-01-08T07:38:59`
+- **Modified** `2021-09-17T13:10:36`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Fahrrad', 'Raddauerzählstellen', 'Raddauerzählstellen 2019']`
 - **Publisher** `['mobilitaetsreferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-september-2019`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-november-2019`
 
 
 # Load packages
@@ -40,21 +40,21 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 2091
-# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München September 2019
-# Issued                   : 2019-10-15T11:56:39
-# Modified                 : 2019-10-15T09:56:39
+# Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München November 2019
+# Issued                   : 2020-01-08T08:39:50
+# Modified                 : 2020-01-08T07:39:50
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/35e98c7b-72e0-4791-9b7b-3fc0cde17a49/resource/25597be4-ee1c-4370-afa8-90f547f2f2e5/download/rad20190915min.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4bca92b3-95dd-4822-a171-468a2bc0dfbd/resource/deec23c1-7121-4042-b2e3-67577e97c776/download/rad20191115min.csv')
 
 # Distribution 1
 # Ktzhdistid               : 2092
-# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München September 2019
-# Issued                   : 2019-10-15T11:57:05
-# Modified                 : 2019-10-15T09:57:05
+# Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München November 2019
+# Issued                   : 2020-01-08T08:40:17
+# Modified                 : 2020-01-08T07:40:17
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/35e98c7b-72e0-4791-9b7b-3fc0cde17a49/resource/0e928a89-2511-428b-b99b-bf23a4dc1387/download/rad201909tage.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4bca92b3-95dd-4822-a171-468a2bc0dfbd/resource/d8917e9c-dc75-41e7-98c4-91b9514a46f5/download/rad201911tage.csv')
 
 
 

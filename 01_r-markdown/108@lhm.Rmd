@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Gesamt
+## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Deutsche
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-gesamt-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-deutsche-83r65mct)
 
 Auto generated R starter code for data set 108@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:15`
-- **Modified** `2023-07-27T06:03:41`
+- **Issued** `2015-01-26T13:04:40`
+- **Modified** `2023-07-27T06:22:49`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-gesamt-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-deutsche-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1081
-# Title                    : Außenwanderungsziffer Gesamt
-# Issued                   : 2015-01-26T14:03:16
-# Modified                 : 2023-07-27T06:03:19
+# Title                    : Außenwanderungsziffer Deutsche
+# Issued                   : 2015-01-26T14:04:41
+# Modified                 : 2023-07-27T06:22:49
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/11a5b37f-9e59-41eb-a857-1ae0ebc743ac/resource/951b196b-9965-4a84-a9fc-93feffcdc6dd/download/indikat_bevoelkerung_aussenwanderungsziffer_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/fb9948bd-7b30-45ca-9b12-4081d4e4fe84/resource/e3c28365-935f-40a6-9c14-d3aa95c601f8/download/indikat_bevoelkerung_aussenwanderungsziffer_deutsch_240723.csv')
 
 
 

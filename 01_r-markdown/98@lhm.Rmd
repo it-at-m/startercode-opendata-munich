@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Mütter erstgebärend
+## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Gestorbene
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-gestorbene-83r65mct)
 
 Auto generated R starter code for data set 98@lhm.
 
 ## Metadata
 
-- **Issued** `2016-11-14T08:05:21`
-- **Modified** `2023-07-27T06:57:02`
+- **Issued** `2015-01-26T13:03:33`
+- **Modified** `2023-07-27T07:29:34`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-gestorbene-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 981
-# Title                    : Durchschnittsalter Mütter erstgebärend
-# Issued                   : 2016-11-14T09:59:15
-# Modified                 : 2023-07-27T06:57:02
+# Title                    : Durchschnittsalter Gestorbene
+# Issued                   : 2015-01-26T14:03:33
+# Modified                 : 2023-07-27T06:51:10
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/86ddee28-69b2-4e8a-85d2-1651bd50833a/resource/2203038a-7a12-4f6d-b8c7-7df37397d4f2/download/indikat_bevoelkerung_durchschnittsalter_muetter_erstgebaerend_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/07d78c37-d8f3-4280-b906-a77cb3d25ad8/resource/080eb612-459d-4ef1-baae-61f24bd9a63b/download/indikat_bevoelkerung_durchschnittsalter_gestorbene_240723.csv')
 
 
 

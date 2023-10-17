@@ -8,12 +8,12 @@ output: html_document
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vagrund_hoeh_symbol_opendata)
 
-Auto generated R starter code for data set 9@lhm.
+Auto generated R starter code for data set 8@lhm.
 
 ## Metadata
 
 - **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-26T01:00:11`
+- **Modified** `2023-10-17T01:00:31`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
@@ -39,10 +39,10 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 92
+# Ktzhdistid               : 82
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:17
-# Modified                 : 2023-09-26T01:00:17
+# Issued                   : 2023-10-17T01:00:32
+# Modified                 : 2023-10-17T01:00:32
 # Rights                   : dl-by-de/2.0
 
 df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vagrund_hoeh_symbol_opendata&amp;outputFormat=csv')

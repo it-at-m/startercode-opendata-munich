@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Besucher und Veranstaltungen Gasteig HP8 München
+## Dataset: Landtagswahl 2023 - Wahlräume in München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/besucher-und-veranstaltungen-gasteig-hp8-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/landtagswahl-2023-wahlraeume-in-muenchen)
 
 Auto generated R starter code for data set 59@lhm.
 
 ## Metadata
 
-- **Issued** `2023-04-05T09:59:11`
-- **Modified** `2023-08-02T14:43:10`
+- **Issued** `2023-08-08T13:29:56`
+- **Modified** `2023-08-08T13:50:18`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Besucherzahlen', 'Gasteig', 'HP8', 'Kultur', 'Stadtratsauftrag', 'Veranstaltungen']`
-- **Publisher** `['landeshauptstadt-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/besucher-und-veranstaltungen-gasteig-hp8-muenchen`
+- **Keyword** `['Landtagswahl 2023', 'Wahlen']`
+- **Publisher** `['kreisverwaltungsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/landtagswahl-2023-wahlraeume-in-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 591
-# Title                    : Besucher und Veranstaltungszahlen Gasteig  HP8 München
-# Issued                   : 2023-04-05T10:00:33
-# Modified                 : 2023-04-05T10:00:33
+# Title                    : Wahlräume Landtagswahl 2023
+# Issued                   : 2023-08-08T13:31:54
+# Modified                 : 2023-08-08T13:36:35
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/745f95eb-0a97-4741-bffc-c8d23a190299/resource/cd89279a-7a70-4786-bcb1-3fc7b14f6752/download/datensaetze-gasteig.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a888e6cf-74a3-461b-a128-7b78b8cead59/resource/b15b26c0-0667-46fc-85b9-e3c1c97d09c2/download/wahlraeume_ltw_wgs84.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | 
+Kreisverwaltungsreferat, Wahlen und Abstimmungen | Data Shop | 

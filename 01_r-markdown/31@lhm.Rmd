@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Bezirksteile der Landeshauptstadt München
+## Dataset: Märkte der Landeshauptstadt München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/maerkte_opendata)
 
 Auto generated R starter code for data set 31@lhm.
 
 ## Metadata
 
 - **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-26T01:00:10`
+- **Modified** `2023-10-17T01:00:17`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Planungsunterlagen', 'opendata']`
+- **Keyword** `['Digitaler Zwilling München', 'Ver- und Entsorgung', 'opendata']`
 - **Publisher** `['geodatenservice-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata`
+- **Landingpage** `https://opendata.muenchen.de/dataset/maerkte_opendata`
 
 
 # Load packages
@@ -39,13 +39,13 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 312
+# Ktzhdistid               : 313
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:13
-# Modified                 : 2023-09-26T01:00:13
+# Issued                   : 2023-10-17T01:00:21
+# Modified                 : 2023-10-17T01:00:21
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vablock_bezirksteil_opendata&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:maerkte_opendata&amp;outputFormat=csv')
 
 
 

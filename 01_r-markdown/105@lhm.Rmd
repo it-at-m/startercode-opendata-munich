@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Außenwanderungsziffer Kinder bis 13 Jahre
+## Dataset: Indikatorenatlas: Bevölkerung - Bevölkerungsanteil
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-kinder-bis-13-jahre-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-bevolkerungsanteil)
 
 Auto generated R starter code for data set 105@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:27`
-- **Modified** `2023-07-27T06:23:25`
+- **Issued** `2016-11-14T07:28:09`
+- **Modified** `2023-07-27T06:30:09`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Kinder', 'Wanderungen']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-kinder-bis-13-jahre-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-bevolkerungsanteil`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1051
-# Title                    : Außenwanderungsziffer Kinder unter 14 Jahre
-# Issued                   : 2015-01-26T14:05:28
-# Modified                 : 2023-01-04T09:02:49
+# Title                    : Bevolkerungsanteil
+# Issued                   : 2016-11-14T08:28:43
+# Modified                 : 2023-07-27T06:30:09
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/ee2e0ef7-c256-42d6-a5e7-949cbb4e1905/resource/604650ad-240a-4a94-9649-664c5d1e1c19/download/indikatorenatlas2209_bevoelkerung_aussenwanderungsziffer_kinder_unter_14_jahre.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/3cc5ae0f-f4ff-480e-8428-9aeaec4ed23d/resource/d0b78781-dbf9-473b-a2ba-6a3b76ae35d4/download/indikat_bevoelkerung_bevoelkerungsanteil_240723.csv')
 
 
 

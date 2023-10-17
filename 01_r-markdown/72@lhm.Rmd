@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Wohndauer München
+## Dataset: Indikatorenatlas: Flächen - Flächennutzung
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-muenchen-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung)
 
 Auto generated R starter code for data set 72@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:11`
-- **Modified** `2023-07-28T06:37:27`
+- **Issued** `2023-07-28T06:46:10`
+- **Modified** `2023-07-28T06:48:07`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wohnen']`
+- **Keyword** `['Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-muenchen-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-flaechen-flaechennutzung`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 721
-# Title                    : Wohndauer München
-# Issued                   : 2015-01-26T14:05:12
-# Modified                 : 2023-07-28T06:37:27
+# Title                    : Flächennutzung
+# Issued                   : 2023-07-28T06:46:36
+# Modified                 : 2023-07-28T06:46:36
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/8a2e197b-69ff-4456-aff1-48763cb5dea3/resource/773a81c6-1467-4c4a-adde-329776f4b44e/download/indikat_bevoelkerung_wohndauer_muenchen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/2cb8b66f-cc3c-41fa-b15a-5ace4bd997a2/resource/fe73098e-7d65-4b25-9b76-b9c8e99e332d/download/indikat_flaechen_flaechennutzung_240723.csv')
 
 
 

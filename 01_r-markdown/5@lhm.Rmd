@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Märkte der Landeshauptstadt München
+## Dataset: Stadtbezirke der Landeshauptstadt München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/maerkte_opendata)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vablock_stadtbezirke_opendata)
 
-Auto generated R starter code for data set 6@lhm.
+Auto generated R starter code for data set 5@lhm.
 
 ## Metadata
 
-- **Issued** `2023-02-27T15:30:38`
-- **Modified** `2023-09-26T01:00:24`
+- **Issued** `2023-08-21T13:23:50`
+- **Modified** `2023-10-17T01:00:32`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Digitaler Zwilling München', 'Ver- und Entsorgung', 'opendata']`
+- **Keyword** `['Digitaler Zwilling München', 'Planungsunterlagen', 'opendata']`
 - **Publisher** `['geodatenservice-muenchen']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/maerkte_opendata`
+- **Landingpage** `https://opendata.muenchen.de/dataset/vablock_stadtbezirke_opendata`
 
 
 # Load packages
@@ -39,13 +39,13 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 63
+# Ktzhdistid               : 53
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:26
-# Modified                 : 2023-09-26T01:00:26
+# Issued                   : 2023-10-17T01:00:33
+# Modified                 : 2023-10-17T01:00:33
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:maerkte_opendata&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/gsm_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=gsm_wfs:vablock_stadtbezirke_opendata&amp;outputFormat=csv')
 
 
 

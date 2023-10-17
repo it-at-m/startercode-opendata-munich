@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Straßennetzgraf Baureferat Tiefbau
+## Dataset: Elektrokleinstfahrzeuge
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/baut_strassenabschnitte_wu)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_ruhver_elektokleinf_poly)
 
 Auto generated R starter code for data set 27@lhm.
 
 ## Metadata
 
-- **Issued** `2023-08-10T09:14:12`
-- **Modified** `2023-09-26T01:00:10`
+- **Issued** `2023-02-27T15:30:38`
+- **Modified** `2023-10-17T01:00:17`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Digitaler Zwilling München', 'Landeshauptstadt München', 'Verkehrswesen']`
-- **Publisher** `['baureferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/baut_strassenabschnitte_wu`
+- **Publisher** `['mobilitaetsreferat']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/opendata_ruhver_elektokleinf_poly`
 
 
 # Load packages
@@ -39,13 +39,13 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 273
+# Ktzhdistid               : 271
 # Title                    : WFS (CSV)
-# Issued                   : 2023-09-26T01:00:12
-# Modified                 : 2023-09-26T01:00:12
+# Issued                   : 2023-10-17T01:00:22
+# Modified                 : 2023-10-17T01:00:22
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('http://geoportal.muenchen.de/geoserver/baut_wfs/ows?service=WFS&amp;version=1.1.0&amp;request=GetFeature&amp;typeName=baut_wfs:baut_strassenabschnitte_wu&amp;outputFormat=csv')
+df <- read_delim('http://geoportal.muenchen.de/geoserver/mor_wfs/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=mor_wfs:opendata_ruhver_elektokleinf_poly&amp;outputFormat=csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-BAU-TZ2 | Data Shop | geodaten.tz2.bau@muenchen.de
+MOR-GB2.212 | Data Shop | gis.mor@muenchen.de

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter
+## Dataset: Indikatorenatlas: Bevölkerung - Durchschnittsalter Mütter erstgebärend
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend)
 
 Auto generated R starter code for data set 100@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:18`
-- **Modified** `2023-07-27T06:46:58`
+- **Issued** `2016-11-14T08:05:21`
+- **Modified** `2023-07-27T06:57:02`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-durchschnittsalter-muetter-erstgebaerend`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1001
-# Title                    : Altersdurchschnitt
-# Issued                   : 2015-01-26T14:02:19
-# Modified                 : 2023-07-27T06:46:58
+# Title                    : Durchschnittsalter Mütter erstgebärend
+# Issued                   : 2016-11-14T09:59:15
+# Modified                 : 2023-07-27T06:57:02
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/9b072087-6098-4558-b221-01e7d119b512/resource/9177f886-7341-49d2-9bfa-15d4d8631327/download/indikat_bevoelkerung_durchschnittsalter_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/86ddee28-69b2-4e8a-85d2-1651bd50833a/resource/2203038a-7a12-4f6d-b8c7-7df37397d4f2/download/indikat_bevoelkerung_durchschnittsalter_muetter_erstgebaerend_240723.csv')
 
 
 

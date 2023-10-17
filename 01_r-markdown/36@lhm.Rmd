@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Parkhäuser München
+## Dataset: Öffentliche Toiletten der Landeshauptstadt München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/parkhaeuser-munchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/offentliche-toiletten-der-landeshauptstadt-muenchen)
 
 Auto generated R starter code for data set 36@lhm.
 
 ## Metadata
 
-- **Issued** `2016-11-08T09:59:44`
-- **Modified** `2023-09-07T12:44:13`
+- **Issued** `2016-03-04T12:54:10`
+- **Modified** `2023-10-16T06:47:35`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Auto', 'Parken', 'Parkhaus']`
-- **Publisher** `['muenchen-de']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/parkhaeuser-munchen`
+- **Keyword** `[]`
+- **Publisher** `['landeshauptstadt-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/offentliche-toiletten-der-landeshauptstadt-muenchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 361
-# Title                    : Parkhäuser München CSV
-# Issued                   : 2016-11-08T11:00:54
-# Modified                 : 2023-09-07T12:42:06
+# Title                    : Öffentliche Toiletten der Landeshauptstadt München
+# Issued                   : 2016-03-04T13:54:54
+# Modified                 : 2016-07-12T15:52:07
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/addaa7d4-40be-4621-846e-c5358cbe3f26/resource/e0e0e4e1-1b25-4c04-a0ea-cf9cc8335c57/download/230907places.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/6d8552a7-328c-48a2-ab37-5f9caa2bfbdb/resource/cc327030-a5e4-4a27-8a99-aaa8a5ab6200/download/oeffentlichetoilettenmuenchen2016-06-28.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
- | Data Shop | 
+ | Data Shop | eogovernment@muenchen.de

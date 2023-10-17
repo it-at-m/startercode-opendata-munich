@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Grundschüler*innen - Staatsangehörigkeit
+## Dataset: Indikatorenatlas: Verkehr - Erstzulassungsanteil Personenkraftwagen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct)
 
 Auto generated R starter code for data set 69@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:01:59`
-- **Modified** `2023-07-28T08:36:05`
+- **Issued** `2015-01-26T13:03:07`
+- **Modified** `2023-07-28T08:51:07`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas', 'Schule']`
+- **Keyword** `['Indikatorenatlas', 'PKW', 'Verkehr']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 691
-# Title                    : Staatsangehörigkeit
-# Issued                   : 2015-01-26T14:01:59
-# Modified                 : 2023-07-28T07:44:58
+# Title                    : Erstzulassungsanteil Personenkraftwagen
+# Issued                   : 2015-01-26T14:03:08
+# Modified                 : 2023-07-28T08:51:07
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/46216c4a-93cf-4bf4-aa50-ceaab3bcc6d3/resource/450a8be2-76b4-45f2-9c9f-1517db8beea5/download/indikat_grundschueler_innen_staatsangehoerigkeit_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a0355288-1460-4969-bf5a-40f5a7b33051/resource/4e6bbebd-c5b9-43ee-ac6b-272f1f448105/download/indikat_verkehr_erstzulassungsanteil_personenkraftwagen_240723.csv')
 
 
 

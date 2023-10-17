@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Kinderbetreuung - Einrichtungsträger
+## Dataset: Indikatorenatlas: Kinderbetreuung - Altersgruppen Familiensprache nichtdeutsch
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-einrichtungstraeger-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-familiensprache-nicht-deutsch-83r65mct)
 
 Auto generated R starter code for data set 42@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:01:45`
-- **Modified** `2023-08-29T06:43:56`
+- **Issued** `2015-01-26T13:02:43`
+- **Modified** `2023-08-29T06:44:40`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Indikatorenatlas', 'Kinderbetreuung']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-einrichtungstraeger-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-familiensprache-nicht-deutsch-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 421
-# Title                    : Träger der Einrichtung
-# Issued                   : 2015-01-26T14:01:46
-# Modified                 : 2023-08-29T06:43:56
+# Title                    : Altersgruppen Familiensprache nichtdeutsch
+# Issued                   : 2015-01-26T14:02:44
+# Modified                 : 2023-08-29T06:44:40
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/5a8b5eb8-caa9-4ec5-93ac-db431365cb96/resource/305de6c4-09f7-4964-9da6-74630d289c90/download/indikat_kinderbetreuung_einrichtungstraeger_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/262f11dc-41cd-4609-9b86-4f0684224aab/resource/9f489d4f-3416-4c1a-b559-0d3ca83cc91c/download/indikat_kinderbetreuung_altersgruppen_familiensprache_nichtdeutsch_280823.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Mütter ab 35 Jahre
+## Dataset: Indikatorenatlas: Bevölkerung - Nichtdeutsche
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-nichtdeutsche-83r65mct)
 
 Auto generated R starter code for data set 81@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:47`
-- **Modified** `2023-07-28T06:09:44`
+- **Issued** `2015-01-26T13:05:06`
+- **Modified** `2023-07-28T06:17:29`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Frauen', 'Indikatorenatlas', 'Mütter']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-muetter-ab-35-jahre-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-nichtdeutsche-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 811
-# Title                    : Mütter ab 35 Jahre
-# Issued                   : 2015-01-26T14:03:47
-# Modified                 : 2023-07-28T06:09:44
+# Title                    : Nichtdeutsche
+# Issued                   : 2015-01-26T14:05:07
+# Modified                 : 2023-07-28T06:17:29
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/80b29cc3-f7a2-458c-bda7-6ad4f5a6b44a/resource/0258db03-f0ad-4da8-9403-f2f8a9780b88/download/indikat_bevoelkerung_muetter_ab_35_jahre_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/53e69676-7e88-4b5e-9745-b86a19232514/resource/5185a8bc-5368-4181-a5e6-cab4beae8551/download/indikat_bevoelkerung_nichtdeutsche_240723.csv')
 
 
 

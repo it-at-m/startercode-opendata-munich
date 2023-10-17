@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Innerräumliche Umzugsziffer
+## Dataset: Indikatorenatlas: Bevölkerung - Migrationshintergrund
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-innerraeumliche-umzugsziffer-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-83r65mct)
 
 Auto generated R starter code for data set 86@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:24`
-- **Modified** `2023-07-28T05:35:17`
+- **Issued** `2015-01-26T13:02:31`
+- **Modified** `2023-07-28T05:41:11`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wanderungen']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Migrationshintergrund']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-innerraeumliche-umzugsziffer-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-migrationshintergrund-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 861
-# Title                    : Innerräumliche Umzugsziffer
-# Issued                   : 2015-01-26T14:03:24
-# Modified                 : 2023-07-28T05:35:17
+# Title                    : Migrationshintergrund
+# Issued                   : 2015-01-26T14:02:31
+# Modified                 : 2023-07-28T05:41:11
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/aaadce44-d57e-4434-955f-5b25d76287ce/resource/b37dffa3-9663-43c9-ba68-bf1e04198aeb/download/indikat_bevoelkerung_innerraeumliche_umzugsziffer_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/cc5e9a41-6f29-458a-b8e1-103da957a333/resource/f98bf568-c84d-4f9f-b3d3-ebc985933f7b/download/indikat_bevoelkerung_migrationshintergrund_240723.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Pro-Kopf-Verschuldung LHM, Hoheitshaushalt
+## Dataset: Linienliste MVV
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/pro-kopf-verschuldung-lhm-hoheitshaushalt)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/linienliste-mvv)
 
 Auto generated R starter code for data set 140@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:54:30`
-- **Modified** `2023-02-08T10:17:03`
+- **Issued** `2022-09-16T13:14:33`
+- **Modified** `2023-02-22T06:42:33`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Finanzen', 'Haushalt', 'Stadtratsauftrag']`
-- **Publisher** `['stadtkaemmerei']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/pro-kopf-verschuldung-lhm-hoheitshaushalt`
+- **Keyword** `['MVV', 'Stadtratsauftrag']`
+- **Publisher** `['muenchner-verkehrs-und-tarifverbund-gmbh-mvv']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/linienliste-mvv`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1401
-# Title                    : Pro Kopf Verschuldung
-# Issued                   : 2022-11-15T07:54:59
-# Modified                 : 2022-11-15T07:54:59
-# Rights                   : dl-by-de/2.0
+# Title                    : Linienliste MVV
+# Issued                   : 2022-09-16T13:15:17
+# Modified                 : 2022-09-16T13:15:17
+# Rights                   : cc-by
 
-df <- read_delim('https://opendata.muenchen.de/dataset/2c15a2b2-e9d6-422c-8418-6f0e33fc854b/resource/7fb99cdc-8c43-401c-8a8a-c0839838550e/download/04_ska_pro-kopf-verschuldung_daten.csv')
+df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/mvvlines_openData.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Gewerbe
+## Dataset: Daten Tierpark Hellabrunn
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-gewerbe)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-tierpark-hellabrunn)
 
 Auto generated R starter code for data set 158@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T11:04:38`
-- **Modified** `2022-11-28T10:50:25`
+- **Issued** `2022-12-12T16:28:35`
+- **Modified** `2022-12-12T17:00:53`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Monatszahlen']`
-- **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-gewerbe`
+- **Keyword** `['Stadtratsauftrag', 'Tierpark', 'Zoo']`
+- **Publisher** `['muenchener-tierpark-hellabrunn-ag']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/daten-tierpark-hellabrunn`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1581
-# Title                    : Monatszahlen Gewerbe
-# Issued                   : 2017-02-20T12:04:54
-# Modified                 : 2017-11-09T07:24:08
+# Title                    : Daten Tierpark Hellabrunn
+# Issued                   : 2022-12-12T16:30:00
+# Modified                 : 2022-12-12T16:30:00
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/92d4a8dc-bc7f-487c-a624-903033abe355/resource/208435d3-e3a9-46a2-b2ed-69218ee6d7c3/download/monatszahlen1710gewerbe.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4fe2935a-88e8-4752-b5b4-2d282cb911f7/resource/82c679fe-97f3-4e97-8fd2-d5839f0b8856/download/datensatze-tierpark-fur-open-data-portal.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | stat.dir@muenchen.de
+ | Data Shop | 

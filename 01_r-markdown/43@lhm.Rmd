@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Gesundheit - Arzt*Ärztin-Dichte
+## Dataset: Indikatorenatlas: Kinderbetreuung - Betreuungsangebot
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-aerztedichte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct)
 
 Auto generated R starter code for data set 43@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:32`
-- **Modified** `2023-08-29T06:43:02`
+- **Issued** `2015-01-26T13:01:43`
+- **Modified** `2023-08-29T06:44:17`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Gesundheit', 'Indikatorenatlas']`
+- **Keyword** `['Indikatorenatlas', 'Kinderbetreuung']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-aerztedichte-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 431
-# Title                    : Arzt*Ärztin-Dichte
-# Issued                   : 2015-01-26T14:05:33
-# Modified                 : 2023-08-29T06:43:02
+# Title                    : Betreuungsangebot
+# Issued                   : 2015-01-26T14:01:43
+# Modified                 : 2023-08-29T06:44:17
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/b6c5bd72-76f0-4bb9-83b5-b56933818465/resource/734c005e-233b-4a2c-9ecc-3b789782ec2b/download/indikat_gesundheit_arzt_aerztin-dichte_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/4c144e5f-6968-44e9-896c-04f7d488111f/resource/007510f2-a282-4edb-b5a3-7608e52f74a9/download/indikat_kinderbetreuung_betreuungsangebot_280823.csv')
 
 
 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Flugverkehr
+## Dataset: Monatszahlen KFZ-Bestand
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-flugverkehr)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand)
 
 Auto generated R starter code for data set 126@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T15:05:42`
-- **Modified** `2023-07-20T05:56:01`
+- **Issued** `2017-02-20T13:19:29`
+- **Modified** `2023-07-20T05:58:26`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-flugverkehr`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-kfz-bestand`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1261
-# Title                    : Monatszahlen Flugverkehr
-# Issued                   : 2017-02-20T16:06:02
-# Modified                 : 2023-07-20T05:55:48
+# Title                    : Monatszahlen KFZ-Bestand
+# Issued                   : 2017-02-20T14:20:03
+# Modified                 : 2023-07-20T05:57:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/9a648dad-0b55-42c7-8ba6-24b7c6bcc599/resource/ad408efa-528e-409b-bfe2-e1f547992cde/download/monatszahlen2307_flugverkehr_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/0171c878-0054-495d-b4f8-1947f46dc74a/resource/b21b2744-b54e-4f11-825e-619431fee648/download/monatszahlen2307_kfz-bestand_10_07_23_nosum.csv')
 
 
 

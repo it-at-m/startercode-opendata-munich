@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Öffentliche Spielplätze München
+## Dataset: Hallensportprogramm
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/oeffentliche-spielplaetze-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/hallensportprogramm)
 
 Auto generated R starter code for data set 139@lhm.
 
 ## Metadata
 
-- **Issued** `2016-06-14T08:47:57`
-- **Modified** `2023-02-15T10:04:51`
+- **Issued** `2023-03-07T06:33:58`
+- **Modified** `2023-03-10T07:32:14`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Isar', 'Spielen', 'Stadtratsauftrag']`
-- **Publisher** `['baureferat']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/oeffentliche-spielplaetze-muenchen`
+- **Keyword** `['Sport', 'Stadtratsauftrag']`
+- **Publisher** `['referat-fur-bildung-und-sport']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/hallensportprogramm`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1391
-# Title                    : Öffentliche Spielplätze in München
-# Issued                   : 2016-06-14T10:49:47
-# Modified                 : 2023-02-15T09:57:28
+# Title                    : Hallensportprogramm
+# Issued                   : 2023-03-07T06:35:55
+# Modified                 : 2023-03-07T06:35:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/0760ce3a-fef8-43e4-888f-8cc92fdf56de/resource/845ce3bd-ea80-4623-b51d-a30680175c22/download/spielplaetze_2b_2.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/2e8a06d3-3b9d-4a4f-a19d-bc9bb74db160/resource/c242c94b-4d18-4259-90a5-7e474179de47/download/opendata_hallenprogramm_2022_2023.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-eoGovernment Projekt Landeshauptstadt München | Data Shop | j-spartenanfrage.bau@muenchen.de
+freizeitsport@muenchen.de | Data Shop | 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Überalterungsquotient
+## Dataset: Indikatorenatlas: Bevölkerung - Wohndauer München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-ueberalterungsquotient-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-muenchen-83r65mct)
 
 Auto generated R starter code for data set 74@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:04:51`
-- **Modified** `2023-07-28T06:31:55`
+- **Issued** `2015-01-26T13:05:11`
+- **Modified** `2023-07-28T06:37:27`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Alter', 'Bevölkerung', 'Indikatorenatlas']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Wohnen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-ueberalterungsquotient-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-wohndauer-muenchen-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 741
-# Title                    : Überalterungsquotient
-# Issued                   : 2015-01-26T14:04:51
-# Modified                 : 2023-07-28T06:31:55
+# Title                    : Wohndauer München
+# Issued                   : 2015-01-26T14:05:12
+# Modified                 : 2023-07-28T06:37:27
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/e46c1590-6000-4556-b66c-62faf5a61048/resource/fe9aeef9-3479-407c-b38f-db73a4dadf9f/download/indikat_bevoelkerung_ueberalterungsquotient_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/8a2e197b-69ff-4456-aff1-48763cb5dea3/resource/773a81c6-1467-4c4a-adde-329776f4b44e/download/indikat_bevoelkerung_wohndauer_muenchen_240723.csv')
 
 
 

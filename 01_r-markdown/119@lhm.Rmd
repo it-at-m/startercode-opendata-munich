@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Orchester
+## Dataset: Monatszahlen Theater
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-orchester)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-theater)
 
 Auto generated R starter code for data set 119@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-21T14:53:29`
-- **Modified** `2023-07-20T06:02:24`
+- **Issued** `2017-02-21T14:49:57`
+- **Modified** `2023-07-20T06:04:18`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-orchester`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-theater`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1191
-# Title                    : Monatszahlen Orchester
-# Issued                   : 2017-02-21T15:53:43
-# Modified                 : 2023-07-20T06:01:59
+# Title                    : Monatszahlen Theater
+# Issued                   : 2017-02-21T15:51:19
+# Modified                 : 2023-07-20T06:03:36
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/7db0a94e-e236-44af-b923-76450dc1b8b3/resource/ce513fbe-6bbc-479c-8d2a-f9ffc2ae0a20/download/monatszahlen2307_orchester_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/dacf1009-8933-4cdf-8c9d-40afd54e4ef7/resource/eb734a10-3b0a-4421-ae1d-4226f9409538/download/monatszahlen2307_theater_10_07_23_nosum.csv')
 
 
 

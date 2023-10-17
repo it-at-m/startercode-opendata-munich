@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - Sozialversicherungspflichtig Beschäftigte - Anteil
+## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte erwerbsfähig
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-anteil-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig)
 
 Auto generated R starter code for data set 49@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:03:20`
-- **Modified** `2023-08-29T05:40:30`
+- **Issued** `2015-01-26T13:04:01`
+- **Modified** `2023-08-29T06:33:36`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-sozialversicherungspflichtig-beschaeftigte-anteil-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 491
-# Title                    : Sozialversicherungspflichtig Beschäftigte - Anteil
-# Issued                   : 2015-01-26T14:03:20
-# Modified                 : 2023-08-29T05:40:30
+# Title                    : (Regel-)Leistungsberechtigte - erwerbsfähig
+# Issued                   : 2015-01-26T14:04:01
+# Modified                 : 2023-08-29T06:30:08
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/d7c53755-150d-4904-966b-e13c462485ce/resource/3a7ba604-9f53-476b-8711-f8aab7a6c159/download/indikat_arbeitsmarkt_sozialversicherungspflichtig_beschaeftigte_-_anteil_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/12df319c-5081-4a89-87d4-8f335f02e081/resource/9b69e333-dd34-4151-b2a5-b1799a8589f9/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_-_erwerbsfaehig_280823.csv')
 
 
 

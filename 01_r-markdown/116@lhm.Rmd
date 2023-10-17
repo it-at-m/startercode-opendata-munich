@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Monatszahlen Tourismus
+## Dataset: Monatszahlen Wirtschaft
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-tourismus)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/monatszahlen-wirtschaft)
 
 Auto generated R starter code for data set 116@lhm.
 
 ## Metadata
 
-- **Issued** `2017-02-20T13:14:48`
-- **Modified** `2023-07-20T06:04:48`
+- **Issued** `2017-02-20T10:44:19`
+- **Modified** `2023-07-20T06:06:52`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
 - **Keyword** `['Monatszahlen']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-tourismus`
+- **Landingpage** `https://opendata.muenchen.de/dataset/monatszahlen-wirtschaft`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1161
-# Title                    : Monatszahlen Tourismus
-# Issued                   : 2017-02-20T14:15:07
-# Modified                 : 2023-07-20T06:04:37
+# Title                    : Monatszahlen Wirtschaft
+# Issued                   : 2017-02-20T11:44:32
+# Modified                 : 2023-07-20T06:05:59
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/3621ad08-aa97-4c2b-b0b0-82780375743c/resource/4f00274a-ef75-41e5-b5c1-15f22c9f8a12/download/monatszahlen2307_tourismus_10_07_23_nosum.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/daeaf20a-9e7c-4e68-8a97-175242d43c7f/resource/cdf75551-993c-4410-8621-2709400629eb/download/monatszahlen2307_wirtschaft_10_07_23_nosum.csv')
 
 
 

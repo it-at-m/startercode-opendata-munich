@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte
+## Dataset: Indikatorenatlas: Gesundheit - Apotheken-Dichte
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-apotheken-dichte)
 
 Auto generated R starter code for data set 48@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:37`
-- **Modified** `2023-08-29T06:32:24`
+- **Issued** `2016-11-17T10:11:55`
+- **Modified** `2023-08-29T06:39:10`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
+- **Keyword** `['Gesundheit', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-apotheken-dichte`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 481
-# Title                    : (Regel-)Leistungsberechtigte
-# Issued                   : 2015-01-26T14:05:38
-# Modified                 : 2023-08-29T06:25:55
+# Title                    : Apotheken-Dichte
+# Issued                   : 2016-11-17T11:12:49
+# Modified                 : 2023-08-29T06:39:10
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/103f72fa-f48a-4b7d-9402-e83fc291685e/resource/921072cb-3ed2-4624-aa59-5e13a3825033/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/fe1ab406-fa35-4431-92ac-01372e2cb56b/resource/401a8a83-9458-448d-b3f5-71fe9334f1a7/download/indikat_gesundheit_apotheken-dichte_280823.csv')
 
 
 

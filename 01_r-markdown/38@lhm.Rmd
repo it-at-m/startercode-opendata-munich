@@ -8,7 +8,7 @@ output: html_document
 
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bevoelkerung)
 
-Auto generated R starter code for data set 35@lhm.
+Auto generated R starter code for data set 38@lhm.
 
 ## Metadata
 
@@ -39,7 +39,7 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 351
+# Ktzhdistid               : 381
 # Title                    : Die Bevölkerung seit 1900 
 # Issued                   : 2015-02-20T11:39:02
 # Modified                 : 2023-09-11T13:40:02

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Haltestellen mit Tarifzuordnung MVV
+## Dataset: Haltestellenliste MVV
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellen-mit-tarifzuordnung-mvv)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellenliste-mvv)
 
 Auto generated R starter code for data set 153@lhm.
 
 ## Metadata
 
-- **Issued** `2022-12-12T13:39:45`
-- **Modified** `2022-12-12T17:02:07`
+- **Issued** `2022-09-16T13:03:30`
+- **Modified** `2022-12-12T17:03:11`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['MVV']`
+- **Keyword** `['MVV', 'Stadtratsauftrag']`
 - **Publisher** `['muenchner-verkehrs-und-tarifverbund-gmbh-mvv']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/haltestellen-mit-tarifzuordnung-mvv`
+- **Landingpage** `https://opendata.muenchen.de/dataset/haltestellenliste-mvv`
 
 
 # Load packages
@@ -41,11 +41,11 @@ library(skimr)
 # Distribution 0
 # Ktzhdistid               : 1531
 # Title                    : Haltestellenliste MVV
-# Issued                   : 2022-12-12T13:40:18
-# Modified                 : 2022-12-12T13:40:18
+# Issued                   : 2022-09-16T13:05:03
+# Modified                 : 2022-09-16T13:05:03
 # Rights                   : cc-by
 
-df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/221110_Haltestellenliste_MVV.csv')
+df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/20-01-MVV_HST-_s20-o-T.csv')
 
 
 

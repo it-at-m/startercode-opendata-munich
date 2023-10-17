@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Verkehr - Motorisierungsgrad Personenkraftwagen
+## Dataset: Indikatorenatlas: Baufertigstellungen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-baufertigstellungen)
 
 Auto generated R starter code for data set 65@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:05:58`
-- **Modified** `2023-07-28T08:59:04`
+- **Issued** `2019-01-30T07:06:52`
+- **Modified** `2023-07-28T09:07:55`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas', 'PKW', 'Verkehr']`
+- **Keyword** `['Bauen', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-motorisierungsgrad-personenkraftwagen-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-baufertigstellungen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 651
-# Title                    : Motorisierungsgrad Personenkraftwagen
-# Issued                   : 2015-01-26T14:05:58
-# Modified                 : 2023-07-28T08:59:04
+# Title                    : Baufertigstellungen
+# Issued                   : 2019-01-30T08:07:42
+# Modified                 : 2023-07-28T09:07:55
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/040c8a8c-6934-48e6-8413-70b07f99a970/resource/627ff66d-010b-4e37-9509-d68646ba7a6f/download/indikat_verkehr_motorisierungsgrad_personenkraftwagen_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/30c110e6-e16b-484f-ad94-2a8bea11db32/resource/47ea6e55-974e-483d-bf44-3f0593bd7ef7/download/indikat_bauen_baufertigstellungen_240723.csv')
 
 
 

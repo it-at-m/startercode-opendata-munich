@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Schuldenstand Hoheitshaushalt LHM
+## Dataset: P+R-Anlagen - Belegungsprognosen
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/p-r-anlagen-belegungsprognosen)
 
 Auto generated R starter code for data set 148@lhm.
 
 ## Metadata
 
-- **Issued** `2022-11-15T07:52:02`
-- **Modified** `2022-12-12T17:06:41`
+- **Issued** `2022-11-15T07:25:49`
+- **Modified** `2022-12-12T17:13:20`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Finanzen', 'Haushalt', 'Stadtratsauftrag']`
-- **Publisher** `['stadtkaemmerei']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/schuldenstand-hoheitshaushalt-lhm`
+- **Keyword** `['Parken', 'Stadtratsauftrag']`
+- **Publisher** `['p-r-park-ride-gmbh-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/p-r-anlagen-belegungsprognosen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1481
-# Title                    : Schuldenstand Hoheitshaushalt LHM
-# Issued                   : 2022-11-15T07:52:38
-# Modified                 : 2022-11-15T07:52:38
+# Title                    : Belegungsprognosen P+R Anlagen München
+# Issued                   : 2022-11-15T07:26:12
+# Modified                 : 2022-11-15T07:26:12
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/f650123e-d1a4-46d5-9d0a-43b5bbfd4502/resource/e34bcccf-6fe0-45a5-be4d-e08feb4acc6e/download/03_ska_schuldenstand.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/b1775816-5c15-49df-bc96-e077ca5558fd/resource/90e7fa46-3400-4fe3-b15d-aa6c74662ec5/download/belegungsprognosen-pr-anlagen-stadt-stand-10-2022-neu.csv')
 
 
 

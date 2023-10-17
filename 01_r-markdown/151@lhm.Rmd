@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Haltestellenliste MVV
+## Dataset: Ordentliche Erträge und Aufwendungen der Produkte der LHM
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellenliste-mvv)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ordentliche-ertraege-und-aufwendungen-produkte-der-lhm)
 
 Auto generated R starter code for data set 151@lhm.
 
 ## Metadata
 
-- **Issued** `2022-09-16T13:03:30`
-- **Modified** `2022-12-12T17:03:11`
+- **Issued** `2022-11-15T07:46:06`
+- **Modified** `2022-12-12T17:06:27`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['MVV', 'Stadtratsauftrag']`
-- **Publisher** `['muenchner-verkehrs-und-tarifverbund-gmbh-mvv']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/haltestellenliste-mvv`
+- **Keyword** `['Stadtratsauftrag']`
+- **Publisher** `['stadtkaemmerei']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/ordentliche-ertraege-und-aufwendungen-produkte-der-lhm`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 1511
-# Title                    : Haltestellenliste MVV
-# Issued                   : 2022-09-16T13:05:03
-# Modified                 : 2022-09-16T13:05:03
-# Rights                   : cc-by
+# Title                    : Ordentliche Erträge und Aufwendungen LHM-Produkte
+# Issued                   : 2022-11-15T07:47:50
+# Modified                 : 2022-11-15T07:47:50
+# Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/20-01-MVV_HST-_s20-o-T.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/a3c1e1f2-9fa5-4efb-ad64-b269c746e742/resource/fc16d07d-89c7-4b74-989d-41427ab089be/download/02_ska_produktuebersicht_oe_oa_bay_p_2022r_opendata.csv')
 
 
 

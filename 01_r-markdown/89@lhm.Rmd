@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Bevölkerung - Haushalte mit Kindern
+## Dataset: Indikatorenatlas: Bevölkerung - Hochbetagte
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-mit-kindern-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-hochbetagte-83r65mct)
 
 Auto generated R starter code for data set 89@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:02:59`
-- **Modified** `2023-07-28T05:26:29`
+- **Issued** `2015-01-26T13:05:17`
+- **Modified** `2023-07-28T05:32:30`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Bevölkerung', 'Indikatorenatlas', 'Kinder']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-haushalte-mit-kindern-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-hochbetagte-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 891
-# Title                    : Haushalte mit Kindern
-# Issued                   : 2015-01-26T14:03:00
-# Modified                 : 2023-07-28T05:26:29
+# Title                    : Hochbetagte
+# Issued                   : 2015-01-26T14:05:17
+# Modified                 : 2023-07-28T05:32:30
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/f68cabaf-5513-4b6d-a539-cef6e4b9437f/resource/238034f8-d7dc-44ab-87c7-d7ee41491f8e/download/indikat_bevoelkerung_haushalte_mit_kindern_240723.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/d5de79e0-f237-4858-a19a-cfa1f4ff22a6/resource/2d8a97e3-e1b9-444c-a3a2-59e6f5b22466/download/indikat_bevoelkerung_hochbetagte_240723.csv')
 
 
 

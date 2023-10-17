@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Kinderbetreuung - Altersgruppen
+## Dataset: Parkhäuser München
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-altersgruppen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/parkhaeuser-munchen)
 
 Auto generated R starter code for data set 39@lhm.
 
 ## Metadata
 
-- **Issued** `2016-11-17T10:38:30`
-- **Modified** `2023-08-29T06:45:06`
+- **Issued** `2016-11-08T09:59:44`
+- **Modified** `2023-09-07T12:44:13`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Indikatorenatlas', 'Kinderbetreuung']`
-- **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-altersgruppen`
+- **Keyword** `['Auto', 'Parken', 'Parkhaus']`
+- **Publisher** `['muenchen-de']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/parkhaeuser-munchen`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 391
-# Title                    : Altersgruppen
-# Issued                   : 2016-11-17T11:39:39
-# Modified                 : 2023-08-29T06:45:06
+# Title                    : Parkhäuser München CSV
+# Issued                   : 2016-11-08T11:00:54
+# Modified                 : 2023-09-07T12:42:06
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/a59648f3-dded-45fc-9c59-6e2df1e419f4/resource/9b007818-e34d-4349-aa1f-7c85fc121e24/download/indikat_kinderbetreuung_altersgruppen_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/addaa7d4-40be-4621-846e-c5358cbe3f26/resource/e0e0e4e1-1b25-4c04-a0ea-cf9cc8335c57/download/230907places.csv')
 
 
 
@@ -74,4 +74,4 @@ tail(df)
 
 # Questions about the data?
 
-Statistisches Amt | Data Shop | 
+ | Data Shop | 

@@ -4,22 +4,22 @@ date: "2023-10-17"
 output: html_document
 ---
 
-## Dataset: Indikatorenatlas: Arbeitsmarkt - Arbeitslosen - Anteil
+## Dataset: Indikatorenatlas: Arbeitsmarkt - Erwerbsfähige
 
-[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslosendichte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-erwerbsfaehige-83r65mct)
 
 Auto generated R starter code for data set 55@lhm.
 
 ## Metadata
 
-- **Issued** `2015-01-26T13:04:11`
-- **Modified** `2023-08-29T05:14:18`
+- **Issued** `2015-01-26T13:03:11`
+- **Modified** `2023-08-29T05:28:06`
 - **Startdate** `None`
 - **Enddate** `None`
 - **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
-- **Keyword** `['Arbeitslosigkeit', 'Arbeitsmarkt', 'Indikatorenatlas']`
+- **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
 - **Publisher** `['statistisches-amt']`
-- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-arbeitslosendichte-83r65mct`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-2014-arbeitsmarkt-erwerbsfaehige-83r65mct`
 
 
 # Load packages
@@ -40,12 +40,12 @@ library(skimr)
 
 # Distribution 0
 # Ktzhdistid               : 551
-# Title                    : Arbeitslose - Anteil
-# Issued                   : 2015-01-26T14:04:11
-# Modified                 : 2023-08-29T05:14:18
+# Title                    : Erwerbsfähige
+# Issued                   : 2015-01-26T14:03:11
+# Modified                 : 2023-08-29T05:28:06
 # Rights                   : dl-by-de/2.0
 
-df <- read_delim('https://opendata.muenchen.de/dataset/0771b22f-b1e7-4480-8fe5-d641c2586f3e/resource/55a1adb0-6c06-403b-ab7f-7e6c41d18e32/download/indikat_arbeitsmarkt_arbeitslose_-_anteil_280823.csv')
+df <- read_delim('https://opendata.muenchen.de/dataset/d9da8e51-bd0a-4207-8486-2b4ce1e5dc69/resource/1f47ff92-01fa-41a2-bd01-26fbf9ce2401/download/indikat_arbeitsmarkt_erwerbsfaehige_280823.csv')
 
 
 
