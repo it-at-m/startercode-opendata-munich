@@ -1,0 +1,77 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-10-17"
+output: html_document
+---
+
+## Dataset: GEWOFAG Wohnungen
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/gewofag-wohnungen)
+
+Auto generated R starter code for data set 159@lhm.
+
+## Metadata
+
+- **Issued** `2022-08-12T07:35:27`
+- **Modified** `2022-09-08T13:16:40`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['SRA', 'Wohnen', 'Wohnungen']`
+- **Publisher** `['landeshauptstadt-muenchen']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/gewofag-wohnungen`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1591
+# Title                    : Wohnungen GEWOFAG
+# Issued                   : 2022-08-12T07:44:04
+# Modified                 : 2022-09-08T13:09:24
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/7796e955-81f4-4541-93d6-52f5ca1c4810/resource/cdaff819-a83c-490c-848c-7324f6dcc1ad/download/open_data_meldung_gewofag_2022_umsortiert.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+GEWOFAG | Data Shop | 

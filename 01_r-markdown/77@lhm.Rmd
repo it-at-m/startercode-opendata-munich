@@ -1,0 +1,77 @@
+---
+title: "Open Government Data, provided by Landeshauptstadt München"
+date: "2023-10-17"
+output: html_document
+---
+
+## Dataset: Indikatorenatlas: Bevölkerung - Religionszugehörigkeit
+
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-religionszugehoerigkeit)
+
+Auto generated R starter code for data set 77@lhm.
+
+## Metadata
+
+- **Issued** `2016-11-17T07:42:22`
+- **Modified** `2023-07-28T06:24:12`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-religionszugehoerigkeit`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 771
+# Title                    : Religionszugehörigkeit
+# Issued                   : 2016-11-17T08:43:52
+# Modified                 : 2023-07-28T06:24:12
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/55d39494-79c4-47af-b5cf-163f0712e5f9/resource/42dd45fc-2300-4b7c-bb67-05da5386e174/download/indikat_bevoelkerung_religionszugehoerigkeit_240723.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | 
