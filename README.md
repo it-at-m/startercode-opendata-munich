@@ -16,7 +16,7 @@ Feedback is always very welcome – simply open an issue or via email: [data.ope
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://opendata.muenchen.de/pages/nutzungsbedingungen).
 
-<sub>Latest update: **2023-10-17 17:17:33**<sub>
+<sub>Latest update: **2023-10-17 17:18:51**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- | :-- |
