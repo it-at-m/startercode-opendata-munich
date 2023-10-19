@@ -16,10 +16,10 @@ Feedback is always very welcome – simply open an issue or via email: [data.ope
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://opendata.muenchen.de/pages/nutzungsbedingungen).
 
-<sub>Latest update: **2023-10-19 13:41:48**<sub>
+<sub>Latest update: **2023-10-19 13:44:43**<sub>
 
-| ID | Title (abbreviated to 200 chars) | Python Colab | Python GitHub | R GitHub |
-| :-- | :-- | :-- | :-- | :-- |
+| ID | Title (abbreviated to 200 chars) | Python GitHub | R GitHub |
+| :-- | :-- | :-- | :-- |
 | 1 | [Parkseiten](https://opendata.muenchen.de/dataset/opendata_ruhver_parkseiten_line) | [Python GitHub](https://github.com/it-at-m/Results/blob/main/02_python/1@lhm.ipynb) | [R GitHub](https://github.com/it-at-m/Results/blob/main/01_r-markdown/1@lhm.Rmd) |
 | 2 | [Straßennetzgraf Baureferat Tiefbau](https://opendata.muenchen.de/dataset/baut_strassenabschnitte_wu) | [Python GitHub](https://github.com/it-at-m/Results/blob/main/02_python/2@lhm.ipynb) | [R GitHub](https://github.com/it-at-m/Results/blob/main/01_r-markdown/2@lhm.Rmd) |
 | 3 | [Bezirksteile der Landeshauptstadt München](https://opendata.muenchen.de/dataset/vablock_bezirksteil_opendata) | [Python GitHub](https://github.com/it-at-m/Results/blob/main/02_python/3@lhm.ipynb) | [R GitHub](https://github.com/it-at-m/Results/blob/main/01_r-markdown/3@lhm.Rmd) |
