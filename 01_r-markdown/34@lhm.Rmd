@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-{{ LANDING }}
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/awm_container_opendata)
 
 Auto generated R starter code for data set 34@lhm.
 

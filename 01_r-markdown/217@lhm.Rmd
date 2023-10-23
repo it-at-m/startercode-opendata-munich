@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-{{ LANDING }}
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/daten-der-raddauerzaehlstellen-muenchen-januar-2019)
 
 Auto generated R starter code for data set 217@lhm.
 

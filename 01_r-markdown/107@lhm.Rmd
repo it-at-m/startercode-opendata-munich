@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-{{ LANDING }}
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/indikatorenatlas-bevoelkerung-aussenwanderungsziffer-kinder-bis-13-jahre-83r65mct)
 
 Auto generated R starter code for data set 107@lhm.
 
