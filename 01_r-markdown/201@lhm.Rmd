@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/201@lhm)
+{{ LANDING }}
 
 Auto generated R starter code for data set 201@lhm.
 
