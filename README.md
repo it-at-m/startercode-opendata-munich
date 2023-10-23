@@ -15,10 +15,10 @@ Feedback is always very welcome – simply open an issue or via email: [data.ope
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://opendata.muenchen.de/pages/nutzungsbedingungen).
 
-Our thanks for the template and help go to Patrick Arnecke from the Statistical Office of the Canton of Zurich. Here is the original:
+:tada: Our thanks for the template and help goes to [Patrick Arnecke](https://github.com/rnckp) from the Statistical Office of the Canton of Zurich. Here is the original:
 https://openzh.github.io/starter-code-openZH/
 
-<sub>Latest update: **2023-10-23 13:33:14**<sub>
+<sub>Latest update: **2023-10-23 14:10:13**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- |
