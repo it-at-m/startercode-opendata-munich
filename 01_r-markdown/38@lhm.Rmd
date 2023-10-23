@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 381
 # Title                    : Die Bevölkerung seit 1900 
 # Issued                   : 2015-02-20T11:39:02
 # Modified                 : 2023-09-11T13:40:02

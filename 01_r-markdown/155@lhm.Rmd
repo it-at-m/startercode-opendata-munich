@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1551
 # Title                    : Haltestellenliste MVV
 # Issued                   : 2022-12-12T13:40:18
 # Modified                 : 2022-12-12T13:40:18

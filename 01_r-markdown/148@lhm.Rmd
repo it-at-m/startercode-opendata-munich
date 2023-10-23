@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1481
 # Title                    : Belegungsprognosen P+R Anlagen München
 # Issued                   : 2022-11-15T07:26:12
 # Modified                 : 2022-11-15T07:26:12

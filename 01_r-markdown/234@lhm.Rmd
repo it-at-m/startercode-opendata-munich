@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2341
 # Title                    : Toilettenkabinen an der Isar
 # Issued                   : 2016-07-14T09:53:30
 # Modified                 : 2016-07-18T06:56:55

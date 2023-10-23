@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1741
 # Title                    : Hauptwohnsitzbevölkerung Stadtbezirksteile
 # Issued                   : 2018-03-27T09:48:22
 # Modified                 : 2018-03-27T07:48:22

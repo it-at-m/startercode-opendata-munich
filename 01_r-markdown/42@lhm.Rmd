@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 421
 # Title                    : Altersgruppen Familiensprache nichtdeutsch
 # Issued                   : 2015-01-26T14:02:44
 # Modified                 : 2023-08-29T06:44:40

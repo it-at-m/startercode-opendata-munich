@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1721
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München September 2021
 # Issued                   : 2021-10-26T13:13:08
 # Modified                 : 2021-11-04T12:41:35
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/245d0a6a-2b33-4afa-95d4-4043e8d55eb2/resource/4cb7280b-003e-43fb-8fea-3eb4b165f1cf/download/rad_2021_09_15min.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1722
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München September 2021
 # Issued                   : 2021-10-26T13:13:54
 # Modified                 : 2021-11-04T12:41:58

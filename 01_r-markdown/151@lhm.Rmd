@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1511
 # Title                    : Ordentliche Erträge und Aufwendungen LHM-Produkte
 # Issued                   : 2022-11-15T07:47:50
 # Modified                 : 2022-11-15T07:47:50

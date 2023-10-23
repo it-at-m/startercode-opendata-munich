@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1411
 # Title                    : Öffentliche Spielplätze in München
 # Issued                   : 2016-06-14T10:49:47
 # Modified                 : 2023-02-15T09:57:28

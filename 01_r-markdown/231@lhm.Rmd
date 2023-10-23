@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2311
 # Title                    : Erträge und Aufwendungen 2018
 # Issued                   : 2018-04-05T14:22:34
 # Modified                 : 2018-04-16T06:41:43

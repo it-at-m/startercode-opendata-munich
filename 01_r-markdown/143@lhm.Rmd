@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1431
 # Title                    : Vornamen 2013
 # Issued                   : 2023-01-25T09:15:48
 # Modified                 : 2023-01-25T09:15:48
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/17c4915d-6b8b-470f-a6b6-31f61b10a285/download/vornamen_2013.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1432
 # Title                    : Vornamen 2014
 # Issued                   : 2023-01-25T09:16:41
 # Modified                 : 2023-01-25T09:16:41
@@ -57,7 +55,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/5d581ba3-4c7e-4057-8be1-04d56bb0d8d6/download/vornamen_2014.csv')
 
 # Distribution 2
-# Ktzhdistid               : 1433
 # Title                    : Vornamen 2015
 # Issued                   : 2023-01-25T09:19:24
 # Modified                 : 2023-01-25T09:19:24
@@ -66,7 +63,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/c11e8fef-94c8-4e16-a769-70dc6b98b69b/download/vornamen_2015.csv')
 
 # Distribution 3
-# Ktzhdistid               : 1434
 # Title                    : Vornamen 2016
 # Issued                   : 2023-01-25T09:21:20
 # Modified                 : 2023-01-25T09:21:20
@@ -75,7 +71,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/6655ec3c-251a-4a5e-9a57-d60c4ad59ca3/download/vornamen2016.csv')
 
 # Distribution 4
-# Ktzhdistid               : 1435
 # Title                    : Vornamen 2017
 # Issued                   : 2023-01-25T09:21:49
 # Modified                 : 2023-01-25T09:21:49
@@ -84,7 +79,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/2c70d289-8b1a-4071-9739-866c5e532b77/download/vornamen2017.csv')
 
 # Distribution 5
-# Ktzhdistid               : 1436
 # Title                    : Vornamen 2018
 # Issued                   : 2023-01-25T09:22:23
 # Modified                 : 2023-01-25T09:22:23
@@ -93,7 +87,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/23fdd53e-485a-46bd-abb6-d7a51b2ebb18/download/vornamen_2018.csv')
 
 # Distribution 6
-# Ktzhdistid               : 1437
 # Title                    : Vornamen 2019
 # Issued                   : 2023-01-25T09:23:25
 # Modified                 : 2023-01-25T09:23:25
@@ -102,7 +95,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/523d5860-25eb-4bea-96e3-193d1dacfb8f/download/vornamen2019.csv')
 
 # Distribution 7
-# Ktzhdistid               : 1438
 # Title                    : Vornamen 2020
 # Issued                   : 2023-01-25T09:24:00
 # Modified                 : 2023-01-25T09:24:00
@@ -111,7 +103,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/48a4c5fd-f5f2-4c0c-bcb3-222fd9ebda67/download/vornamen_2020.csv')
 
 # Distribution 8
-# Ktzhdistid               : 1439
 # Title                    : Vornamen 2021
 # Issued                   : 2023-01-25T09:24:38
 # Modified                 : 2023-01-25T09:24:38
@@ -120,7 +111,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9
 df <- read_delim('https://opendata.muenchen.de/dataset/99ad40ec-9d7b-4a2e-87eb-9bac783fb57a/resource/dc6170db-f7f4-4bdc-b790-13df55f0cf64/download/vornamen_2021.csv')
 
 # Distribution 9
-# Ktzhdistid               : 1440
 # Title                    : Vornamen 2022
 # Issued                   : 2023-01-26T16:37:07
 # Modified                 : 2023-01-26T16:37:07

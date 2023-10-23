@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1621
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Dezember 2021
 # Issued                   : 2022-01-24T06:09:19
 # Modified                 : 2022-01-24T06:09:19
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/52f49094-6a0b-4db8-88a8-83d0764bb963/resource/43e5cbff-ee71-4999-87fc-33fc89d5a18f/download/rad_2021_12_15min.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1622
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Dezember 2021
 # Issued                   : 2022-01-24T06:11:03
 # Modified                 : 2022-01-24T06:11:03

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1341
 # Title                    : Kita-Einrichtungen
 # Issued                   : 2023-06-23T06:28:00
 # Modified                 : 2023-06-23T06:28:00

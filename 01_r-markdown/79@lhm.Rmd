@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 791
 # Title                    : Religionszugehörigkeit
 # Issued                   : 2016-11-17T08:43:52
 # Modified                 : 2023-07-28T06:24:12

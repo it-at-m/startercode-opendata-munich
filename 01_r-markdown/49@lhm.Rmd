@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 491
 # Title                    : (Regel-)Leistungsberechtigte - erwerbsfähig
 # Issued                   : 2015-01-26T14:04:01
 # Modified                 : 2023-08-29T06:30:08

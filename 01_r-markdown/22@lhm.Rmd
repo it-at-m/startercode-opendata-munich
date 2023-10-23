@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 225
 # Title                    : WFS (CSV)
 # Issued                   : 2023-10-17T01:00:19
 # Modified                 : 2023-10-17T01:00:19

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 531
 # Title                    : (Regel-)Leistungsberechtigte - nicht erwerbsfähig - Anteil
 # Issued                   : 2015-01-26T14:05:43
 # Modified                 : 2023-08-29T05:35:46

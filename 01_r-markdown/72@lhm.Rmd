@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 721
 # Title                    : Flächennutzung
 # Issued                   : 2023-07-28T06:46:36
 # Modified                 : 2023-07-28T06:46:36

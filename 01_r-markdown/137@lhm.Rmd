@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1371
 # Title                    : B+R Anlagen Übersicht
 # Issued                   : 2022-11-15T07:23:13
 # Modified                 : 2023-04-12T12:51:46

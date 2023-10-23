@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2231
 # Title                    : Raddauerzählstellen in München
 # Issued                   : 2018-09-03T11:46:39
 # Modified                 : 2021-09-16T13:33:08

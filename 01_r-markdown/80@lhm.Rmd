@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 801
 # Title                    : Optionskinder
 # Issued                   : 2015-01-26T14:02:23
 # Modified                 : 2023-07-28T06:21:45

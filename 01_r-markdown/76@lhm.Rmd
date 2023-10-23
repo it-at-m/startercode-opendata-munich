@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 761
 # Title                    : Überalterungsquotient
 # Issued                   : 2015-01-26T14:04:51
 # Modified                 : 2023-07-28T06:31:55

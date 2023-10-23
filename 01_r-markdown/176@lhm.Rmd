@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1761
 # Title                    : M-WLAN Hotspots
 # Issued                   : 2015-02-20T11:33:40
 # Modified                 : 2016-07-12T08:42:45

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 391
 # Title                    : Parkhäuser München CSV
 # Issued                   : 2016-11-08T11:00:54
 # Modified                 : 2023-09-07T12:42:06

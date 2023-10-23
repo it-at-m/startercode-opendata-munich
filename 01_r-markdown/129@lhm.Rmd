@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1291
 # Title                    : Monatszahlen Feuerwehr
 # Issued                   : 2017-02-20T16:08:24
 # Modified                 : 2023-07-20T05:52:59

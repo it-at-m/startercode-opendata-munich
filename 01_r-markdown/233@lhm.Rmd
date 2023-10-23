@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2331
 # Title                    : Bundestagswahl 2013 Erststimmen nach Wahlbezirken (STAT. Amt)
 # Issued                   : 2014-12-18T07:57:31
 # Modified                 : 2014-12-18T07:57:31
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/8dc20a65-a7d3-4786-82fa-4a8b1faba836/resource/0d8ce841-841f-45da-be03-ff7711765031/download/bundestagswahl2013erststimmenwahlbezirke.csv')
 
 # Distribution 1
-# Ktzhdistid               : 2332
 # Title                    : Bundestagswahl 2013 Zweitstimmen nach Wahlbezirken
 # Issued                   : 2014-12-18T15:10:00
 # Modified                 : 2014-12-18T15:10:00

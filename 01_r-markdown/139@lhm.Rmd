@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1391
 # Title                    : Hallensportprogramm
 # Issued                   : 2023-03-07T06:35:55
 # Modified                 : 2023-03-07T06:35:55

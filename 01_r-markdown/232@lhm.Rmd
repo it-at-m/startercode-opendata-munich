@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2321
 # Title                    : Erträge und Aufwendungen 2015
 # Issued                   : 2015-05-26T08:07:49
 # Modified                 : 2015-09-29T08:57:28

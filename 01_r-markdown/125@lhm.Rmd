@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1251
 # Title                    : Monatszahlen KFZ-Erstzulassungen
 # Issued                   : 2022-11-25T09:21:42
 # Modified                 : 2023-07-20T05:59:01

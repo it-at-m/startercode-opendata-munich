@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1421
 # Title                    : Pro Kopf Verschuldung
 # Issued                   : 2022-11-15T07:54:59
 # Modified                 : 2022-11-15T07:54:59

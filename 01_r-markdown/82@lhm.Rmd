@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 821
 # Title                    : Natürlicher Saldo 
 # Issued                   : 2015-01-26T14:05:01
 # Modified                 : 2023-07-28T06:12:40

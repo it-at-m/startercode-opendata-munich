@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 921
 # Title                    : Haushalte Alleinerziehend
 # Issued                   : 2016-11-10T16:18:40
 # Modified                 : 2023-07-27T08:00:29

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1401
 # Title                    : Linienliste MVV
 # Issued                   : 2022-09-16T13:15:17
 # Modified                 : 2022-09-16T13:15:17

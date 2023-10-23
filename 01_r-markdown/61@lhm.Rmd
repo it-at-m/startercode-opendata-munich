@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 611
 # Title                    : Besucher und Veranstaltungszahlen Gasteig  HP8 München
 # Issued                   : 2023-04-05T10:00:33
 # Modified                 : 2023-04-05T10:00:33

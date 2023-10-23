@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 481
 # Title                    : Apotheken-Dichte
 # Issued                   : 2016-11-17T11:12:49
 # Modified                 : 2023-08-29T06:39:10

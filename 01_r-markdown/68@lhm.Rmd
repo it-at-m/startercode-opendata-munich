@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 681
 # Title                    : Motorisierungsgrad Personenkraftwagen und Krafträder
 # Issued                   : 2015-01-26T14:04:16
 # Modified                 : 2023-07-28T08:55:55

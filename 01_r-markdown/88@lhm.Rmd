@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 881
 # Title                    : Innerräumliche Umzugsziffer
 # Issued                   : 2015-01-26T14:03:24
 # Modified                 : 2023-07-28T05:35:17

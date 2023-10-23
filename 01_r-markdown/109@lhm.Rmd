@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1091
 # Title                    : Außenwanderungsziffer 65 Jahre und älter
 # Issued                   : 2015-01-26T14:04:46
 # Modified                 : 2023-07-27T06:09:38

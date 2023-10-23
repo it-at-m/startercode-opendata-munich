@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1591
 # Title                    : Belegung Gewerbehöfe
 # Issued                   : 2022-12-12T16:36:24
 # Modified                 : 2022-12-12T16:36:24

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2351
 # Title                    : POIs an der Isar
 # Issued                   : 2016-06-30T14:31:59
 # Modified                 : 2016-08-17T08:21:43

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1051
 # Title                    : Bevolkerungsanteil
 # Issued                   : 2016-11-14T08:28:43
 # Modified                 : 2023-07-27T06:30:09

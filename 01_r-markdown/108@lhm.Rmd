@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1081
 # Title                    : Außenwanderungsziffer Deutsche
 # Issued                   : 2015-01-26T14:04:41
 # Modified                 : 2023-07-27T06:22:49

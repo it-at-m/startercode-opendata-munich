@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1731
 # Title                    : Bundestagswahl 2017 Erststimmen nach Wahlbezirken
 # Issued                   : 2018-03-03T09:06:29
 # Modified                 : 2018-03-03T08:06:29
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-661c2e3622ff/resource/14732d87-21b4-4689-b824-68b2d5a43248/download/btw2017amtlicherststimmenwahlbezirke.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1732
 # Title                    : Bundestagswahl 2017 Erststimmen nach Wahlkreisen
 # Issued                   : 2018-03-03T09:06:49
 # Modified                 : 2018-03-03T08:06:49
@@ -57,7 +55,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-661c2e3622ff/resource/339d69ec-69ce-4675-a397-3fb54507c124/download/btw2017amtlicherststimmenwahlkreise.csv')
 
 # Distribution 2
-# Ktzhdistid               : 1733
 # Title                    :  Bundestagswahl 2017 Erststimmen nach Stadtbezirken
 # Issued                   : 2018-03-03T09:07:05
 # Modified                 : 2018-03-03T08:07:05
@@ -66,7 +63,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-661c2e3622ff/resource/bcf97087-9198-4736-8715-23975e1229c5/download/btw2017amtlicherststimmenstadtbezirke.csv')
 
 # Distribution 3
-# Ktzhdistid               : 1734
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Wahlkreisen
 # Issued                   : 2018-03-03T09:07:21
 # Modified                 : 2018-03-03T08:07:21
@@ -75,7 +71,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-661c2e3622ff/resource/1655cdc8-13c3-489b-94a6-19a887da714d/download/btw2017amtlichzweitstimmenwahlkreise.csv')
 
 # Distribution 4
-# Ktzhdistid               : 1735
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Wahlbezirken
 # Issued                   : 2018-03-03T09:07:34
 # Modified                 : 2018-03-03T08:07:34
@@ -84,7 +79,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-6
 df <- read_delim('https://opendata.muenchen.de/dataset/d95b5aa1-83d0-4c15-9a12-661c2e3622ff/resource/fba0bca0-aaa6-4888-a5d9-ecf25c845575/download/btw2017amtlichzweitstimmenwahlbezirke.csv')
 
 # Distribution 5
-# Ktzhdistid               : 1736
 # Title                    : Bundestagswahl 2017 Zweitstimmen nach Stadtbezirken
 # Issued                   : 2018-03-03T09:08:12
 # Modified                 : 2018-03-03T08:08:11

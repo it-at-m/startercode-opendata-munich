@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1001
 # Title                    : Durchschnittsalter Mütter erstgebärend
 # Issued                   : 2016-11-14T09:59:15
 # Modified                 : 2023-07-27T06:57:02

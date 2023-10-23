@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1501
 # Title                    : Schuldenstand Hoheitshaushalt LHM
 # Issued                   : 2022-11-15T07:52:38
 # Modified                 : 2022-11-15T07:52:38

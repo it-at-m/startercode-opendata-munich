@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2051
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München März 2020
 # Issued                   : 2020-05-04T09:14:46
 # Modified                 : 2020-05-04T07:14:46
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/ab168721-7eb6-4715-a12b-46800a2879c2/resource/aece96df-4fad-49fc-bd21-2d64f8ea50e9/download/rad20200315min.csv')
 
 # Distribution 1
-# Ktzhdistid               : 2052
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München März 2020
 # Issued                   : 2020-05-04T09:15:22
 # Modified                 : 2020-05-04T07:15:22

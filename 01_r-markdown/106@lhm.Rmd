@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1061
 # Title                    : Außenwanderungsziffer Nichtdeutsche
 # Issued                   : 2015-01-26T14:04:26
 # Modified                 : 2023-07-27T06:26:56

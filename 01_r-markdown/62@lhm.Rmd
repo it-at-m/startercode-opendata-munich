@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 621
 # Title                    : WLAN Standorte LHM Gebäude
 # Issued                   : 2020-10-06T07:53:20
 # Modified                 : 2022-08-04T09:53:20
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/bec8b9e3-0e55-438b-91bd-5f6a781f3efc/resource/58691a67-9ba6-40f0-b25e-9d969af66895/download/opendata_oeffwlan_2022-08-03.csv')
 
 # Distribution 1
-# Ktzhdistid               : 622
 # Title                    : WLAN Öffentliche Plätze München
 # Issued                   : 2021-03-05T08:49:15
 # Modified                 : 2023-07-31T14:06:59

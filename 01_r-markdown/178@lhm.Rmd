@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1781
 # Title                    : Privathaushalte in den Stadtbezirken zum 31.12.2013
 # Issued                   : 2015-04-23T07:28:31
 # Modified                 : 2015-04-23T07:33:16

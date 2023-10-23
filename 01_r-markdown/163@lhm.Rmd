@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1631
 # Title                    : Behindertenparkplätze Juni 2022
 # Issued                   : 2022-06-27T07:32:43
 # Modified                 : 2022-06-27T07:39:26

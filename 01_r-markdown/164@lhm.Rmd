@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1642
 # Title                    : Radwege CSV-Datei
 # Issued                   : 2022-06-14T05:32:48
 # Modified                 : 2022-06-14T05:45:41

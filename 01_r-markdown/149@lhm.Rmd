@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1491
 # Title                    : Übersicht P+R Anlagen
 # Issued                   : 2022-11-15T07:16:18
 # Modified                 : 2022-11-15T07:16:18

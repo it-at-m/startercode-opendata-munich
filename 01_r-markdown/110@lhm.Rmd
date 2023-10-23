@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1101
 # Title                    : Außenwanderungsziffer Gesamt
 # Issued                   : 2015-01-26T14:03:16
 # Modified                 : 2023-07-27T06:03:19

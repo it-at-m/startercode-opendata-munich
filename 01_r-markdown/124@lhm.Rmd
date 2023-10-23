@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1241
 # Title                    : Monatszahlen Kinos
 # Issued                   : 2017-02-21T15:57:05
 # Modified                 : 2023-07-20T05:59:47

@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1941
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Juni 2021
 # Issued                   : 2021-08-27T06:31:55
 # Modified                 : 2021-08-27T06:31:55
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/460641f5-52e7-48fd-96db-3413caba9688/resource/2872d047-afb2-443f-b999-176709d930c1/download/rad_2021_06_15min.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1942
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Juni 2021
 # Issued                   : 2021-08-27T06:32:47
 # Modified                 : 2021-08-27T06:32:47

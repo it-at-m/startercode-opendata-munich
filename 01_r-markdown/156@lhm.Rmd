@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1561
 # Title                    : Geburten in der München Klinik gGmbh
 # Issued                   : 2022-12-12T14:51:19
 # Modified                 : 2022-12-12T14:51:19

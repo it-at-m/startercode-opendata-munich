@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1381
 # Title                    : Software bei der LHM
 # Issued                   : 2023-03-09T07:07:26
 # Modified                 : 2023-03-09T07:07:26

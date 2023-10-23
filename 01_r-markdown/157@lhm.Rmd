@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1571
 # Title                    : Schulen und Schülerzahlen Schuljahr 2020/21
 # Issued                   : 2022-12-12T16:11:46
 # Modified                 : 2022-12-12T16:11:46
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/4e7880e0-c91a-4f17-8e0f-9cd8e7d7215f/resource/00e6fc97-7613-4151-a067-1ecb1920f50d/download/bearbeitet-opendata_rbs_a_b_schulen_schuelerzahlen.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1572
 # Title                    : Schulen und Schülerzahlen Schuljahr 2021/22
 # Issued                   : 2022-12-12T16:12:14
 # Modified                 : 2022-12-12T16:12:14

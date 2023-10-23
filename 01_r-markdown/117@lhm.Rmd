@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1171
 # Title                    : Monatszahlen Verkehrsunfälle
 # Issued                   : 2017-02-20T16:03:59
 # Modified                 : 2023-07-20T06:05:23

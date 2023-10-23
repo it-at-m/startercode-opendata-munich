@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1801
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München Januar 2017
 # Issued                   : 2018-09-19T09:27:48
 # Modified                 : 2018-09-19T07:27:48
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/011c0015-8e1c-4c94-af9a-bd5ba118b6e9/resource/9f3b9a02-8782-4e1a-935a-1516fc78b719/download/rad20170115min.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1802
 # Title                    : Tageswerte und Wetter - Daten der Raddauerzählstellen München Januar 2017
 # Issued                   : 2018-09-19T09:28:22
 # Modified                 : 2018-09-19T07:28:22

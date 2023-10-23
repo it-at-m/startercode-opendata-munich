@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1181
 # Title                    : Monatszahlen Tourismus
 # Issued                   : 2017-02-20T14:15:07
 # Modified                 : 2023-07-20T06:04:37

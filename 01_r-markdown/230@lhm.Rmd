@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 2301
 # Title                    : Bürgerterminals
 # Issued                   : 2020-12-16T09:51:11
 # Modified                 : 2020-12-16T08:59:12

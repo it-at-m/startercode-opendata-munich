@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1651
 # Title                    : 15 Minuten-Werte - Daten der Raddauerzählstellen München November 2021
 # Issued                   : 2021-12-10T16:31:43
 # Modified                 : 2022-05-09T15:29:02

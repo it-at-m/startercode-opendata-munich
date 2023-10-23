@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1131
 # Title                    : Altersgruppen
 # Issued                   : 2015-01-26T14:03:38
 # Modified                 : 2023-07-27T05:57:41

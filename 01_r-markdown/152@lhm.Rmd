@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1521
 # Title                    : Bilanzsumme, Eigenkapital und Eigenkapital-Quote LHM 
 # Issued                   : 2022-11-15T07:50:25
 # Modified                 : 2022-11-15T07:50:25

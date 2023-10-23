@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1111
 # Title                    : Außenwanderungsvolumen
 # Issued                   : 2015-01-26T14:03:29
 # Modified                 : 2023-07-27T06:00:45

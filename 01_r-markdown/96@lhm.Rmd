@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 961
 # Title                    : Frauenanteil
 # Issued                   : 2015-01-26T14:02:27
 # Modified                 : 2023-07-27T07:35:21

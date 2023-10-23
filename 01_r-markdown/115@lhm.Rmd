@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1151
 # Title                    : Oktoberfest 1985 - 2022
 # Issued                   : 2014-12-16T15:16:11
 # Modified                 : 2023-07-24T06:04:48
@@ -48,7 +47,6 @@ library(skimr)
 df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f79106aab828/resource/e0f664cf-6dd9-4743-bd2b-81a8b18bd1d2/download/oktoberfestgesamt19852022.csv')
 
 # Distribution 1
-# Ktzhdistid               : 1152
 # Title                    : Oktoberfest Bierkonsum 1985 - 2022
 # Issued                   : 2014-12-16T15:21:21
 # Modified                 : 2023-07-24T06:05:50
@@ -57,7 +55,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f
 df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f79106aab828/resource/56a0c3c8-c2ea-4b42-bbd2-21cb72d80803/download/oktoberfestbierkonsum19852022.csv')
 
 # Distribution 2
-# Ktzhdistid               : 1153
 # Title                    : Oktoberfest Bierpreise 1985 - 2022
 # Issued                   : 2014-12-16T15:25:07
 # Modified                 : 2023-07-24T06:06:19
@@ -66,7 +63,6 @@ df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f
 df <- read_delim('https://opendata.muenchen.de/dataset/8d6c8251-7956-4f92-8c96-f79106aab828/resource/52fda541-c4dd-4eb6-8f2a-84ca24ffe775/download/oktoberfestbierpreis19852022.csv')
 
 # Distribution 3
-# Ktzhdistid               : 1154
 # Title                    : Oktoberfest Besucherinnen und Besucher 1985 - 2022
 # Issued                   : 2014-12-16T15:34:47
 # Modified                 : 2023-07-24T06:06:42

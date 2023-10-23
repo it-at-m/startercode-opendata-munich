@@ -39,7 +39,6 @@ library(skimr)
 ```{r}
 
 # Distribution 0
-# Ktzhdistid               : 1581
 # Title                    : Daten Tierpark Hellabrunn
 # Issued                   : 2022-12-12T16:30:00
 # Modified                 : 2022-12-12T16:30:00
