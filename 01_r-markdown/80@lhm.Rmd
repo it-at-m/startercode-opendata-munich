@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-10-23"
+output: html_document
+---
+
+## Dataset: Indikatorenatlas: Bevölkerung - Optionskinder
+
+{{ DATASET_DESCRIPTION }}
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/80@lhm)
+
+Auto generated R starter code for data set 80@lhm.
+
+## Metadata
+
+- **Issued** `2015-01-26T13:02:22`
+- **Modified** `2023-07-28T06:22:14`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Bevölkerung', 'Indikatorenatlas']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-optionskinder-83r65mct`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 801
+# Title                    : Optionskinder
+# Issued                   : 2015-01-26T14:02:23
+# Modified                 : 2023-07-28T06:21:45
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/86a29c4a-d15f-4e9d-8b64-99768886ba80/resource/b5d2a7e5-4841-462a-b244-ef5d3976d73e/download/indikat_bevoelkerung_optionskinder_240723.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | 

@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-10-23"
+output: html_document
+---
+
+## Dataset: Belegung Gewerbehöfe
+
+{{ DATASET_DESCRIPTION }}
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/159@lhm)
+
+Auto generated R starter code for data set 159@lhm.
+
+## Metadata
+
+- **Issued** `2022-12-12T16:35:58`
+- **Modified** `2022-12-12T17:00:38`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Stadtratsauftrag']`
+- **Publisher** `['munchner-gewerbehof-und-technologiezentrumsgesellschaft-mbh']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/belegung-gewerbehoefe`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1591
+# Title                    : Belegung Gewerbehöfe
+# Issued                   : 2022-12-12T16:36:24
+# Modified                 : 2022-12-12T16:36:24
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/6c8f0118-441d-47fc-a0c3-9dd2789b1cfd/resource/eb8f8471-9993-485c-81d9-1d3a8e6e8094/download/belegung-gh-ab-2010.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+ | Data Shop | 

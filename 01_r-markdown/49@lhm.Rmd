@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-10-23"
+output: html_document
+---
+
+## Dataset: Indikatorenatlas: Arbeitsmarkt - (Regel-)Leistungsberechtigte erwerbsfähig
+
+{{ DATASET_DESCRIPTION }}
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/49@lhm)
+
+Auto generated R starter code for data set 49@lhm.
+
+## Metadata
+
+- **Issued** `2015-01-26T13:04:01`
+- **Modified** `2023-08-29T06:33:36`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Arbeitsmarkt', 'Indikatorenatlas']`
+- **Publisher** `['statistisches-amt']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/indikatorenatlas-arbeitsmarkt-regel-leistungsberechtigte-erwerbsfaehig`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 491
+# Title                    : (Regel-)Leistungsberechtigte - erwerbsfähig
+# Issued                   : 2015-01-26T14:04:01
+# Modified                 : 2023-08-29T06:30:08
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/12df319c-5081-4a89-87d4-8f335f02e081/resource/9b69e333-dd34-4151-b2a5-b1799a8589f9/download/indikat_arbeitsmarkt_regel-leistungsberechtigte_-_erwerbsfaehig_280823.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Statistisches Amt | Data Shop | 

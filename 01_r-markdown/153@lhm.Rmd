@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-10-23"
+output: html_document
+---
+
+## Dataset: Haltestellenliste MVV
+
+{{ DATASET_DESCRIPTION }}
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/153@lhm)
+
+Auto generated R starter code for data set 153@lhm.
+
+## Metadata
+
+- **Issued** `2022-09-16T13:03:30`
+- **Modified** `2022-12-12T17:03:11`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['MVV', 'Stadtratsauftrag']`
+- **Publisher** `['muenchner-verkehrs-und-tarifverbund-gmbh-mvv']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/haltestellenliste-mvv`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 1531
+# Title                    : Haltestellenliste MVV
+# Issued                   : 2022-09-16T13:05:03
+# Modified                 : 2022-09-16T13:05:03
+# Rights                   : cc-by
+
+df <- read_delim('https://www.mvv-muenchen.de/fileadmin/mediapool/02-Fahrplanauskunft/03-Downloads/openData/20-01-MVV_HST-_s20-o-T.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+ | Data Shop | 

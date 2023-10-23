@@ -1,0 +1,79 @@
+---
+title: "Open Government Data, provided by Canton Zurich"
+date: "2023-10-23"
+output: html_document
+---
+
+## Dataset: Ergebnishaushalt der Landeshauptstadt München 2015
+
+{{ DATASET_DESCRIPTION }}
+
+[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/232@lhm)
+
+Auto generated R starter code for data set 232@lhm.
+
+## Metadata
+
+- **Issued** `2015-05-26T06:07:08`
+- **Modified** `2018-04-25T10:28:37`
+- **Startdate** `None`
+- **Enddate** `None`
+- **Theme** `['http://publications.europa.eu/resource/authority/data-theme/TECH']`
+- **Keyword** `['Haushalt']`
+- **Publisher** `['stadtkaemmerei']`
+- **Landingpage** `https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen`
+
+
+# Load packages
+
+```{r}
+
+library(tidyverse)
+library(skimr)
+
+```
+
+# Load data
+
+-   The dataset has 1 distribution(s) in CSV format.
+-   All available CSV distributions are listed below and can be read into a tibble.
+
+```{r}
+
+# Distribution 0
+# Ktzhdistid               : 2321
+# Title                    : Erträge und Aufwendungen 2015
+# Issued                   : 2015-05-26T08:07:49
+# Modified                 : 2015-09-29T08:57:28
+# Rights                   : dl-by-de/2.0
+
+df <- read_delim('https://opendata.muenchen.de/dataset/19c72eb4-e366-4500-8c82-55317528ab2a/resource/ebf70422-9f3e-40ca-bf52-c4cbe4c4225c/download/150929baumertragaufwandbearb.csv')
+
+
+
+```
+
+# Analyze data
+
+```{r}
+
+glimpse(df)
+str(df)
+skim(df)
+
+head(df)
+tail(df)
+
+```
+
+# Continue your code here...
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+# Questions about the data?
+
+Stadtkämmerei Landeshauptstadt München | Data Shop | egovernment@muenchen.de
