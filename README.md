@@ -15,7 +15,10 @@ Feedback is always very welcome – simply open an issue or via email: [data.ope
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://opendata.muenchen.de/pages/nutzungsbedingungen).
 
-<sub>Latest update: **2023-10-23 06:42:34**<sub>
+Our thanks for the template and help go to Patrick Arnecke from the Statistical Office of the Canton of Zurich. Here is the original:
+https://openzh.github.io/starter-code-openZH/
+
+<sub>Latest update: **2023-10-23 06:50:38**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- |
