@@ -8,7 +8,6 @@ With this repo you get starter code for **all CSV data sets** that are available
 
 In the list below you find links to preconfigured code files so that you **immediately can start analyzing the data with R or Python.**
 
-**The Jupyter Notebooks can be opened directly in Google Colab.** 🚀
 
 Feedback is always very welcome – simply open an issue or via email: [data.opengov@muenchen.de](data.opengov@muenchen.de).
 
@@ -16,7 +15,7 @@ Feedback is always very welcome – simply open an issue or via email: [data.ope
 
 For all data licenses please refer to each data set's link or the metadata API endpoint provided [here](https://opendata.muenchen.de/pages/nutzungsbedingungen).
 
-<sub>Latest update: **2023-10-23 03:37:34**<sub>
+<sub>Latest update: **2023-10-23 06:42:34**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- |
