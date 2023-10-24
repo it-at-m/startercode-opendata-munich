@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Pro-Kopf-Verschuldung LHM, Hoheitshaushalt
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/pro-kopf-verschuldung-lhm-hoheitshaushalt)
 
 Auto generated R starter code for data set 142@lhm.

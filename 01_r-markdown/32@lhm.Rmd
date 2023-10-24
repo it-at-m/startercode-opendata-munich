@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Radschnellverbindungen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_radschnellverb_line)
 
 Auto generated R starter code for data set 32@lhm.

@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: B + R Anlagen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/b-r-anlagen)
 
 Auto generated R starter code for data set 137@lhm.

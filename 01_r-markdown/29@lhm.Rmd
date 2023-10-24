@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Barrierefreie Container für Altglas
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/awm_container_barrierefrei)
 
 Auto generated R starter code for data set 29@lhm.

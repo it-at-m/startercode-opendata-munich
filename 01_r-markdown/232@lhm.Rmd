@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Ergebnishaushalt der Landeshauptstadt München 2015
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/ergebnishaushalt-der-landeshauptstadt-muenchen)
 
 Auto generated R starter code for data set 232@lhm.

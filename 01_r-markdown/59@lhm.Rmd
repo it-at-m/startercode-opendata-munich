@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Landtagswahl 2023 - Wahlräume in München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/landtagswahl-2023-wahlraeume-in-muenchen)
 
 Auto generated R starter code for data set 59@lhm.

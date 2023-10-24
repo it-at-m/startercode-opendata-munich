@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Stadtplan der städtischen Trinkbrunnen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_trinkwasserbrunnen)
 
 Auto generated R starter code for data set 19@lhm.

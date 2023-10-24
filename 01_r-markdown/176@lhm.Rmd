@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: M-WLAN Hotspots
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/m-wlan-hotspots)
 
 Auto generated R starter code for data set 176@lhm.

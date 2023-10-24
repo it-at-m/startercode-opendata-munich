@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Toilettenkabinen an der Isar
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/toilettenkabinen-an-der-isar)
 
 Auto generated R starter code for data set 234@lhm.

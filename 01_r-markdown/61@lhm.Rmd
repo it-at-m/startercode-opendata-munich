@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Besucher und Veranstaltungen Gasteig HP8 München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/besucher-und-veranstaltungen-gasteig-hp8-muenchen)
 
 Auto generated R starter code for data set 61@lhm.

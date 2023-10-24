@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Bundestagswahlen 2017 - Ergebnisse München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/bundestagswahlen-2017-ergebnisse-munchen)
 
 Auto generated R starter code for data set 173@lhm.

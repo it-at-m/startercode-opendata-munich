@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Haltestellenliste MVV
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/haltestellenliste-mvv)
 
 Auto generated R starter code for data set 153@lhm.

@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Straßennetzgraf Baureferat Tiefbau
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/baut_strassenabschnitte_wu)
 
 Auto generated R starter code for data set 2@lhm.

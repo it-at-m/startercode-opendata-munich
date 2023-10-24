@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Kinderbetreuung - Betreuungsangebot
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-kinderbetreuung-betreuungsangebot-83r65mct)
 
 Auto generated R starter code for data set 43@lhm.

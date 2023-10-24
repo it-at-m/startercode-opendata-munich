@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Verkehr - Erstzulassungsanteil Personenkraftwagen
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-verkehr-erstzulassungsanteil-personenkraftwagen-83r65mct)
 
 Auto generated R starter code for data set 69@lhm.

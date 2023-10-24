@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Wertstoffinseln in München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/awm_container_opendata)
 
 Auto generated R starter code for data set 34@lhm.

@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Bevölkerung - Innerräumliche Umzugsziffer
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-bevoelkerung-innerraeumliche-umzugsziffer-83r65mct)
 
 Auto generated R starter code for data set 88@lhm.

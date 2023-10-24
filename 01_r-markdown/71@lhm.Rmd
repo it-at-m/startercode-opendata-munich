@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Indikatorenatlas: Grundschüler*innen - Staatsangehörigkeit
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-grundschueler-innen-staatsangehoerigkeit-83r65mct)
 
 Auto generated R starter code for data set 71@lhm.

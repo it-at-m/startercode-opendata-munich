@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Lage der Höhenfestpunkte innerhalb der Landeshauptstadt München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/vagrund_hoeh_symbol_opendata)
 
 Auto generated R starter code for data set 8@lhm.

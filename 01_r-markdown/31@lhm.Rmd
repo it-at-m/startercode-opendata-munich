@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Märkte der Landeshauptstadt München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/maerkte_opendata)
 
 Auto generated R starter code for data set 31@lhm.

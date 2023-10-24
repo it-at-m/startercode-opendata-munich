@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Radverkehrsanlagen im Straßenunterhalt der Landeshauptstadt München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/radverkehrsanlagen-im-strassenunterhalt-der-landeshauptstadt-muenchen)
 
 Auto generated R starter code for data set 164@lhm.

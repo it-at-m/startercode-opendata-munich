@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Munich IT Dashboard
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/munich-it-dashboard)
 
 Auto generated R starter code for data set 138@lhm.

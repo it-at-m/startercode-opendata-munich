@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Elektrokleinstfahrzeuge
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/opendata_ruhver_elektokleinf_poly)
 
 Auto generated R starter code for data set 27@lhm.

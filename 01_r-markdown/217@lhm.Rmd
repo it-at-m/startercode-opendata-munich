@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Daten der Raddauerzählstellen München Januar 2019
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-januar-2019)
 
 Auto generated R starter code for data set 217@lhm.

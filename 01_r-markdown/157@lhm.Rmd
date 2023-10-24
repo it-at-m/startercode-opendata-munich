@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Schulen und Schülerzahlen in München
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/schulen-und-schuelerzahlen-in-muenchen)
 
 Auto generated R starter code for data set 157@lhm.

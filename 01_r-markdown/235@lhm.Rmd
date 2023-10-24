@@ -6,8 +6,6 @@ output: html_document
 
 ## Dataset: Points of Interest an der südlichen Isar
 
-{{ DATASET_DESCRIPTION }}
-
 [Direct data shop link for dataset](https://opendata.muenchen.de/dataset/points-of-interest-an-der-sudlichen-isar)
 
 Auto generated R starter code for data set 235@lhm.
