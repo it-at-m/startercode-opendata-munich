@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-23"
+date: "2023-10-24"
 output: html_document
 ---
 
@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/liste-aller-verfuegbaren-onlinedienste-der-landeshauptstadt-muenchen)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/liste-aller-verfuegbaren-onlinedienste-der-landeshauptstadt-muenchen)
 
 Auto generated R starter code for data set 64@lhm.
 

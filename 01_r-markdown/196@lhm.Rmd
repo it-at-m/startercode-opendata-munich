@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-23"
+date: "2023-10-24"
 output: html_document
 ---
 
@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/daten-der-raddauerzaehlstellen-muenchen-juli-2018)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/daten-der-raddauerzaehlstellen-muenchen-juli-2018)
 
 Auto generated R starter code for data set 196@lhm.
 

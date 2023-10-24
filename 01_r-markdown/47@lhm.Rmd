@@ -1,6 +1,6 @@
 ---
 title: "Open Government Data, provided by Canton Zurich"
-date: "2023-10-23"
+date: "2023-10-24"
 output: html_document
 ---
 
@@ -8,7 +8,7 @@ output: html_document
 
 {{ DATASET_DESCRIPTION }}
 
-[Direct data shop link for dataset](https://www.zh.ch/de/politik-staat/opendata.html#/datasets/indikatorenatlas-gesundheit-zahnaerztedichte-83r65mct)
+[Direct data shop link for dataset](https://opendata.muenchen.de/dataset/indikatorenatlas-gesundheit-zahnaerztedichte-83r65mct)
 
 Auto generated R starter code for data set 47@lhm.
 
