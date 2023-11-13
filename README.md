@@ -20,7 +20,7 @@ For all data licenses please refer to each data set's link or the metadata API e
 🌻 Our thanks for the template and help goes to Patrick Arnecke from the Statistical Office of the Canton of Zurich. Here is the original:
 [https://openzh.github.io/starter-code-openZH/](https://openzh.github.io/starter-code-openZH/).
 
-<sub>Latest update: **2023-11-12 03:37:29**<sub>
+<sub>Latest update: **2023-11-13 03:37:32**<sub>
 
 | ID | Title (abbreviated to 200 chars) | Python GitHub | R GitHub |
 | :-- | :-- | :-- | :-- |
